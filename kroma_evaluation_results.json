@@ -1,0 +1,14 @@
+{
+  "threshold": 0.25,
+  "precision": 0.25806451612903225,
+  "recall": 0.3076923076923077,
+  "f1_score": 0.2807017543859649,
+  "accuracy": 0.7152777777777778,
+  "true_positives": 8,
+  "false_positives": 23,
+  "true_negatives": 95,
+  "false_negatives": 18,
+  "total_evaluated": 144,
+  "avg_score_for_positives": 0.08954212454212454,
+  "avg_score_for_negatives": 0.06457021791767555
+}
