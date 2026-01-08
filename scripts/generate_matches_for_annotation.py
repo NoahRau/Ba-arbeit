@@ -8,13 +8,17 @@ Output: CSV file with matches for manual annotation
 """
 
 import json
+import sys
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
 from tqdm import tqdm
 
-from data_loader import load_all_concepts
-from pipeline.hybrid_pipeline import HybridPipeline
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.data_loader import load_all_concepts
+from src.pipeline.hybrid_pipeline import HybridPipeline
 
 
 def generate_matches_for_annotation(
@@ -43,7 +47,7 @@ def generate_matches_for_annotation(
 
     # Load data
     print("\n[1/4] Loading data...")
-    df = load_all_concepts('bike')
+    df = load_all_concepts()  # Uses default path: data/s1000d
 
     s1000d_df = df[df['source'] == 's1000d'].reset_index(drop=True)
     ontology_df = df[df['source'] == 'bike_ontology'].reset_index(drop=True)

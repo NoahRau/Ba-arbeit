@@ -22,8 +22,11 @@ ONTOLOGY_URLS = {
     'final': 'https://giuliamenna.github.io/BikeOntology/final_data/final_bikeo.owl'
 }
 
-# Local cache directory
-ONTOLOGY_CACHE_DIR = Path('ontology_cache')
+# Local cache directory - relative to project root
+PROJECT_ROOT = Path(__file__).parent.parent
+ONTOLOGY_CACHE_DIR = PROJECT_ROOT / 'data' / 'ontologies'
+S1000D_DATA_DIR = PROJECT_ROOT / 'data' / 's1000d'
+CACHE_DIR = PROJECT_ROOT / 'cache' / 'embeddings'
 
 
 def download_ontology(url: str, filename: str) -> Path:
@@ -447,11 +450,14 @@ def parse_s1000d_file(file_path: Path) -> Dict[str, Any]:
         return None
 
 
-def load_s1000d_data(folder_path: str = 'bike') -> List[Dict[str, Any]]:
+def load_s1000d_data(folder_path: str = None) -> List[Dict[str, Any]]:
     """
     Recursively load and parse all S1000D XML files with hierarchical context.
     """
-    folder = Path(folder_path)
+    if folder_path is None:
+        folder = S1000D_DATA_DIR
+    else:
+        folder = Path(folder_path)
 
     if not folder.exists():
         print(f"Warning: Folder '{folder_path}' does not exist.")
@@ -479,7 +485,7 @@ def load_s1000d_data(folder_path: str = 'bike') -> List[Dict[str, Any]]:
 
 
 def load_all_concepts(
-    s1000d_folder: str = 'bike',
+    s1000d_folder: str = None,
     include_ontologies: bool = True
 ) -> pd.DataFrame:
     """

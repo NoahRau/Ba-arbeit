@@ -26,6 +26,11 @@ except ImportError:
     sys.path.insert(0, str(Path(__file__).parent.parent))
     from matchers.base_matcher import BaseMatcher
 
+# Project paths
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+CACHE_DIR = PROJECT_ROOT / 'cache' / 'embeddings'
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
 
 class DeepOntoMatcher(BaseMatcher):
     """
@@ -44,12 +49,15 @@ class DeepOntoMatcher(BaseMatcher):
         source_df: pd.DataFrame,
         target_df: pd.DataFrame,
         model_name: str = 'answerdotai/ModernBERT-base',
-        cache_file: str = 'deeponto_embeddings_cache.pkl'
+        cache_file: str = None
     ):
         super().__init__(source_df, target_df)
 
         self.model_name = model_name
-        self.cache_file = Path(cache_file)
+        if cache_file is None:
+            self.cache_file = CACHE_DIR / 'deeponto_embeddings_cache.pkl'
+        else:
+            self.cache_file = Path(cache_file)
 
         # Load BERT model
         print(f"  Loading {model_name}...")

@@ -16,15 +16,23 @@ from typing import List, Dict, Any, Tuple
 import pandas as pd
 from tqdm import tqdm
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from data_loader import load_all_concepts
-from matchers.kroma_matcher import KROMAMatcher
-from matchers.deeponto_matcher import DeepOntoMatcher
-from matchers.string_matcher import StringMatcher
-from aggregation.weighted_aggregator import WeightedAggregator
-from reranking.llm_reranker import LLMReranker
+# Import from within src/ module
+try:
+    from ..data_loader import load_all_concepts
+    from ..matchers.kroma_matcher import KROMAMatcher
+    from ..matchers.deeponto_matcher import DeepOntoMatcher
+    from ..matchers.string_matcher import StringMatcher
+    from ..aggregation.weighted_aggregator import WeightedAggregator
+    from ..reranking.llm_reranker import LLMReranker
+except ImportError:
+    # Fallback for direct execution
+    sys.path.insert(0, str(Path(__file__).parent.parent))
+    from data_loader import load_all_concepts
+    from matchers.kroma_matcher import KROMAMatcher
+    from matchers.deeponto_matcher import DeepOntoMatcher
+    from matchers.string_matcher import StringMatcher
+    from aggregation.weighted_aggregator import WeightedAggregator
+    from reranking.llm_reranker import LLMReranker
 
 
 class HybridPipeline:
