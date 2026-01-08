@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/schedul.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Bicycle - Scheduled maintenance checks</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Bicycle - Scheduled maintenance checks</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-D05-40-00-00AA-000A-A_003-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D05</chapnum>
+<section>4</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>000</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Scheduled maintenance checks</infoname>
+</dmtitle>
+<issno issno ="003" inwork ="00" type ="status"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<rfu><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Bicycle - Pre-operation procedures (crew)" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Bicycle</techname>
+<infoname>Pre-operation procedures (crew)</infoname>
+</dmtitle></refdm></refs><schedule>
+<definspec><inspection><limit condition ="Pre-ride"><sampling>Pre-ride</sampling>
+<threshold uom ="th51"><value>1</value>
+<tolerance minus ="1" plus ="1"/>
+</threshold>
+<refinspec insptype ="Pre"/>
+<limrange><from><threshold uom ="th51"><value>1</value>
+<tolerance minus ="1" plus ="1"/>
+</threshold>
+</from>
+</limrange>
+</limit>
+</inspection>
+<tasklist><taskitem seqnum ="001" taskname ="Inspect Brakes"><refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></refs><task>To do an inspection of the brakes</task>
+</taskitem>
+<taskitem seqnum ="002" taskname ="Inspect brakes installation"><refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></refs><task>To do an inspection of the brakes installation</task>
+</taskitem>
+<taskitem seqnum ="003" taskname ="Check Tire Pressure"><refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></refs><task>To do a check of the tire pressure</task>
+</taskitem>
+<taskitem seqnum ="004" taskname ="Inspect wheel condition"><refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></refs><task>To do an inspection of the wheel condition</task>
+</taskitem>
+<taskitem seqnum ="005" taskname ="Check headset bearings"><refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></refs><task>To do a check of the headset bearings</task>
+</taskitem>
+<taskitem seqnum ="006" taskname ="Carry out chain checks"><refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></refs><task>To do a check of the chain</task>
+</taskitem>
+</tasklist>
+</definspec>
+</schedule>
+</content>
+</dmodule>
+

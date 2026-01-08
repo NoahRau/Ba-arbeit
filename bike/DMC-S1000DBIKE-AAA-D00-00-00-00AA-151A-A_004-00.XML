@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/proced.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Bicycle - Post-operation procedures (crew)</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Bicycle - Post-operation procedures (crew)</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-D00-00-00-00AA-151A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>151</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Post-operation procedures (crew)</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of
+organizations that are users of S1000D is permitted. Storage of this data
+module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data
+module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local
+procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data
+module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<skill skill ="sk01"/>
+<rfu><p>Editorial changes</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<proced>
+<prelreqs><reqconds><noconds/>
+</reqconds>
+<supequip>
+<supeqli>
+<supequi id ="seq-0001"><nomen>Specialist toolset</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<supplyli>
+<supply id ="sup-0001"><nomen>General lubricant</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-001</pnr>
+</identno>
+<qty>As required</qty>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<nosafety/>
+</safety>
+</prelreqs>
+<mainfunc><step1><para>Clean the bicycle.</para>
+<step2><para>Clean the bicycle with water.</para>
+</step2>
+<step2><para>Use the brush from the
+<xref xrefid ="seq-0001" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0001"></xref> to clean the brakes, the shift levers, the sprockets and the tires.</para>
+</step2>
+<step2><para>Let the bicycle dry.</para>
+</step2>
+</step1>
+<step1><para>Lubricate the bicycle</para>
+<step2><para>Spray the 
+<xref xrefid ="sup-0001" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0001"></xref>, to these moving parts:
+<randlist prefix ="pf01"><item>the brake pivots</item>
+<item>the derailleur pivots</item>
+<item>the derailleur tension guides</item>
+<item>the brake lever pivots</item>
+<item>the control cables</item>
+<item>the gear sprockets</item>
+<item>the chain</item>
+</randlist>
+</para>
+</step2>
+<step2><para>Remove the lubricant which is more than the necessary.</para>
+</step2>
+</step1>
+</mainfunc>
+<closereqs><reqconds><noconds/>
+</reqconds>
+</closereqs>
+</proced>
+</content>
+</dmodule>
+

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/schedul.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Bicycle - Scheduled maintenance lists</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Bicycle - Scheduled maintenance lists</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-D05-20-00-00AA-000A-A_003-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D05</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>000</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Scheduled maintenance lists</infoname>
+</dmtitle>
+<issno issno ="003" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<rfu><p>DM converted to 2.3 - deftask applicability relocated</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Bicycle - Pre-operation procedures (crew)" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Bicycle</techname>
+<infoname>Pre-operation procedures (crew)</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Bicycle - Post-operation procedures (crew)" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-151A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>151</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Bicycle</techname>
+<infoname>Post-operation procedures (crew)</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Brake pads - Clean with rubbing alcohol" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA1-10-00-00AA-251A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA1</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>251</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Brake pads</techname>
+<infoname>Clean with rubbing alcohol</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Chain - Clean with chain cleaning fluid" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA4-10-00-00AA-251B-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA4</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>251</incode>
+<incodev>B</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Chain</techname>
+<infoname>Clean with chain cleaning fluid</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Rear wheel - Remove procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-20-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Rear wheel</techname>
+<infoname>Remove procedures</infoname>
+</dmtitle></refdm></refs><schedule>
+<deftask taskid ="001" taskcode ="taskcd04" airworthlim ="recommended" reducem ="No" skilltype ="st01"><task>To do the pre-ride checks</task>
+<reqsource reqsource ="MRB" sourcenbr ="doc1234" approval ="ap01"><issno issno ="001"/>
+<issdate year ="2006" month ="01" day ="01"/>
+<fec feccode ="5"/>
+</reqsource>
+<prelreqs><reqconds><noconds/>
+</reqconds>
+<reqpers><person man ="A"/>
+<perscat category ="Basic user"/>
+<trade>Operator</trade>
+<esttime>0,25 h</esttime>
+</reqpers>
+<supequip>
+<supeqli>
+<supequi><nomen>Tire pressure gauge</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-01</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi><nomen>Specialist toolset</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<supplyli>
+<supply><nomen>General lubricant</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-001</pnr>
+</identno>
+<qty>As required</qty>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<nosafety/>
+</safety>
+</prelreqs>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></refs><equip><nomen>Bicycle</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>Bicycle-001</pnr>
+</identno>
+</equip>
+<limit typex ="po"><threshold uom ="th06" tholdtype ="interval"><value>1</value>
+<tolerance minus ="1" plus ="1"/>
+</threshold>
+<refinspec insptype ="Daily"/>
+</limit>
+<applic mark ="1" change ="modify"><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+</deftask>
+<deftask taskid ="002" airworthlim ="recommended" reducem ="No"><task>To do the post-ride maintenance</task>
+<prelreqs><reqconds><noconds/>
+</reqconds>
+<reqpers><person man ="A"/>
+<perscat category ="Basic user"/>
+<trade>Operator</trade>
+<esttime>0,25 h</esttime>
+</reqpers>
+<supequip>
+<supeqli>
+<supequi><nomen>Specialist toolset</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<supplyli>
+<supply><nomen>General lubricant</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-001</pnr>
+</identno>
+<qty>As required</qty>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<nosafety/>
+</safety>
+</prelreqs>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-151A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>151</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></refs><equip><nomen>Bicycle</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>Bicycle-001</pnr>
+</identno>
+</equip>
+<limit typex ="ev" condition ="Dirty"><threshold uom ="th06"><value>1</value>
+<tolerance minus ="1" plus ="1"/>
+</threshold>
+<refinspec insptype ="Daily"/>
+</limit>
+<applic mark ="1" change ="modify"><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+</deftask>
+<deftask taskid ="003" airworthlim ="recommended" reducem ="Yes"><task>Clean brake pads</task>
+<prelreqs><reqconds><noconds/>
+</reqconds>
+<reqpers><person man ="A"/>
+<perscat category ="Basic user"/>
+<trade>Operator</trade>
+<esttime>0,25 h</esttime>
+</reqpers>
+<supequip>
+<nosupeq/>
+</supequip>
+<supplies>
+<supplyli>
+<supply><nomen>Rubbing alcohol</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-002</pnr>
+</identno>
+<qty>As required</qty>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<nosafety/>
+</safety>
+</prelreqs>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA1-10-00-00AA-251A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA1</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>251</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></refs><equip><nomen>Brake pads</nomen>
+<identno><mfc>KT444</mfc>
+<pnr>BR-PADS-001</pnr>
+</identno>
+</equip>
+<limit><refinspec insptype ="Monthly"/>
+<limrange><from><threshold uom ="th03"><value>1</value>
+</threshold>
+</from>
+<to><threshold uom ="th03"><value>1</value>
+</threshold>
+</to>
+</limrange>
+</limit>
+<applic mark ="1" change ="modify"><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+</deftask>
+<deftask taskid ="004" airworthlim ="recommended" reducem ="Yes"><task>Clean the chain</task>
+<prelreqs><reqconds><noconds/>
+</reqconds>
+<reqpers><person man ="A"/>
+<perscat category ="Basic user"/>
+<trade>Operator</trade>
+<esttime>0,25 h</esttime>
+</reqpers>
+<supequip>
+<supeqli>
+<supequi><nomen>Stiff bristle brush</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-02</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi><nomen>Chain cleaning fluid</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-003</pnr>
+</identno>
+<qty>As required</qty>
+</supequi>
+<supequi><nomen>Chain cleaning tool</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-03</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<supplyli>
+<supply><nomen>Floor covering</nomen>
+<identno><mfc></mfc>
+<pnr></pnr>
+</identno>
+<qty>As required</qty>
+</supply>
+<supply><nomen>General lubricant</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-001</pnr>
+</identno>
+<qty>As required</qty>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<nosafety/>
+</safety>
+</prelreqs>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA4-10-00-00AA-251B-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA4</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>251</incode>
+<incodev>B</incodev>
+<itemloc>A</itemloc>
+</avee></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Bicycle - Pre-operation procedures (crew)" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Bicycle</techname>
+<infoname>Pre-operation procedures (crew)</infoname>
+</dmtitle></refdm></refs><equip><nomen>Chain</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>Ch-001</pnr>
+</identno>
+</equip>
+<limit condition ="Dirty"><threshold uom ="th03"><value>1</value>
+</threshold>
+<refinspec insptype ="Monthly"/>
+<trigger><refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>121</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></refs></trigger>
+</limit>
+</deftask>
+<deftask taskid ="005" airworthlim ="recommended" reducem ="No"><task>Clean the hub bearings</task>
+<prelreqs><reqconds><reqcondm><reqcond>Rear wheel removed</reqcond>
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-20-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></reqcondm>
+</reqconds>
+<reqpers><person man ="B"/>
+<perscat category ="Supervisor"/>
+<perskill skill ="sk03"/>
+<trade>Bicycle mechanic</trade>
+<esttime>0,75 h</esttime>
+<person man ="A"/>
+<perscat category ="Basic user"/>
+<trade>Operator</trade>
+<esttime>0,25 h</esttime>
+</reqpers>
+<supequip>
+<supeqli>
+<supequi><nomen>Specialist toolset</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<supplyli>
+<supply><nomen>Degreasing agent</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-004</pnr>
+</identno>
+<qty>As required</qty>
+</supply>
+<supply id ="sup-0002"><nomen>General grease</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-005</pnr>
+</identno>
+<qty>As required</qty>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<nosafety/>
+</safety>
+</prelreqs>
+<equip><nomen>Hubs</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>HB-002</pnr>
+</identno>
+</equip>
+<supervis sup.lev ="sl01"/>
+<limit><threshold uom ="th03"><value>6</value>
+</threshold>
+<refinspec insptype ="6 Monthly"/>
+<limrange><from><threshold uom ="th03"><value>6</value>
+<tolerance minus ="1" plus ="1"/>
+</threshold>
+</from>
+</limrange>
+</limit>
+<applic mark ="1" change ="modify"><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+</deftask>
+</schedule>
+</content>
+</dmodule>
+

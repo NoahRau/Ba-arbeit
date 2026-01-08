@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-S1000DBIKE-AAA-D000000-0-U8025-00502-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-D000000-0-U8025-00502-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA52000-0-U8025-00523-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA52000-0-U8025-00523-A-04-1.CGM" NDATA cgm>
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/proced.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Bicycle - Other procedures to clean</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Bicycle - Other procedures to clean</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-D00-00-00-00AA-258A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>258</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Other procedures to clean</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of
+organizations that are users of S1000D is permitted. Storage of this data
+module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data
+module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local
+procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data
+module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<skill skill ="sk02"/>
+<rfu><applic>
+<type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+</applic><p>Detergent replaced</p></rfu>
+<rfu><applic>
+<type>Mountain bicycle</type>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic><p>Cleaning procedure changed - new skills needed</p></rfu>
+<rfu><p>Illustration updated to Issue 2.3 profile</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Chain - Oil" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA4-10-00-00AA-241A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA4</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>241</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Chain</techname>
+<infoname>Oil</infoname>
+</dmtitle></refdm></refs><proced>
+<prelreqs><reqconds><reqcond>The bicycle is outdoors</reqcond>
+</reqconds>
+<reqpers><applic><type>Mountain bicycle</type>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<person man ="A" mark ="1" change ="add" rfc ="Procedure has been changed"/>
+<perscat category ="Chemical technician"/>
+<perskill skill ="sk02"/>
+<trade>Bike cleaner</trade>
+<esttime>1,0 h</esttime>
+</reqpers>
+<reqpers><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+</applic>
+<person man ="B"/>
+<perscat category ="Operator"/>
+<perskill skill ="sk02"/>
+<trade>Bike rider</trade>
+<esttime>1,0 h</esttime>
+</reqpers>
+<supequip>
+<supeqli>
+<supequi id ="seq-0001"><nomen>Water hose</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-09</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi id ="seq-0002"><nomen>Stiff bristle brush</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-02</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi id ="seq-0003"><nomen>Sponge</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-11</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<supplyli>
+<supply id ="sup-0001"><nomen>Degreasing agent</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-004</pnr>
+</identno>
+<qty uom ="L">1</qty>
+</supply>
+<supply id ="sup-0002"><nomen>Detergent A</nomen>
+<identno mark ="1" change ="modify" rfc ="Replaced by supplier"><mfc>KZ666</mfc>
+<pnr>BSK-TLST-023-14</pnr>
+</identno>
+<qty uom ="L">1</qty>
+</supply>
+<supply id ="sup-0003"><applic><type>Mountain bicycle</type>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<nomen>Detergent B</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-15</pnr>
+</identno>
+<qty uom ="L">1</qty>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<safecond>
+<warning mark ="1" change ="add" rfc ="Safty hazard reported"><para>Do not get 
+<xref xrefid ="sup-0002" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0002"></xref> into your eyes. If it gets 
+into your eyes, wash them immediately in clean warm water.</para>
+</warning>
+<warning mark ="1" change ="add" rfc ="Safty hazard reported"><para>Do not get 
+<xref xrefid ="sup-0003" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0003"></xref> into your eyes.  If it gets 
+into your eyes, wash them immediately in clean warm water.</para>
+</warning>
+<caution mark ="1" change ="add"><para>Do not use a 
+<xref xrefid ="seq-0001" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0001"></xref> that has high pressure. A
+water hose that has high pressure can cause some parts to become loose or full
+of water.</para>
+</caution>
+<caution><para>Do not point the hose directly at the hub or at the bottom bracket
+bearings. This can cause damage to the parts.</para>
+</caution>
+<caution mark ="1" change ="add" rfc ="Procedure has been changed"><para>Apply 
+<xref xrefid ="sup-0003" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0003"></xref> in accordance with the instruction 
+on the container. The substance may cause damage to the Bike paint if it is not 
+applied correctly.</para>
+</caution>
+</safecond>
+</safety>
+</prelreqs>
+<mainfunc><step1><para>Clean the bicycle with water to remove all dirt. Refer to
+<xref xrefid ="fig-0001" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001"></xref>.</para>
+<figure id ="fig-0001">
+<title>Cleaning the bike</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-D000000-0-U8025-00502-A-04-1" xlink:title="Cleaning the bike" boardno ="ICN-S1000DBIKE-AAA-D000000-0-U8025-00502-A-04-1"></graphic></figure>
+</step1>
+<step1><para>Use a
+<xref xrefid ="seq-0002" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0002"></xref>
+to get access to areas that
+are not easy to clean. These are the shift levers, the knobbly tires, and the
+brakes.</para>
+</step1>
+<step1><para>Clean the caked grime from the chain and the sprockets with a
+screwdriver that has a small blade.</para>
+</step1>
+<step1><para>Remove the grease from the freewheel assembly with the
+<xref xrefid ="sup-0001" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0001"></xref>
+as shown in
+<xref xrefid ="fig-0002" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0002"></xref>
+. Use a brush to remove the grease
+from these parts:
+<randlist prefix ="pf02"><item>sprockets</item>
+<item>guide and tension wheels of the derailleur</item>
+<item>chain ring teeth</item>
+</randlist>
+</para>
+<figure id ="fig-0002">
+<title>Degreasing the freehub</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA52000-0-U8025-00523-A-04-1" xlink:title="Degreasing the freehub" boardno ="ICN-S1000DBIKE-AAA-DA52000-0-U8025-00523-A-04-1"></graphic></figure>
+</step1>
+<step1><para>Flush the sprockets, the derailleurs, the chain rings and the chain with
+water.</para>
+<note><para>If necessary, do the flush procedure again.</para>
+</note>
+</step1>
+<step1><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+</applic>
+<step2><para>Soak the 
+<xref xrefid ="seq-0003" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0003"></xref> into 
+<xref xrefid ="sup-0002" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0002"></xref> and water.</para>
+</step2>
+<step2><para>Clean the bicycle with the soaked sponge.</para>
+</step2>
+<step2><para>Flush the bicycle and make sure that all
+<xref xrefid ="sup-0002" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0002"></xref> is removed.</para>
+</step2>
+<step2><para>Move the bicycle up and down on its tires to remove all water.</para>
+</step2>
+</step1>
+<step1 mark ="1" change ="add" rfc ="Changed procedure for Mk9"><applic><type>Mountain bicycle</type>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<step2><para>Soak the <xref xrefid ="seq-0003" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0003"></xref> into
+<xref xrefid ="sup-0003" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0003"></xref> and water.</para>
+</step2>
+<step2><para>Clean the bicycle with the soaked sponge.</para>
+</step2>
+<step2><para>Soak the <xref xrefid ="seq-0003" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0003"></xref> into 
+<xref xrefid ="sup-0002" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0002"></xref> and water.</para>
+</step2>
+<step2><para>Fully clean the bicycle with the soaked sponge.</para>
+</step2>
+<step2><para>Flush the bicycle to make sure that all detergents are removed.</para>
+</step2>
+<step2><para>Move the bicycle up and down on its tires to remove all water.</para>
+</step2>
+</step1>
+<step1><para>Lubricate the bicycle (refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA4-10-00-00AA-241A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA4</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>241</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>).</para>
+</step1>
+</mainfunc>
+<closereqs mark ="1" change ="add"><reqconds><reqcond>Make sure the bicycle is dry</reqcond>
+</reqconds>
+</closereqs>
+</proced>
+</content>
+</dmodule>
+

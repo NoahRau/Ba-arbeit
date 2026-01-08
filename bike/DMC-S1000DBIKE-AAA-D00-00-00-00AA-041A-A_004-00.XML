@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-S1000DBIKE-AAA-D000000-0-U8025-00536-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-D000000-0-U8025-00536-A-04-1.CGM" NDATA cgm>
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/descript.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Bicycle - Description of how it is made</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Bicycle - Description of how it is made</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-D00-00-00-00AA-041A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this
+data module to all countries that are the residence of organizations that
+are users of S1000D is permitted. Storage of this data module is to be at
+the discretion of the organization.</expcont>
+<handling>There are no specific
+handling instructions for this data module.</handling>
+<destruct>Users may
+destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<skill skill ="sk01"/>
+<rfu><p>Editorial changes</p><p>Illustration updated to Issue 2.3 profile</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<descript>
+<para0><title>Physical description of a bicycle</title>
+<para>A bicycle (refer to <xref xrefid ="fig-0001" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001"></xref>)
+is a frame and a number of movable components with mechanical parts that are
+completely open. There are no covers or sheet metal panels that prevent access
+to the mechanical parts. Thus, you can disassemble the different components
+of a bicycle (refer to <xref xrefid ="fig-0001-gra-0001-hot-0000" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0000"></xref>) to do: <randlist prefix ="pf02" mark ="1"><item><para>an inspection</para>
+</item>
+<item><para>a maintenance task</para>
+</item>
+<item><para>a repair task</para>
+</item>
+</randlist>
+</para>
+<figure id ="fig-0001">
+<title>Complete bicycle</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-D000000-0-U8025-00536-A-04-1" xlink:title="Complete bicycle" boardno ="ICN-S1000DBIKE-AAA-D000000-0-U8025-00536-A-04-1"><hotspot id ="fig-0001-gra-0001-hot-0000" apsid ="hot000" apsname ="0" type ="CALLOUT" title ="BICYCLE" descript ="BICYCLE"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0001" apsid ="hot001" apsname ="1" type ="CALLOUT" title ="BRAKE SUB-SYSTEM" descript ="BRAKE SUB-SYSTEM"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0002" apsid ="hot002" apsname ="2" type ="CALLOUT" title ="GEAR SUB-SYSTEM" descript ="GEAR SUB-SYSTEM"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0003" apsid ="hot003" apsname ="3" type ="CALLOUT" title ="WHEEL, ASSEMBLY FRONT" descript ="WHEEL, ASSEMBLY FRONT"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0004" apsid ="hot004" apsname ="4" type ="CALLOUT" title ="PEDALS" descript ="PEDALS"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0005" apsid ="hot005" apsname ="5" type ="CALLOUT" title ="CRANKS" descript ="CRANKS"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0006" apsid ="hot006" apsname ="6" type ="CALLOUT" title ="CHAIN" descript ="CHAIN"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0007" apsid ="hot007" apsname ="7" type ="CALLOUT" title ="WHEEL, ASSEMBLY REAR" descript ="WHEEL, ASSEMBLY REAR"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0008" apsid ="hot008" apsname ="8" type ="CALLOUT" title ="SEAT, ASSEMBLY" descript ="SEAT, ASSEMBLY"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0009" apsid ="hot009" apsname ="9" type ="CALLOUT" title ="FRAME ASSEMBLY" descript ="FRAME ASSEMBLY"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0010" apsid ="hot010" apsname ="10" type ="CALLOUT" title ="HANDLE BAR STEM" descript ="HANDLE BAR STEM"></hotspot>
+<hotspot id ="fig-0001-gra-0001-hot-0011" apsid ="hot011" apsname ="11" type ="CALLOUT" title ="HANDLE BAR" descript ="HANDLE BAR"></hotspot>
+</graphic></figure>
+<para>The parts that you can immediately identify on a bicycle are given in Table 1.</para>
+<table><title>Bicycle parts</title>
+<tgroup cols ="3"><colspec colname ="1" colwidth ="40"/>
+<colspec colname ="2" colwidth ="30"/>
+<colspec colname ="3" colwidth ="60"/>
+<thead><row><entry>Item</entry>
+<entry>Refer to</entry>
+<entry>Definition</entry>
+</row>
+</thead>
+<tbody><row><entry>Frame</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0009" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0009"></xref></entry>
+<entry>A bicycle frame is made of metal tubes that are welded together.</entry>
+</row>
+<row><entry>Wheels</entry>
+<entry></entry>
+<entry><para>The wheels include these parts: 
+<randlist prefix ="pf02" mark ="1"><item><para>Hub</para>
+</item>
+<item><para>Spokes</para>
+</item>
+<item><para>Metal rim</para>
+</item>
+<item><para>Rubber tire</para>
+</item>
+</randlist>
+</para>
+</entry>
+</row>
+<row><entry><randlist prefix ="pf02" mark ="1"><item><para>Rear wheel</para>
+</item>
+</randlist>
+</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0007" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0007"></xref></entry>
+<entry></entry>
+</row>
+<row><entry><randlist prefix ="pf02" mark ="1"><item><para>Front wheel</para>
+</item>
+</randlist>
+</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0003" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0003"></xref></entry>
+<entry></entry>
+</row>
+<row><entry>Seat and seat post</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0008" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0008"></xref></entry>
+<entry>These install into the seat tube with a mechanism you can use to change
+the height.</entry>
+</row>
+<row><entry>Handle bars</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0011" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0011"></xref></entry>
+<entry>A horizontal bar that attaches to the stem with grips at the ends
+that attach to the brake levers and the shifters.</entry>
+</row>
+<row><entry>Handle bar stem</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0010" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0010"></xref></entry>
+<entry>This attaches the handle bar to the steering tube (head set).</entry>
+</row>
+<row><entry>Cranks</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0005" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0005"></xref></entry>
+<entry>A lever that extends from the bottom of the bracket to the pedal.</entry>
+</row>
+<row><entry>Pedals</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0004" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0004"></xref></entry>
+<entry>The two platforms for the feet that attach to the crank.</entry>
+</row>
+<row><entry>Chain</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0006" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0006"></xref></entry>
+<entry>A circular set of links that connect the chain ring to the cogs on the freewheel.</entry>
+</row>
+<row><entry>Gears</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0002" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0002"></xref></entry>
+<entry><para>The gears include: <randlist prefix ="pf02"><item><para>Front chain ring</para>
+</item>
+<item><para>Rear freewheel</para>
+</item>
+<item><para>Front and the rear derailleur</para>
+</item>
+<item><para>Shift lever on the handle bars</para>
+</item>
+<item><para>Cables</para>
+</item>
+</randlist>
+</para>
+</entry>
+</row>
+<row><entry>Brakes</entry>
+<entry><xref xrefid ="fig-0001-gra-0001-hot-0001" xidtype ="hotspot" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001-gra-0001-hot-0001"></xref></entry>
+<entry><para>The brakes include: <randlist prefix ="pf02"><item><para>Actuators on the handlebars</para>
+</item>
+<item><para>Brake cable</para>
+</item>
+<item><para>Brake callipers</para>
+</item>
+<item><para>Brake pads</para>
+</item>
+</randlist>
+</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para0>
+</descript>
+</content>
+</dmodule>
+

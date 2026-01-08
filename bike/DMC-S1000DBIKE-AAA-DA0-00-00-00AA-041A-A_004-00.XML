@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-S1000DBIKE-AAA-DA00000-0-U8025-00504-B-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA00000-0-U8025-00504-B-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA00000-0-U8025-00504-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA00000-0-U8025-00504-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA00000-0-U8025-00505-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA00000-0-U8025-00505-A-04-1.CGM" NDATA cgm>
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/descript.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Wheel - Description of how it is made</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Wheel - Description of how it is made</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Wheel</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this
+data module to all countries that are the residence of organizations that
+are users of S1000D is permitted. Storage of this data module is to be at
+the discretion of the organization.</expcont>
+<handling>There are no specific
+handling instructions for this data module.</handling>
+<destruct>Users may
+destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<skill skill ="sk01"/>
+<rfu><p>Editorial changes</p><p>Illustrations updated to Issue 2.3 profile</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<descript>
+<para0><title>The bicycle wheel</title>
+<para>The wheel (refer to <xref xrefid ="fig-0001" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001"></xref>) of
+a bicycle is a complex structure. The wheel assembly has these parts: <randlist prefix ="pf01"><item>the tire</item>
+<item>the tube</item>
+<item>the spokes</item>
+<item>the spoke nipples</item>
+<item>the valve</item>
+<item>the hub</item>
+</randlist>
+
+On their own, the individual components are not very strong. But,
+when they are installed together, the components make the complete wheel (refer
+to <xref xrefid ="fig-0001" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001"></xref>). The complete wheel is resistant
+to almost any type of heavy loads and operation.</para>
+<figure id ="fig-0001">
+<title>Parts of the wheel</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA00000-0-U8025-00504-A-04-1" xlink:title="Parts of the wheel" boardno ="ICN-S1000DBIKE-AAA-DA00000-0-U8025-00504-A-04-1" reprowid ="510"></graphic></figure>
+<subpara1 id ="par-0001"><title>Spokes</title>
+<para>The spokes go out from the hub and go across and below each other. The
+spoke nipples attach the spokes to the rim with the threads on the end of
+the spokes. You can use the spoke nipples to adjust the tension of the spokes.
+The tension on each of the spokes must be equal.</para>
+</subpara1>
+<subpara1 id ="par-0002"><title>Wheel rim</title>
+<para>The rim (refer to <xref xrefid ="fig-0002" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0002"></xref>) of
+the wheel has a lining of rim tape. This tape protects the tube from damage
+that the rough edges on the spoke nipples can cause.</para>
+<figure id ="fig-0002">
+<title>The tire and rim</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA00000-0-U8025-00504-B-04-1" xlink:title="The tire and rim" boardno ="ICN-S1000DBIKE-AAA-DA00000-0-U8025-00504-B-04-1" reprowid ="510"></graphic></figure>
+</subpara1>
+<subpara1 id ="par-0003"><title>Tube and tire</title>
+<para>The tube and the tire install on the rim. The sidewalls of the tire
+have markings on them. These which are used to indicate the correct direction
+of rotation. The markings also make sure the tire installs on the rim and
+that the directional arrows points in the correct direction. You install the
+tube into the tire before you inflate it. The tube has a valve (refer to <xref xrefid ="fig-0003" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0003"></xref>) which you put through the hole in
+the rim. This valve (refer to <xref xrefid ="fig-0003" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0003"></xref>)
+is used to inflate the tube and the tire to the correct pressure. A dust cap
+installs on the valve (refer to <xref xrefid ="fig-0003" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0003"></xref>)
+to prevent damage that dust and debris can cause.</para>
+<figure id ="fig-0003">
+<title>Valve</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA00000-0-U8025-00505-A-04-1" xlink:title="Valve" boardno ="ICN-S1000DBIKE-AAA-DA00000-0-U8025-00505-A-04-1" reprowid ="510"></graphic></figure>
+</subpara1>
+</para0>
+</descript>
+</content>
+</dmodule>
+

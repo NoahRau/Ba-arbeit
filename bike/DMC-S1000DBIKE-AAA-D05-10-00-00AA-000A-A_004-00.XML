@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/schedul.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Bicycle - Time limits</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Bicycle - Time limits</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-D05-10-00-00AA-000A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D05</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>000</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Time limits</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<skill skill ="sk01"/>
+<rfu><p>Editorial change</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<schedule>
+<timelim identifier ="001"><equip><nomen>Bicycle</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>Bicycle-001</pnr>
+</identno>
+</equip>
+<qty uom ="EA">1</qty>
+<cat/>
+<timelimit><limittype type ="lt07" mark ="1" change ="add"><threshold uom ="th06"><value>1</value>
+<tolerance minus ="1" plus ="1"/>
+</threshold>
+</limittype>
+</timelimit>
+<timelimit><limittype type ="lt05" mark ="1" change ="add"><threshold uom ="th06"><value>1</value>
+</threshold>
+</limittype>
+</timelimit>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+</timelim>
+<timelim identifier ="002"><equip><nomen>Brake pads</nomen>
+<identno><mfc>KT444</mfc>
+<pnr>BR-PADS-001</pnr>
+</identno>
+</equip>
+<qty uom ="EA">4</qty>
+<cat/>
+<timelimit><limittype type ="lt05" mark ="1" change ="add"><threshold uom ="th03"><value>1</value>
+</threshold>
+</limittype>
+</timelimit>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+</timelim>
+<timelim identifier ="003"><equip><nomen>Chain</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>Ch-001</pnr>
+</identno>
+</equip>
+<timelimit><limittype type ="lt05" mark ="1" change ="add"><threshold uom ="th03"><value>1</value>
+</threshold>
+</limittype>
+</timelimit>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+</timelim>
+<timelim identifier ="004"><equip><nomen>Hub bearings</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>HB-001</pnr>
+</identno>
+</equip>
+<qty uom ="EA">2</qty>
+<cat/>
+<timelimit><limittype type ="lt06" mark ="1" change ="add"><threshold uom ="th03"><value>6</value>
+<tolerance minus ="1" plus ="1"/>
+</threshold>
+</limittype>
+</timelimit>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+</timelim>
+</schedule>
+</content>
+</dmodule>
+

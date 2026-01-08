@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/wrngdata.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Wiring - Wire list</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Wiring - Wire list</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DLIGHTING</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>057</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Wiring</techname>
+<infoname>Wire list</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted.
+Storage of this data module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>LT</sbc>
+<skill skill ="sk01"/>
+<rfu><p>DM converted to 2.3</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<wrngdata>
+<wires><wire wirestate ="active"><wireid><wireno>FL1AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>L1</rfd>
+<contactinfo><contact ident ="+"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000001</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>VV1</rfd>
+<contactinfo><contact ident ="1 +"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010101</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>03</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid>Lamp1</harnid>
+<twists><twist twsttype ="1">Lamp1</twist>
+</twists>
+<length>1000</length>
+<colour>red</colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>FL2AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>L1</rfd>
+<contactinfo><contact ident ="-"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000002</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>VV1</rfd>
+<contactinfo><contact ident ="1 -"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010102</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>03</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid>Lamp1</harnid>
+<twists><twist twsttype ="1">Lamp1</twist>
+</twists>
+<length>1000</length>
+<colour>blue</colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="notactiv"><wireid><wireno>NC1VI</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>VV1</rfd>
+<contactinfo><contact ident ="4 +"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010101</contactorder>
+</elecpotential>
+<pconnorder>003</pconnorder>
+</wireconcode>
+<netanacode>03</netanacode>
+</contactinfo>
+</fromequip>
+</wireconnection>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>RL1AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>L2</rfd>
+<contactinfo><contact ident ="+"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000001</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>VV1</rfd>
+<contactinfo><contact ident ="2 +"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010101</contactorder>
+</elecpotential>
+<pconnorder>001</pconnorder>
+</wireconcode>
+<netanacode>03</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid>Lamp2</harnid>
+<twists><twist twsttype ="1">Lamp2</twist>
+</twists>
+<length>1500</length>
+<colour>red</colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>RL2AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>L2</rfd>
+<contactinfo><contact ident ="-"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000002</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>VV1</rfd>
+<contactinfo><contact ident ="2 -"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010102</contactorder>
+</elecpotential>
+<pconnorder>001</pconnorder>
+</wireconcode>
+<netanacode>03</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid>Lamp2</harnid>
+<twists><twist twsttype ="1">Lamp2</twist>
+</twists>
+<length>1500</length>
+<colour>blue</colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>GE2AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>Gen</rfd>
+<contactinfo><contact ident ="GND"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000002</contactorder>
+</elecpotential>
+<pconnorder>001</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>VV1</rfd>
+<contactinfo><contact ident ="3 -"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010102</contactorder>
+</elecpotential>
+<pconnorder>002</pconnorder>
+</wireconcode>
+<netanacode>03</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid></harnid>
+<length>500</length>
+<colour></colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>BT2AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>Batt</rfd>
+<contactinfo><contact ident ="-"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000002</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>C_Batt</rfd>
+<contactinfo><contact ident ="-"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000002</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>02</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid>Batt_01</harnid>
+<twists><twist twsttype ="1">Batt</twist>
+</twists>
+<length>400</length>
+<colour>black</colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>GE1AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>Gen</rfd>
+<contactinfo><wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000001</contactorder>
+</elecpotential>
+<pconnorder>001</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>Rel</rfd>
+<contactinfo><contact ident ="2" function ="Generator mode"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010202</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>04</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid></harnid>
+<length>500</length>
+<colour></colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>GE3AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>Gen</rfd>
+<contactinfo><wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000001</contactorder>
+</elecpotential>
+<pconnorder>002</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>Diode</rfd>
+<contactinfo><contact ident ="A"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010101</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>04</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid></harnid>
+<length>500</length>
+<colour></colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>BT1AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>Batt</rfd>
+<contactinfo><contact ident ="+"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000001</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>C_Batt</rfd>
+<contactinfo><contact ident ="+"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000001</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>02</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid>Batt_01</harnid>
+<twists><twist twsttype ="1">Batt</twist>
+</twists>
+<length>400</length>
+<colour>red</colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>BA1AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>C_Bike</rfd>
+<contactinfo><contact ident ="+"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000001</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>02</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>S1</rfd>
+<contactinfo><contact ident ="Batt"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010101</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>04</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid></harnid>
+<length>1200</length>
+<colour></colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>BA1AB</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>S1</rfd>
+<contactinfo><contact ident ="ON"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010101</contactorder>
+</elecpotential>
+<pconnorder>001</pconnorder>
+</wireconcode>
+<netanacode>04</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>Rel</rfd>
+<contactinfo><contact ident ="3" function ="Battery mode"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010201</contactorder>
+</elecpotential>
+<pconnorder>001</pconnorder>
+</wireconcode>
+<netanacode>04</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid></harnid>
+<length>1000</length>
+<colour></colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>BA2AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>C_Bike</rfd>
+<contactinfo><contact ident ="-"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000002</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>02</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>VV1</rfd>
+<contactinfo><contact ident ="4 -"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010102</contactorder>
+</elecpotential>
+<pconnorder>003</pconnorder>
+</wireconcode>
+<netanacode>03</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid></harnid>
+<length>200</length>
+<colour></colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>LL1AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>Rel</rfd>
+<contactinfo><contact ident ="1"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010201</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>04</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>VV1</rfd>
+<contactinfo><contact ident ="3 +"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010101</contactorder>
+</elecpotential>
+<pconnorder>002</pconnorder>
+</wireconcode>
+<netanacode>03</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid></harnid>
+<length>500</length>
+<colour></colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>GE4AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>Gen</rfd>
+<contactinfo><contact ident ="GND"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000002</contactorder>
+</elecpotential>
+<pconnorder>002</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>Rel</rfd>
+<contactinfo><wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010101</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>04</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>AP</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid></harnid>
+<length>500</length>
+<colour></colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="logconn"><wireid><wireno>GE5AA</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>Diode</rfd>
+<contactinfo><contact ident ="K"/>
+<wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010101</contactorder>
+</elecpotential>
+<pconnorder>001</pconnorder>
+</wireconcode>
+<netanacode>04</netanacode>
+</contactinfo>
+</fromequip>
+<toequip><rfd>Rel</rfd>
+<contactinfo><wireconcode><screenorder>0000</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>010101</contactorder>
+</elecpotential>
+<pconnorder>001</pconnorder>
+</wireconcode>
+<netanacode>04</netanacode>
+</contactinfo>
+</toequip>
+</wireconnection>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>T001</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>T01</rfd>
+<contactinfo><contact ident ="1"/>
+<wireconcode><screenorder>0002</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000001</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+<screens><screen>00</screen>
+<screen>01</screen>
+<screen>00</screen>
+</screens>
+</fromequip>
+<toequip><rfd>Sensor</rfd>
+<contactinfo><contact ident ="A"/>
+<wireconcode><screenorder>0002</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000001</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+<screens><screen>00</screen>
+<screen>01</screen>
+<screen>00</screen>
+</screens>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>XY</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid>Tacho</harnid>
+<screens><screen>SCT1</screen>
+</screens>
+<twists><twist twsttype ="1">Tacho</twist>
+</twists>
+<length>1200</length>
+<colour>yellow</colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="active"><wireid><wireno>T002</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>T01</rfd>
+<contactinfo><contact ident ="2"/>
+<wireconcode><screenorder>0003</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000002</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+<screens><screen>00</screen>
+<screen>01</screen>
+<screen>00</screen>
+</screens>
+</fromequip>
+<toequip><rfd>Sensor</rfd>
+<contactinfo><contact ident ="B"/>
+<wireconcode><screenorder>0003</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000002</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+<screens><screen>00</screen>
+<screen>01</screen>
+<screen>00</screen>
+</screens>
+</toequip>
+</wireconnection>
+<wireinformation><wirecode><wiretype>XY</wiretype>
+<wiregauge gaugetype ="proj">010</wiregauge>
+</wirecode>
+<harnid>Tacho</harnid>
+<screens><screen>SCT1</screen>
+</screens>
+<twists><twist twsttype ="1">Tacho</twist>
+</twists>
+<length>1200</length>
+<colour>green</colour>
+<rpc rpcname ="UK MoD">U8025</rpc>
+</wireinformation>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="logconn"><wireid><wireno>ND1</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>T01</rfd>
+<contactinfo><wireconcode><screenorder>0001</screenorder>
+<specconn>100</specconn>
+<elecpotential><contactorder>000000</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+<screens><screen>01</screen>
+<screen>03</screen>
+<screen>01</screen>
+</screens>
+</fromequip>
+<toequip><rfd>T01</rfd>
+<contactinfo><wireconcode><screenorder>0001</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000000</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+<screens><screen>01</screen>
+<screen>03</screen>
+<screen>01</screen>
+<screen>SCT1</screen>
+</screens>
+</toequip>
+</wireconnection>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+<wire wirestate ="logconn"><wireid><wireno>ND2</wireno>
+</wireid>
+<wireconnection><fromequip><rfd>Sensor</rfd>
+<contactinfo><wireconcode><screenorder>0001</screenorder>
+<specconn>100</specconn>
+<elecpotential><contactorder>000000</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+<screens><screen>01</screen>
+<screen>03</screen>
+<screen>01</screen>
+</screens>
+</fromequip>
+<toequip><rfd>Sensor</rfd>
+<contactinfo><wireconcode><screenorder>0001</screenorder>
+<specconn>000</specconn>
+<elecpotential><contactorder>000000</contactorder>
+</elecpotential>
+<pconnorder>000</pconnorder>
+</wireconcode>
+<netanacode>01</netanacode>
+</contactinfo>
+<screens><screen>01</screen>
+<screen>03</screen>
+<screen>01</screen>
+<screen>SCT1</screen>
+</screens>
+</toequip>
+</wireconnection>
+<applics><applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"><versrank><range from ="1" to ="3"/>
+</versrank>
+</version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"><versrank><range from ="1" to ="2"/>
+</versrank>
+</version>
+</model>
+</applic>
+</applics>
+</wire>
+</wires>
+</wrngdata>
+</content>
+</dmodule>
+

@@ -1,0 +1,10 @@
+lxml
+pandas
+sentence-transformers
+anthropic
+streamlit
+python-dotenv
+rdflib
+requests
+tqdm
+scikit-learn

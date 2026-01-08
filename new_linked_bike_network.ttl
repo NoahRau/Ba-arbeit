@@ -1,0 +1,1016 @@
+@prefix bike: <http://my-company.com/bike-ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix s1000d: <http://my-company.com/s1000d/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-022 a owl:Class ;
+    rdfs:label "Mountain bicycle - Business rules"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.285927e-01,
+        9.306839e-01,
+        9.334978e-01,
+        9.34964e-01,
+        9.408697e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > D00 > 0 > 0 > 022 > Mountain bicycle - Business rules"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-approach-saddle>,
+        <http://purl.org/ontology/bikeo#giant-approach-sl-saddle>,
+        <http://purl.org/ontology/bikeo#giant-connect-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-fleet-sl-saddle> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-041 a owl:Class ;
+    rdfs:label "Bicycle - Description of how it is made"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.166557e-01,
+        9.171362e-01,
+        9.193034e-01,
+        9.214505e-01,
+        9.22208e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > D00 > 0 > 0 > 041 > Bicycle - Description of how it is made | TPSMG UK, 2003-2010 Government License - TPSMG 001 A bicycle (refer to )
+is a frame and a number of movable components with mechanical parts that are
+completely open. There are no covers or sheet metal panels that prevent access
+to the mechanical parts. Thus, you can disassemble the different components
+of a bicycle (refer to ) to do: an inspectiona maintenance taska repair task an inspection a maintenance task a re..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-contact-sl-d-fuse-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#giant-p-r2-wheelset-wheel>,
+        <http://purl.org/ontology/bikeo#shimano-4-piston-hydraulic-disc-brakes>,
+        <http://purl.org/ontology/bikeo#trek-butted-chromoly-disc-touring-frame> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-042 a owl:Class ;
+    rdfs:label "Bicycle - Description of function"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.213408e-01,
+        9.216495e-01,
+        9.228062e-01,
+        9.234705e-01,
+        9.348644e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > D00 > 0 > 0 > 042 > Bicycle - Description of function | TPSMG UK, 2003-2010 Government License - TPSMG 001 Below is a list of the different bicycle components and a functional
+description of them.
+FrameThe frame is the skeleton of the bicycle. Refer to
+S1000DBIKEAAADA3000000AA041AA
+ for a functional description of the frame system.WheelThe wheel is the point of contact between the bicycle and the road for the
+bicycle to have movement. Refer to 
+S1000DBIKEAAADA0000000AA041AA
+ f..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#TypeOfBike>,
+        <http://purl.org/ontology/bikeo#bosch-performance-line-cx-motor>,
+        <http://purl.org/ontology/bikeo#giant-contact-sl-d-fuse-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-p-r2-wheelset-wheel> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-043 a owl:Class ;
+    rdfs:label "Bicycle - Description attributed to crew"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.255396e-01,
+        9.258551e-01,
+        9.263778e-01,
+        9.264528e-01,
+        9.302311e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > D00 > 0 > 0 > 043 > Bicycle - Description attributed to crew | TPSMG UK, 2003-2010 Government License - TPSMG 001 Data about the bicycle and its control system is given in this document. This data will help you operate the bicycle. Data about the controls that follow is given in this document:
+SteeringShiftersBrakesPedals The handlebars are used to steer the bike. They are at the front of the bicycle. You hold one of the handlebar grips with each hand and move the handle bar t..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#fsa-bosch-e-bike-w--custom-ai-offset-crank>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#trek-butted-chromoly-disc-touring-frame> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-121 a owl:Class ;
+    rdfs:label "Bicycle - Pre-operation procedures (crew)"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.356008e-01,
+        9.364848e-01,
+        9.367666e-01,
+        9.368533e-01,
+        9.372735e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > D00 > 0 > 0 > 121 > Bicycle - Pre-operation procedures (crew) | TPSMG UK, 2003-2010 Government License - TPSMG 001 Examine the condition of the brakes. Open the brake quick release. Examine the condition and the thickness of the brake pads. Make sure that there is a large quantity of rubber left. Make sure that the pad is not too hard. Clean all the unwanted material. Do an inspection of the installation of the brakes. Check the hydraulic brake system function. Make sure that ..."@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#cannondale-synapse-hi-mod-womens-force-etap-axs-2021>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#fsa-k-wing-agx-carbon-handlebargrip>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b177-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-131 a owl:Class ;
+    rdfs:label "Bicycle - Normal operation procedures (crew)"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.371033e-01,
+        9.378628e-01,
+        9.385346e-01,
+        9.385457e-01,
+        9.386537e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > D00 > 0 > 0 > 131 > Bicycle - Normal operation procedures (crew) | TPSMG UK, 2003-2010 Government License - TPSMG 001 Pads Free of unwanted material Pads Acceptable pad width Pads Acceptable pad clearance Link Wire Firmly attached Levers Approximately 1 inch of travel before engagement Levers Space between lever and handlebar when fully pulled Cables No cuts or fraying Pressure Tires No cracks or splits Wheels No loose bearings Wheels True Spokes Not broken Spokes Tight Axel N..."@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#fsa-bosch-e-bike-w--custom-ai-offset-crank>,
+        <http://purl.org/ontology/bikeo#fsa-k-wing-agx-carbon-handlebargrip>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-151 a owl:Class ;
+    rdfs:label "Bicycle - Post-operation procedures (crew)"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.365909e-01,
+        9.368538e-01,
+        9.371085e-01,
+        9.381084e-01,
+        9.40515e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > D00 > 0 > 0 > 151 > Bicycle - Post-operation procedures (crew) | TPSMG UK, 2003-2010 Government License - TPSMG 001 Clean the bicycle. Clean the bicycle with water. Use the brush from the
+ to clean the brakes, the shift levers, the sprockets and the tires. Let the bicycle dry. Lubricate the bicycle Spray the 
+, to these moving parts:
+the brake pivotsthe derailleur pivotsthe derailleur tension guidesthe brake lever pivotsthe control cablesthe gear sprocketsthe chain Remove the ..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#cannondale-synapse-carbon-hi-mod-womens-ultegra-di2-2021>,
+        <http://purl.org/ontology/bikeo#cannondale-synapse-hi-mod-womens-force-etap-axs-2021>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#fsa-k-wing-agx-carbon-handlebargrip>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-258 a owl:Class ;
+    rdfs:label "Bicycle - Other procedures to clean"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.197056e-01,
+        9.197794e-01,
+        9.198964e-01,
+        9.214392e-01,
+        9.236207e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > D00 > 0 > 0 > 258 > Bicycle - Other procedures to clean | TPSMG UK, 2003-2010 Government License - TPSMG 001 Do not get 
+ into your eyes. If it gets 
+into your eyes, wash them immediately in clean warm water. Do not get 
+ into your eyes.  If it gets 
+into your eyes, wash them immediately in clean warm water. Do not use a 
+ that has high pressure. A
+water hose that has high pressure can cause some parts to become loose or full
+of water. Do not point the hose directly at the hub..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-cf-disc-frame>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-330 a owl:Class ;
+    rdfs:label "Bicycle - Place on test stand"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.251952e-01,
+        9.252785e-01,
+        9.264315e-01,
+        9.283509e-01,
+        9.297386e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > D00 > 0 > 0 > 330 > Bicycle - Place on test stand | TPSMG UK, 2003-2010 Government License - TPSMG 001 Ensure  is level. Place bicycle on the test stand. Tight clamps until bicycle is securely attach to the test stand."@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#giant-p-r2-wheelset-wheel>,
+        <http://purl.org/ontology/bikeo#giant-p-x2-disc-wheelset-wheel>,
+        <http://purl.org/ontology/bikeo#giant-s-x2-disc-wheelset-wheel>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b177-brakes> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-663 a owl:Class ;
+    rdfs:label "Bicycle - Standard repair procedures"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.336722e-01,
+        9.341834e-01,
+        9.34486e-01,
+        9.359403e-01,
+        9.361473e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > D00 > 0 > 0 > 663 > Bicycle - Standard repair procedures | TPSMG UK, 2003-2010 Government License - TPSMG 001 When you remove the rear wheel to repair a puncture, disconnect the brake
+arm from the chain stay. Remove the rear wheel. (Refer to
+S1000DBIKEAAADA0200000AA520AA) Make sure that there is no air in the tube. Loosen the cap on the valve stem. Push the valve stem core down to bleed all the air. Use a
+
+to move the tire bead out of
+its seat. Lift the tire bead above the lip..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#fsa-bosch-e-bike-w--custom-ai-offset-crank>,
+        <http://purl.org/ontology/bikeo#giant-fleet-sl-saddle>,
+        <http://purl.org/ontology/bikeo#giant-p-r2-wheelset-wheel>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-e5-2022>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame> .
+
+s1000d:S1000DBIKE-AAA-D00-0-0-941 a owl:Class ;
+    rdfs:label "Bicycle - Illustrated Parts Data - IPD"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.3167e-01,
+        9.319631e-01,
+        9.32237e-01,
+        9.331818e-01,
+        9.388341e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > D00 > 0 > 0 > 941 > Bicycle - Illustrated Parts Data - IPD | TPSMG UK, 2003-2010 Government License - TPSMG 001"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#bosch-performance-line-cx-motor>,
+        <http://purl.org/ontology/bikeo#giant-contact-slr-d-fuse-handlebargrip>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-e5-premium-aluminum-frame>,
+        <http://purl.org/ontology/bikeo#specialized-turbo-creo-sl-comp-carbon-2021>,
+        <http://purl.org/ontology/bikeo#specialized-turbo-creo-sl-comp-e5-2021> .
+
+s1000d:S1000DBIKE-AAA-D05-1-0-000 a owl:Class ;
+    rdfs:label "Bicycle - Time limits"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.343689e-01,
+        9.345305e-01,
+        9.346169e-01,
+        9.399107e-01,
+        9.431891e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > D05 > 1 > 0 > 000 > Bicycle - Time limits | TPSMG UK, 2003-2010 Government License - TPSMG 001"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#bosch-performance-line-cx-motor>,
+        <http://purl.org/ontology/bikeo#giant-approach-sl-saddle>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-fleet-sl-saddle>,
+        <http://purl.org/ontology/bikeo#praxis-carbon-crank-arms-crank> .
+
+s1000d:S1000DBIKE-AAA-D05-2-0-000 a owl:Class ;
+    rdfs:label "Bicycle - Scheduled maintenance lists"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.273412e-01,
+        9.274637e-01,
+        9.284675e-01,
+        9.29304e-01,
+        9.32969e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > D05 > 2 > 0 > 000 > Bicycle - Scheduled maintenance lists | TPSMG UK, 2003-2010 Government License - TPSMG 001"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#giant-fleet-sl-saddle>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-e5-2022>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-elite-e5-2022> .
+
+s1000d:S1000DBIKE-AAA-D05-4-0-000 a owl:Class ;
+    rdfs:label "Bicycle - Scheduled maintenance checks"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.231609e-01,
+        9.234431e-01,
+        9.240367e-01,
+        9.249072e-01,
+        9.271058e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > D05 > 4 > 0 > 000 > Bicycle - Scheduled maintenance checks | TPSMG UK, 2003-2010 Government License - TPSMG 001"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#bosch-performance-line-cx-motor>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-e5-2022>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-elite-e5-2022> .
+
+s1000d:S1000DBIKE-AAA-DA0-0-0-041 a owl:Class ;
+    rdfs:label "Wheel - Description of how it is made"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.033118e-01,
+        9.043301e-01,
+        9.044366e-01,
+        9.049104e-01,
+        9.067267e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA0 > 0 > 0 > 041 > Wheel - Description of how it is made | TPSMG UK, 2003-2010 Government License - TPSMG 001 The wheel (refer to ) of
+a bicycle is a complex structure. The wheel assembly has these parts: the tirethe tubethe spokesthe spoke nipplesthe valvethe hub
+
+On their own, the individual components are not very strong. But,
+when they are installed together, the components make the complete wheel (refer
+to ). The complete wheel is resistant
+to almost any type of heavy lo..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#cannondale-synapse-hi-mod-womens-force-etap-axs-2021>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-on-frame>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b177-calliper-rim-brake-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA0-1-0-215 a owl:Class ;
+    rdfs:label "Tire - Fill with air"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.068065e-01,
+        9.095131e-01,
+        9.151003e-01,
+        9.176416e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > DA0 > 1 > 0 > 215 > Tire - Fill with air | TPSMG UK, 2003-2010 Government License - TPSMG 001 Ensure bicycle is on the repair stand. Locate the deflated tire. Attach the outlet valve of the , from the , to the valve of the deflated tire. Inflate the tire. Operate the foot pump to pump air into the tire. Check tire pressure. Refer to S1000DBIKEAAADA0102000AA362BA."@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#Tighten>,
+        <http://purl.org/ontology/bikeo#giant-connect-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-d-shape-seatpost>,
+        <http://purl.org/ontology/bikeo#topstone-carbon-fork>,
+        <http://purl.org/ontology/bikeo#topstone-carbon-frame> .
+
+s1000d:S1000DBIKE-AAA-DA0-1-0-362 a owl:Class ;
+    rdfs:label "Tire - Check pressure"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.264478e-01,
+        9.265051e-01,
+        9.265051e-01,
+        9.286801e-01,
+        9.297111e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA0 > 1 > 0 > 362 > Tire - Check pressure | TPSMG UK, 2003-2010 Government License - TPSMG 001 Locate the valve stem of tire. Use the tire pressure gauge ()
+to check the tire pressure. Tire pressure should between 2000 hPa to 2700 hPa. If tire pressure is less than 2000 hPa inflate tire. 
+Refer to S1000DBIKEAAADA0102000AA215AA. If the tire cannot maintain pressure or the tire pressure is greater than 2700 hPa replace the inner tube. 
+Refer to S1000DBIKEAAADA0101000AA921AA."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#Tighten>,
+        <http://purl.org/ontology/bikeo#giant-approach-saddle>,
+        <http://purl.org/ontology/bikeo#giant-d-shape-seatpost>,
+        <http://purl.org/ontology/bikeo#topstone-carbon-fork>,
+        <http://purl.org/ontology/bikeo#topstone-carbon-frame> .
+
+s1000d:S1000DBIKE-AAA-DA0-1-0-400 a owl:Class ;
+    rdfs:label "Front wheel - Fault reports and isolation procedures"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.147899e-01,
+        9.165926e-01,
+        9.199244e-01,
+        9.231313e-01,
+        9.243048e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > DA0 > 1 > 0 > 400 > Front wheel - Fault reports and isolation procedures | TPSMG UK, 2003-2010 Government License - TPSMG 001"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#c-62-advanced-twin-mold-technology-frame>,
+        <http://purl.org/ontology/bikeo#fsa-k-wing-agx-carbon-handlebargrip>,
+        <http://purl.org/ontology/bikeo#kmc-x8-w--missing-link-chain>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b177-calliper-rim-brake-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA0-1-0-921 a owl:Class ;
+    rdfs:label "Inner tube - Remove and install a new item"@en,
+        "Tire - Remove and install a new item"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 8.952143e-01,
+        8.98684e-01,
+        8.993889e-01,
+        9.009588e-01,
+        9.029413e-01,
+        9.032309e-01,
+        9.035326e-01,
+        9.044027e-01,
+        9.073526e-01,
+        9.097097e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA0 > 1 > 0 > 921 > Inner tube - Remove and install a new item | TPSMG UK, 2003-2010 Government License - TPSMG 001 Be careful with sharp or hard tools. They can cause damage to the inner tube. Remove the old inner-tube. Install the new
+."""@en,
+        """S1000DBIKE > AAA > DA0 > 1 > 0 > 921 > Tire - Remove and install a new item | TPSMG UK, 2003-2010 Government License - TPSMG 001 Lift and turn the bicycle and make sure the bicycle
+is held safely in this position. Use a standard wrench from the  and loosen the brake caliper. Remove the axle bolt. Remove the wheel. Deflate the tire. Use the  from the  and remove the old tire from the wheel. Use the  from the  and attach the new  to the wheel. Refer to 
+S1000DBIKEAAADA0102000AA041AA. Inflate the t..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-connect-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-contact-xr-ergo-control-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#kmc-x10-with-missing-link-chain>,
+        <http://purl.org/ontology/bikeo#kmc-x8-w--missing-link-chain>,
+        <http://purl.org/ontology/bikeo#kmc-x9-with-missing-link-chain>,
+        <http://purl.org/ontology/bikeo#shimano-flat-mount-adapter-+20mm-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA0-2-0-412 a owl:Class ;
+    rdfs:label "Rear wheel - Detected fault"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.063656e-01,
+        9.077955e-01,
+        9.080822e-01,
+        9.083987e-01,
+        9.089867e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > DA0 > 2 > 0 > 412 > Rear wheel - Detected fault | TPSMG UK, 2003-2010 Government License - TPSMG 001"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#Tighten>,
+        <http://purl.org/ontology/bikeo#fsa-bosch-e-bike-w--custom-ai-offset-crank>,
+        <http://purl.org/ontology/bikeo#giant-approach-saddle>,
+        <http://purl.org/ontology/bikeo#giant-fleet-sl-saddle>,
+        <http://purl.org/ontology/bikeo#shimano-105-hydraulic-disc-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA0-2-0-520 a owl:Class ;
+    rdfs:label "Rear wheel - Remove procedures"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.194754e-01,
+        9.198542e-01,
+        9.218352e-01,
+        9.240535e-01,
+        9.270542e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA0 > 2 > 0 > 520 > Rear wheel - Remove procedures | TPSMG UK, 2003-2010 Government License - TPSMG 001 Hold the rear of the bicycle. Push the wheel forwards and down to disengage the chain from the
+sprocket. Turn the wheel to the side and lift it away from the frame. Put the frame on the floor."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#ChainArea>,
+        <http://purl.org/ontology/bikeo#ReplacePart>,
+        <http://purl.org/ontology/bikeo#Tighten>,
+        <http://purl.org/ontology/bikeo#giant-approach-saddle>,
+        <http://purl.org/ontology/bikeo#giant-approach-sl-saddle> .
+
+s1000d:S1000DBIKE-AAA-DA1-0-0-041 a owl:Class ;
+    rdfs:label "Brake system - Description of how it is made"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.130694e-01,
+        9.14115e-01,
+        9.143273e-01,
+        9.175891e-01,
+        9.176667e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA1 > 0 > 0 > 041 > Brake system - Description of how it is made | TPSMG UK, 2003-2010 Government License - TPSMG 001 The most important part of the bicycle is the brake system. Only a minimum
+maintenance of the brake system is necessary. But, when a problem does occur,
+make sure you to do the necessary maintenance as quickly as possible. If you
+do not do this the bicycle will be dangerous to use. There are nine different types of brake systems. The one found on most
+bicycles ..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#tektro-c550-mechanical-disc-brake-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b177-calliper-rim-brake-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes>,
+        <http://purl.org/ontology/bikeo#trek-butted-chromoly-disc-touring-frame> .
+
+s1000d:S1000DBIKE-AAA-DA1-0-0-341 a owl:Class ;
+    rdfs:label "Brake system - Manual test"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.204479e-01,
+        9.21376e-01,
+        9.230278e-01,
+        9.256372e-01,
+        9.273763e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > DA1 > 0 > 0 > 341 > Brake system - Manual test | TPSMG UK, 2003-2010 Government License - TPSMG 001 Put the bicycle in a vertical position. Hold the handle bars and push the bicycle forwards. Apply the brakes. Make sure that the wheels lock and the bicycle stops."@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#fsa-bosch-e-bike-w--custom-ai-offset-crank>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-p-r2-wheelset-wheel>,
+        <http://purl.org/ontology/bikeo#shimano-105-hydraulic-disc-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-c550-mechanical-disc-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA1-1-0-251 a owl:Class ;
+    rdfs:label "Brake pads - Clean with rubbing alcohol"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.023798e-01,
+        9.025652e-01,
+        9.042981e-01,
+        9.051983e-01,
+        9.074696e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA1 > 1 > 0 > 251 > Brake pads - Clean with rubbing alcohol | TPSMG UK, 2003-2010 Government License - TPSMG 001 Do a visual inspection of the brakes as given in the pre-ride checks
+(refer to
+S1000DBIKEAAAD00000000AA121AA). Clean the brake pads. Find each of the brake pads. Apply a thin layer of the
+
+ on each of the brake
+pads. Rub the surface until you have applied the
+
+ to the complete surface of the
+pad. Remove the unwanted alcohol."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#shimano-105-hydraulic-disc-brakes>,
+        <http://purl.org/ontology/bikeo#shimano-4-piston-hydraulic-disc-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-c550-mechanical-disc-brake-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b177-calliper-rim-brake-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA2-0-0-041 a owl:Class ;
+    rdfs:label "Steering - Description of how it is made"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 8.944327e-01,
+        8.945848e-01,
+        8.969663e-01,
+        8.978151e-01,
+        8.986318e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA2 > 0 > 0 > 041 > Steering - Description of how it is made | TPSMG UK, 2003-2010 Government License - TPSMG 001 The steering on the bike is what enables the bike to manoeuvre in a given
+direction during travel. The steering system on the bike is made of three
+parts, they are: The handlebarThe headsetThe stem This consists of a horizontal bar attached to the stem with handgrips at
+the end. Brake levers and shifters are also attached to this bar although they
+do not have any p..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#cannondale-synapse-carbon-hi-mod-womens-ultegra-di2-2021>,
+        <http://purl.org/ontology/bikeo#cannondale-synapse-hi-mod-womens-force-etap-axs-2021>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b177-calliper-rim-brake-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA2-1-0-520 a owl:Class ;
+    rdfs:label "Stem - Remove procedures"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.253532e-01,
+        9.25841e-01,
+        9.286757e-01,
+        9.290379e-01,
+        9.303429e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA2 > 1 > 0 > 520 > Stem - Remove procedures | TPSMG UK, 2003-2010 Government License - TPSMG 001 It is not necessary to remove the handlebar when you remove the stem
+to get access to the headset. Remove the handlebar S1000DBIKEAAADA2200000AA520AA. Remove the stem. Remove the bolt in the center of the stem cap. Loosen the stem clam bolt with a . Remove the stem from the steerer tube. Note: It is not necessary to remove the handlebar if you remove the
+stem to get access to the ..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-on-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#sram-rival-1x-crank> .
+
+s1000d:S1000DBIKE-AAA-DA2-1-0-720 a owl:Class ;
+    rdfs:label "Stem - Install procedures"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.1789e-01,
+        9.180028e-01,
+        9.204614e-01,
+        9.246657e-01,
+        9.251366e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA2 > 1 > 0 > 720 > Stem - Install procedures | TPSMG UK, 2003-2010 Government License - TPSMG 001 Do not tighten the stem bolt too much. You can cause damage to the headset
+bearings if you tighten the stem too much. The stem bolt does not safety the stem. The stem must point forward in alignment with the wheel. Remove all the rust and the corrosion with
+a  and
+. Install the stem. Use a  and lubricate: the threads of the  and the sidesthe top of the wedge the threads of the  a..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#alloy-disc-touring-fork>,
+        <http://purl.org/ontology/bikeo#alloy-micro-adjust-seatpost>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#microshift-advent-x-rearderailleur>,
+        <http://purl.org/ontology/bikeo#promax-sp-9032-seatpost> .
+
+s1000d:S1000DBIKE-AAA-DA2-2-0-520 a owl:Class ;
+    rdfs:label "Handlebar - Remove procedures"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.167644e-01,
+        9.195874e-01,
+        9.212438e-01,
+        9.237028e-01,
+        9.265727e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA2 > 2 > 0 > 520 > Handlebar - Remove procedures | TPSMG UK, 2003-2010 Government License - TPSMG 001 Do not ride a bicycle with no grips on the handlebar. This can cause the
+hands of the rider to slip. Put a long thin screwdriver below the grip and apply water between the
+grip and the handle bar. Turn the grip forwards and rearwards to loosen it and then pull it off
+the end of the handlebar. Loosen the clamp screw (refer to
+
+) which is behind or below the
+brake lever (as sho..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#HandlebarGrip>,
+        <http://purl.org/ontology/bikeo#MissingSpokes>,
+        <http://purl.org/ontology/bikeo#giant-connect-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank> .
+
+s1000d:S1000DBIKE-AAA-DA2-2-0-720 a owl:Class ;
+    rdfs:label "Handlebar - Install procedures"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.156522e-01,
+        9.160308e-01,
+        9.163069e-01,
+        9.163839e-01,
+        9.170887e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA2 > 2 > 0 > 720 > Handlebar - Install procedures | TPSMG UK, 2003-2010 Government License - TPSMG 001 Do not ride the bicycle until the grips have become dry and are firmly
+held in position. If the grips are wet, your hands can move off the grips
+when you ride the bicycle. Do not ride a bicycle with no grips on the handlebar. Make sure the handlebar is correctly aligned in the center of the stem. Put the  in the stem and tighten the clamp bolt with a
+ . Make sure the handleb..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#HandlebarGrip>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#microshift-advent-x-rearderailleur>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame> .
+
+s1000d:S1000DBIKE-AAA-DA2-3-0-041 a owl:Class ;
+    rdfs:label "Headset - Description of how it is made"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.133776e-01,
+        9.136796e-01,
+        9.138936e-01,
+        9.17169e-01,
+        9.209282e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA2 > 3 > 0 > 041 > Headset - Description of how it is made | TPSMG UK, 2003-2010 Government License - TPSMG 001 The headset (refer to )
+is a pair of bearings on the two ends of the head tube of the frame. These
+bearings permit the fork to turn rearward and forward (for example, to let
+the rider turn the handlebars for the steering). The headset (refer to )
+includes the parts that follow: 
+The bearing races that push into the head tubea bearing race that pushes on the fork ste..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-contact-sl-d-fuse-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#trek-butted-chromoly-disc-touring-frame> .
+
+s1000d:S1000DBIKE-AAA-DA2-3-0-520 a owl:Class ;
+    rdfs:label "Headset - Remove procedures"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.170567e-01,
+        9.190223e-01,
+        9.195102e-01,
+        9.266496e-01,
+        9.267341e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA2 > 3 > 0 > 520 > Headset - Remove procedures | TPSMG UK, 2003-2010 Government License - TPSMG 001 It is not necessary to remove the handlebar for this procedure. Remove the stem (refer to S1000DBIKEAAADA2100000AA520AA). Remove: 
+the spacersthe brake cable hangarthe dust sealsthe conical expansion washer(s) from the steerer tube the spacers the brake cable hangar the dust seals the conical expansion washer(s) from the steerer tube Lift the upper bearing cup off (refer to ) a..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#microshift-advent-x-rearderailleur>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#trek-checkpoint-sl-5-2023> .
+
+s1000d:S1000DBIKE-AAA-DA2-3-0-720 a owl:Class ;
+    rdfs:label "Headset - Install procedures"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.150872e-01,
+        9.169515e-01,
+        9.185896e-01,
+        9.193497e-01,
+        9.23429e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > DA2 > 3 > 0 > 720 > Headset - Install procedures | TPSMG UK, 2003-2010 Government License - TPSMG 001 Install the  on the frame. Install the . Install the components that follow on the steering tube: the the the the the the Install the stem (refer to S1000DBIKEAAADA2100000AA720AA)."@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#microshift-advent-x-rearderailleur>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#trek-checkpoint-sl-5-2023> .
+
+s1000d:S1000DBIKE-AAA-DA3-0-0-041 a owl:Class ;
+    rdfs:label "Frame - Description of how it is made"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.081004e-01,
+        9.104659e-01,
+        9.11725e-01,
+        9.137993e-01,
+        9.144447e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA3 > 0 > 0 > 041 > Frame - Description of how it is made | TPSMG UK, 2003-2010 Government License - TPSMG 001 The frame is the skeleton, the primary part of your bicycle. Its structure
+makes the bicycle resistant to large forces. The initial frames (refer to )
+were tubes of aluminum or steel welded together. Subsequent frames (refer to )
+can be made out of a wide variety of materials, including aluminium, titanium,
+or chrome moly. are different and can also be of different ma..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#canyon-endurace-on-frame>,
+        <http://purl.org/ontology/bikeo#dt-swiss-grc-1600-spline-wheel>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame> .
+
+s1000d:S1000DBIKE-AAA-DA3-1-0-411 a owl:Class ;
+    rdfs:label "Horn - Isolated fault"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.347469e-01,
+        9.351422e-01,
+        9.351884e-01,
+        9.36284e-01,
+        9.386303e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > DA3 > 1 > 0 > 411 > Horn - Isolated fault | TPSMG UK, 2003-2010 Government License - TPSMG 001"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#hollowgram-22-wheel>,
+        <http://purl.org/ontology/bikeo#hollowgram-save-systembar-handlebargrip>,
+        <http://purl.org/ontology/bikeo#shimano-105-hydro-disc-brakes>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame> .
+
+s1000d:S1000DBIKE-AAA-DA3-1-0-921 a owl:Class ;
+    rdfs:label "Horn - Remove and install a new item"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 8.820215e-01,
+        8.825366e-01,
+        8.825471e-01,
+        8.937845e-01,
+        9.007222e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > DA3 > 1 > 0 > 921 > Horn - Remove and install a new item | TPSMG UK, 2003-2010 Government License - TPSMG 001 Safely hold the bicycle. Remove the horn. Use the 8mm Allen wrench from the  and remove the two Allen screws. Remove the horn. Install the new . Install the new  on the handlebars. Use the  from the  and tighten the two Allen screws."@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#cannondale-rd-2.0-disc-wheel>,
+        <http://purl.org/ontology/bikeo#giant-contact-xr-ergo-control-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#giant-revolt-advanced-0-2022>,
+        <http://purl.org/ontology/bikeo#kmc-x10-with-missing-link-chain> .
+
+s1000d:S1000DBIKE-AAA-DA4-0-0-041 a owl:Class ;
+    rdfs:label "Drivetrain - Description of how it is made"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.166809e-01,
+        9.168301e-01,
+        9.180818e-01,
+        9.187195e-01,
+        9.210837e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA4 > 0 > 0 > 041 > Drivetrain - Description of how it is made | TPSMG UK, 2003-2010 Government License - TPSMG 001 The drive train is the group of components that are necessary for the
+operation of the bicycle. The drive train is the primary system for the
+movement of the bicycle. A typical drive train has the chain wheels, the chain,
+the pedals and the saddle. Since the drive train has many components, it is necessary to do a
+regular maintenance. The drive train maintenance ..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#cannondale-synapse-carbon-hi-mod-womens-ultegra-di2-2021>,
+        <http://purl.org/ontology/bikeo#cannondale-synapse-womens-tiagra-2021>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b177-calliper-rim-brake-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA4-1-0-241 a owl:Class ;
+    rdfs:label "Chain - Oil"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.209715e-01,
+        9.209715e-01,
+        9.237844e-01,
+        9.250453e-01,
+        9.337404e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA4 > 1 > 0 > 241 > Chain - Oil | TPSMG UK, 2003-2010 Government License - TPSMG 001 Dry Lube is a very dangerous substance. Do not get it onto your skin. 
+Use it in a well ventilated area. If you swallow it seek immediate medical advice. 
+If it gets into your eyes wash your eyes in clean water and seek medical advice. Wet Lube is a very dangerous substance. Do not get it onto your skin. 
+Use it in a well ventilated area. If you swallow it seek immediate medical advice. 
+If it..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#ChainArea>,
+        <http://purl.org/ontology/bikeo#ChainLink>,
+        <http://purl.org/ontology/bikeo#giant-approach-saddle>,
+        <http://purl.org/ontology/bikeo#topstone-carbon-fork>,
+        <http://purl.org/ontology/bikeo#topstone-carbon-frame> .
+
+s1000d:S1000DBIKE-AAA-DA4-1-0-251 a owl:Class ;
+    rdfs:label "Chain - Clean with chain cleaning fluid"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 8.85933e-01,
+        8.86934e-01,
+        8.874009e-01,
+        8.894932e-01,
+        8.98331e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA4 > 1 > 0 > 251 > Chain - Clean with chain cleaning fluid | TPSMG UK, 2003-2010 Government License - TPSMG 001 Inspect the chain. Do the inspection of the chain as given in the pre-ride checks (refer
+to S1000DBIKEAAAD00000000AA121AA). Prepare the cleaning area. Put the  on a satisfactory floor area. Put the bicycle on the floor covering. Clean debris from the chain. Use the  and loosen as much unwanted material as possible. Make sure that you remove all the unwanted material..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#shimano-105-hydraulic-disc-brakes>,
+        <http://purl.org/ontology/bikeo#shimano-grx-hydraulic-disc-brakes>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#sram-red-etap-axs-hydraulic-disc-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-c550-mechanical-disc-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA4-1-0-414 a owl:Class ;
+    rdfs:label "Drive train - Correlated fault"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.209804e-01,
+        9.222244e-01,
+        9.222783e-01,
+        9.223663e-01,
+        9.24809e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DBIKE > AAA > DA4 > 1 > 0 > 414 > Drive train - Correlated fault | TPSMG UK, 2003-2010 Government License - TPSMG 001"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#fsa-bosch-e-bike-w--custom-ai-offset-crank>,
+        <http://purl.org/ontology/bikeo#shimano-105-hydraulic-disc-brakes>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-e5-2022>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame> .
+
+s1000d:S1000DBIKE-AAA-DA5-0-0-041 a owl:Class ;
+    rdfs:label "Gears - Description of how it is made"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.010517e-01,
+        9.011974e-01,
+        9.012505e-01,
+        9.018894e-01,
+        9.020644e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA5 > 0 > 0 > 041 > Gears - Description of how it is made | TPSMG UK, 2003-2010 Government License - TPSMG 001 The gears include the mechanism, the hubs and the shifters. The description of the mechanisms is given in S1000DBIKEAAADA5100000AA041AA. The description of the shifters is given in S1000DBIKEAAADA5300000AA041AA. The bicycles of these days can have 27 gears or more. The mountain bikes
+use a set that includes: Three socket sprockets of different dimension on the frontNi..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#cannondale-synapse-womens-tiagra-2021>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-on-frame>,
+        <http://purl.org/ontology/bikeo#hollowgram-save-systembar-handlebargrip>,
+        <http://purl.org/ontology/bikeo#sunringle-duroc-50-sl-wheel> .
+
+s1000d:S1000DBIKE-AAA-DA5-1-0-041 a owl:Class ;
+    rdfs:label "Mechs - Description of how it is made"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.112616e-01,
+        9.114733e-01,
+        9.120162e-01,
+        9.13132e-01,
+        9.189767e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA5 > 1 > 0 > 041 > Mechs - Description of how it is made | TPSMG UK, 2003-2010 Government License - TPSMG 001 There are two different types of derailleur, the front and the rear. The front derailleur (refer to )
+contains two types of screws to keep the movement of the derailleur to a minimum.
+These screws are: the stop screw low-gearthe stop screw high-gear the stop screw low-gear the stop screw high-gear The function of these screws is to prevent the rider from over shifting..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-contact-sl-d-fuse-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA5-2-0-251 a owl:Class ;
+    rdfs:label "Hubs - Clean with degreasing agent"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.18126e-01,
+        9.18614e-01,
+        9.199041e-01,
+        9.201292e-01,
+        9.219877e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA5 > 2 > 0 > 251 > Hubs - Clean with degreasing agent | TPSMG UK, 2003-2010 Government License - TPSMG 001 Remove the axle. Use the cone-wrench from the  and remove the locknut from one side of the axle. Remove the washer and the cone from the axle. Make sure you do not lose the bearings from the hub. Be prepared to
+catch the bearings if they fall out. Missing bearings can cause damage to
+the hub. Pull the axle out from the other side as shown in  . Remove the bearings. Use a..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#promax-decoder-r-mechanical-disc-brakes>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b177-calliper-rim-brake-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DBIKE-AAA-DA5-3-0-041 a owl:Class ;
+    rdfs:label "Shifters - Description of how it is made"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.187499e-01,
+        9.195534e-01,
+        9.206458e-01,
+        9.209957e-01,
+        9.263932e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DBIKE > AAA > DA5 > 3 > 0 > 041 > Shifters - Description of how it is made | TPSMG UK, 2003-2010 Government License - TPSMG 001 The thumb shifter is a usual type in modern bicycles. It is possible
+to adjust this type of shifter for operation in the index position or in the
+friction position. The differences between the two are: 
+The index shifters change the gears with a click of a lever.The friction shifters hold the derailleur in its position by friction. The index shifters change the gea..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-contact-sl-d-fuse-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#shimano-105-hydraulic-disc-brakes>,
+        <http://purl.org/ontology/bikeo#shimano-flat-mount-adapter-+20mm-brakes>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame> .
+
+s1000d:S1000DLIGHTING-AAA-D00-0-0-029 a owl:Class ;
+    rdfs:label "Wiring data - Field description"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.159546e-01,
+        9.174072e-01,
+        9.174965e-01,
+        9.203289e-01,
+        9.220793e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DLIGHTING > AAA > D00 > 0 > 0 > 029 > Wiring data - Field description"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#TypeOfBike>,
+        <http://purl.org/ontology/bikeo#giant-contact-sl-saddle>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-contact-xc-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-fleet-sl-saddle> .
+
+s1000d:S1000DLIGHTING-AAA-D00-0-0-040 a owl:Class ;
+    rdfs:label "Electrical system - Description of how it is made and its function"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 8.920091e-01,
+        8.920848e-01,
+        8.926566e-01,
+        8.933956e-01,
+        8.941901e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DLIGHTING > AAA > D00 > 0 > 0 > 040 > Electrical system - Description of how it is made and its function | The illustration that follows (see )
+shows the lighting system of the bicycle."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#energypak-compact-500wh-energypak-plus-range-extender-compatible-battery>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#trek-butted-chromoly-disc-touring-frame> .
+
+s1000d:S1000DLIGHTING-AAA-D00-0-0-056 a owl:Class ;
+    rdfs:label "Wiring - Equipment lists"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.227267e-01,
+        9.230953e-01,
+        9.231538e-01,
+        9.245659e-01,
+        9.275576e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DLIGHTING > AAA > D00 > 0 > 0 > 056 > Wiring - Equipment lists"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#InnerTube>,
+        <http://purl.org/ontology/bikeo#giant-approach-saddle>,
+        <http://purl.org/ontology/bikeo#giant-contact-saddle>,
+        <http://purl.org/ontology/bikeo#giant-fleet-sl-saddle>,
+        <http://purl.org/ontology/bikeo#giant-sport-saddle> .
+
+s1000d:S1000DLIGHTING-AAA-D00-0-0-057 a owl:Class ;
+    rdfs:label "Wiring - Wire list"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.201946e-01,
+        9.202436e-01,
+        9.228864e-01,
+        9.272278e-01,
+        9.333613e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DLIGHTING > AAA > D00 > 0 > 0 > 057 > Wiring - Wire list"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#bosch-powertube-battery>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-contact-xc-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-fleet-sl-saddle>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame> .
+
+s1000d:S1000DLIGHTING-AAA-D00-0-0-058 a owl:Class ;
+    rdfs:label "Wiring - Loom list"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.382884e-01,
+        9.384158e-01,
+        9.38433e-01,
+        9.390626e-01,
+        9.392564e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DLIGHTING > AAA > D00 > 0 > 0 > 058 > Wiring - Loom list"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#bontrager-aeolus-rsl-37-wheel>,
+        <http://purl.org/ontology/bikeo#canyon-endurace-al-disc-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#wtb-sendero-tcs-light-tire> .
+
+s1000d:S1000DLIGHTING-AAA-D00-0-0-341 a owl:Class ;
+    rdfs:label "Lights - Manual test"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.455335e-01,
+        9.471319e-01,
+        9.488693e-01,
+        9.507074e-01,
+        9.5785e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DLIGHTING > AAA > D00 > 0 > 0 > 341 > Lights - Manual test | TPSMG UK, 2003-2010 Government License - TPSMG 001 Set the lights to on. Make sure that all the lights operate correctly."@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-approach-saddle>,
+        <http://purl.org/ontology/bikeo#giant-approach-sl-saddle>,
+        <http://purl.org/ontology/bikeo#giant-contact-switch-seatpost>,
+        <http://purl.org/ontology/bikeo#giant-fleet-sl-saddle>,
+        <http://purl.org/ontology/bikeo#sram-rival-1x-crank> .
+
+s1000d:S1000DLIGHTING-AAA-D00-0-0-413 a owl:Class ;
+    rdfs:label "Lights - Observed fault"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.218674e-01,
+        9.218839e-01,
+        9.226162e-01,
+        9.264893e-01,
+        9.273949e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DLIGHTING > AAA > D00 > 0 > 0 > 413 > Lights - Observed fault | TPSMG UK, 2003-2010 Government License - TPSMG 001"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#canyon-endurace-on-frame>,
+        <http://purl.org/ontology/bikeo#giant-approach-sl-saddle>,
+        <http://purl.org/ontology/bikeo#giant-crosscut-at-1-tire>,
+        <http://purl.org/ontology/bikeo#giant-fleet-sl-saddle>,
+        <http://purl.org/ontology/bikeo#sram-rival-1x-crank> .
+
+s1000d:S1000DLIGHTING-AAA-D00-0-0-700 a owl:Class ;
+    rdfs:label "Lighting - Assemble, install and connect procedures"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.086879e-01,
+        9.096606e-01,
+        9.098392e-01,
+        9.125574e-01,
+        9.138421e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment """S1000DLIGHTING > AAA > D00 > 0 > 0 > 700 > Lighting - Assemble, install and connect procedures | TPSMG UK, 2003-2010 Government License - TPSMG 001 Remove the lighting system from the packaging. Make sure that the components in the package are the
+same as those on the S1000DLIGHTINGAAAD00000000AA941AA. Install the light bulb to the front and rear lights (refer to S1000DLIGHTINGAAAD00000000AA921AA). Attach the front light fitting on the top of the handlebar. Apply the protective strip around the ..."""@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#bosch-active-line-plus-250w-w-cannondale-acr-software-motor>,
+        <http://purl.org/ontology/bikeo#cannondale-synapse-hi-mod-womens-force-etap-axs-2021>,
+        <http://purl.org/ontology/bikeo#kmc-x8-w--missing-link-chain>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b177-calliper-rim-brake-brakes>,
+        <http://purl.org/ontology/bikeo#tektro-tk-b178-calliper-rim-brake-brakes> .
+
+s1000d:S1000DLIGHTING-AAA-D00-0-0-921 a owl:Class ;
+    rdfs:label "Lighting - Remove and install a new item"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 8.721312e-01,
+        8.729891e-01,
+        8.740863e-01,
+        8.814467e-01,
+        8.849042e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DLIGHTING > AAA > D00 > 0 > 0 > 921 > Lighting - Remove and install a new item | TPSMG UK, 2003-2010 Government License - TPSMG 001 Make sure that the  is cool before you replace it. Do not touch the glass of the . Remove the glass. Remove the used . Discard the used . Remove the new  from the packaging. Install the new . Install the glass on the light."@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#giant-contact-xr-ergo-control-handlebargrip>,
+        <http://purl.org/ontology/bikeo#giant-custom-crankset-crank>,
+        <http://purl.org/ontology/bikeo#kmc-x10-with-missing-link-chain>,
+        <http://purl.org/ontology/bikeo#kmc-x11-with-missing-link-chain>,
+        <http://purl.org/ontology/bikeo#kmc-x9-with-missing-link-chain> .
+
+s1000d:S1000DLIGHTING-AAA-D00-0-0-941 a owl:Class ;
+    rdfs:label "Light system - Illustrated Parts Data - IPD"@en ;
+    bike:matchingMethod "embedding" ;
+    bike:similarityScore 9.233661e-01,
+        9.236732e-01,
+        9.284342e-01,
+        9.310359e-01,
+        9.311351e-01 ;
+    bike:source "S1000D" ;
+    bike:verified true ;
+    rdfs:comment "S1000DLIGHTING > AAA > D00 > 0 > 0 > 941 > Light system - Illustrated Parts Data - IPD | TPSMG UK, 2003-2010 Government License - TPSMG 001"@en ;
+    owl:sameAs <http://purl.org/ontology/bikeo#100-series-alpha-aluminum-frame>,
+        <http://purl.org/ontology/bikeo#300-series-alpha-aluminum-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-e5-2022>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-8r-carbon-frame>,
+        <http://purl.org/ontology/bikeo#specialized-diverge-fact-9r-carbon-frame> .
+

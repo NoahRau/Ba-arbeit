@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/fault.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Front wheel - Fault reports and isolation procedures</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Front wheel - Fault reports and isolation procedures</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-DA0-10-20-00AA-400A-A_003-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>20</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>400</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Front wheel</techname>
+<infoname>Fault reports and isolation procedures</infoname>
+</dmtitle>
+<issno issno ="003" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY112</sbc>
+<skill skill ="sk01"/>
+<rfu><p>DM converted to 2.3 structure</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Tire - Fill with air" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>20</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>215</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Tire</techname>
+<infoname>Fill with air</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Tire - Remove and install a new item" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-10-20-00AA-921A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>20</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>921</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Tire</techname>
+<infoname>Remove and install a new item</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Inner tube - Remove and install a new item" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-10-10-00AA-921A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>10</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>921</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Inner tube</techname>
+<infoname>Remove and install a new item</infoname>
+</dmtitle></refdm></refs><afi>
+<afi-proc><fault fcode ="NYCJD04"/>
+<describe><fdesc>Tire does not function correctly</fdesc>
+</describe>
+<isoproc><prelreqs><reqconds><noconds/>
+</reqconds>
+<supequip>
+<supeqli>
+<supequi id ="seq-0001"><nomen>Tire pressure gauge</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-01</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi><nomen>Specialist toolset</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<nosupply/>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<nosafety/>
+</safety>
+</prelreqs>
+<isolatep><isostep id ="istp-0001"><action>Use the tire pressure gauge (<xref xrefid ="seq-0001" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0001"></xref>)
+to do a check of the pressure</action>
+<question>What is the tire pressure reading?</question>
+<answer><sel-list><choice refid ="istp-0002">More than 2700 hPa</choice>
+<choice refid ="istp-0003">Between 100 hPa and 2700 hPa</choice>
+<choice refid ="istp-0004">Less than 100 hPa</choice>
+</sel-list>
+</answer>
+</isostep>
+<isoend id ="istp-0002"><action>Deflate the tire until the pressure is 2700 hPa</action>
+</isoend>
+<isoend id ="istp-0003"><action>Inflate the tire as given in
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>20</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>215</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></action>
+</isoend>
+<isostep id ="istp-0004"><action>To do a check of the tire for damage</action>
+<question>Is there damage to the tire?</question>
+<answer><yesno><yes refid ="istp-0005"/>
+<no refid ="istp-0006"/>
+</yesno>
+</answer>
+</isostep>
+<isoend id ="istp-0005"><action>Replace the tire (refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-10-20-00AA-921A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>20</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>921</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+)</action>
+</isoend>
+<isoend id ="istp-0006"><action>Replace the inner-tube (refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-10-10-00AA-921A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>10</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>921</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>)</action>
+</isoend>
+</isolatep>
+</isoproc>
+</afi-proc>
+</afi>
+</content>
+</dmodule>
+

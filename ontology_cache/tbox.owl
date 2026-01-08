@@ -1,0 +1,1614 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:39025fa1-ef5a-42e5-9186-5ac2214979e6"
+     xml:base="urn:webprotege:ontology:39025fa1-ef5a-42e5-9186-5ac2214979e6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vso="http://purl.org/vso/ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:bikeo="http://purl.org/ontology/bikeo#">
+    <owl:Ontology rdf:about="http://purl.org/ontology/bikeo#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/vso/ns#modelDate -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vso/ns#modelDate"/>
+    
+
+
+    <!-- http://purl.org/vso/ns#weight -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vso/ns#weight"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+        <rdfs:label xml:lang="en">owl:sameAs</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#comprises -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#comprises">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#CommonPartArea"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:comment xml:lang="en">is a property defining which common part comprises a given piece.</rdfs:comment>
+        <rdfs:label xml:lang="en">comprises</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#hasBrand -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#hasBrand">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/bikeo#isBrandOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Bike"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#Brand"/>
+        <rdfs:comment xml:lang="en">is a property defining which bike in particular has a given brand.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasBrand</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#hasPart">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/bikeo#isPartOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Bike"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:comment xml:lang="en">is a property specifying how a bike is composed in its specific pieces.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#hasProblem -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#hasProblem">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/bikeo#isProblemOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:comment xml:lang="en">is a property defining a problem that could affect a bike or a piece of a bike.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasProblem</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#hasSolution -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#hasSolution">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+        <rdfs:comment xml:lang="en">is the property telling how a problem of a bike can be solved and through which tools.</rdfs:comment>
+        <rdfs:label>hasSolution</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#hasType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/bikeo#isTypeOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Bike"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#TypeOfBike"/>
+        <rdfs:comment xml:lang="en">is a property that defines the specific type of bike of a bike model.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#isBrandOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#isBrandOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Brand"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#Bike"/>
+        <rdfs:comment xml:lang="en">is a property used for specifying which specific brand owns and produces a given bike model.</rdfs:comment>
+        <rdfs:label xml:lang="en">isBrandOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#isComprisedIn -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#isComprisedIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#CommonPartArea"/>
+        <rdfs:comment xml:lang="en">is a property defining which piece is comprised in a given common part.</rdfs:comment>
+        <rdfs:label xml:lang="en">isComprisedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#isPartOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#Bike"/>
+        <rdfs:comment xml:lang="en">is a property used for specifying which common parts are included in a bike.</rdfs:comment>
+        <rdfs:label xml:lang="en">isPartOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#isProblemOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#isProblemOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:comment xml:lang="en">is a property defining to which piece is connected a given problem.</rdfs:comment>
+        <rdfs:label xml:lang="en">isProblemOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#isRequestedFor -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#isRequestedFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/bikeo#requests"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Tool"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+        <rdfs:comment xml:lang="en">is a property defining which tool is required in order to obtain a given solution to a problem.</rdfs:comment>
+        <rdfs:label xml:lang="en">isRequestedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#isSolutionOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#isSolutionOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:comment xml:lang="en">is a property defining to which piece is connected a given solution of a problem.</rdfs:comment>
+        <rdfs:label xml:lang="en">isSolutionOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#isTypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#isTypeOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#TypeOfBike"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#Bike"/>
+        <rdfs:comment xml:lang="en">this property defines that a specific bike model is a type of bike.</rdfs:comment>
+        <rdfs:label xml:lang="en">isTypeOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#producedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#producedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/bikeo#produces"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#Brand"/>
+        <rdfs:comment xml:lang="en">defines the specific part of a bike that is produced by a given brand.</rdfs:comment>
+        <rdfs:label xml:lang="en">producedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#produces -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#produces">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Brand"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:comment xml:lang="en">is a property defining which brand produces a specific part of a bike.</rdfs:comment>
+        <rdfs:label xml:lang="en">produces</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#requests -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/bikeo#requests">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/bikeo#Tool"/>
+        <rdfs:comment xml:lang="en">is a property defining which solution to a problem requests a given tool to be used.</rdfs:comment>
+        <rdfs:label xml:lang="en">requests</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#hasChainRing -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ontology/bikeo#hasChainRing">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Crank"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">is a property describing the chain ring(s) attached to the crank arm. The chainring, or sprocket, is a profiled wheel with teeth that mesh with the chain.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasChainRing</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#hasGearing -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ontology/bikeo#hasGearing">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Bike"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">the value describing the gearing of a bike.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasGearing</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#hasSize -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ontology/bikeo#hasSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/bikeo#Tire"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">the property for describing the width of tires.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasSize</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#AdjustSeatpost -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#AdjustSeatpost">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#SeatHeight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#requests"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#AllenKey"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the possible solution to a wrong seat height that can be changed through the use of the allen key.</rdfs:comment>
+        <rdfs:label xml:lang="en">AdjustSeatpost</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#AllenKey -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#AllenKey">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Tool"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isRequestedFor"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#AdjustSeatpost"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isRequestedFor"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Tighten"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>a simple driver for bolts or screws that have heads with internal hexagonal recesses (sockets).</rdfs:comment>
+        <rdfs:label xml:lang="en">AllenKey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Battery -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Battery">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:comment xml:lang="en">rechargeable batteries used by E-bikes in addition to electric motors and some form of control.</rdfs:comment>
+        <rdfs:label xml:lang="en">Battery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Bike -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Bike">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasBrand"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Brand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#TypeOfBike"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasGearing"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A bike or bicycle is a two-wheeled steerable machine that is pedaled by the rider’s feet.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bike</rdfs:label>
+        <owl:sameAs xml:lang="en">vso:Bicycle</owl:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Brakes -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Brakes">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasProblem"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#WornBrakes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">devices acting on the wheel used to stop or slow down a bicycle.</rdfs:comment>
+        <rdfs:label xml:lang="en">Brakes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Brand -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Brand">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isBrandOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Bike"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#produces"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">a company or organization which has produced the bike or its parts.</rdfs:comment>
+        <rdfs:label xml:lang="en">Brand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#BrokenPart -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#BrokenPart">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ReplacePart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isProblemOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">all the parts of a bike in need of some adjustments.</rdfs:comment>
+        <rdfs:label xml:lang="en">BrokenPart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Chain -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Chain">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ChainArea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">a series of (usually metal) rings or links fitted into one another to make a flexible ligament.</rdfs:comment>
+        <rdfs:label xml:lang="en">Chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#ChainArea -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#ChainArea">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPartArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Chain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#FrontDerailleur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasProblem"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#SnappedChain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>the structural part of the bike, fitted together with the frame and the wheels, that includes the chain and the front derailleur.</rdfs:comment>
+        <rdfs:label xml:lang="en">ChainArea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#ChainLink -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#ChainLink">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Tool"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isRequestedFor"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#RefitChain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>a set of inner chain plates joined to a set of outer chain plates by a rivet or pin.</rdfs:comment>
+        <rdfs:label xml:lang="en">ChainLink</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#ChainRivet -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#ChainRivet">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Tool"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isRequestedFor"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#RefitChain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>a mechanical fastener composed of a head on one end and a cylindrical stem on another (called the tail) which has the appearance of a metal pin.</rdfs:comment>
+        <rdfs:label xml:lang="en">ChainRivet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#ChainStay -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#ChainStay">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Frame"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the part of the frame tube that run parallel to the chain, connecting the bottom bracket shell (which holds the axis around which the pedals and cranks rotate) to the rear fork ends or dropouts.</rdfs:comment>
+        <rdfs:label xml:lang="en">ChainStay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Cogset -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Cogset">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:comment xml:lang="en">the set of rear sprockets that attaches to the hub on the rear wheel.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cogset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#CommonPart -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#CommonPart">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasProblem"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Bike"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#producedBy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Brand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">is a general class referring to the principal pieces composing a bike.</rdfs:comment>
+        <rdfs:label xml:lang="en">CommonPart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#CommonPartArea -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#CommonPartArea">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:comment xml:lang="en">is a general class referring to all those pieces composed by many smaller parts together.</rdfs:comment>
+        <rdfs:label xml:lang="en">CommonPartArea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Crank -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Crank">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasChainRing"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">is the part of a bicycle that converts the reciprocating motion of the rider&apos;s legs into rotational motion used to drive the chain or belt, which in turn drives the rear wheel.</rdfs:comment>
+        <rdfs:label xml:lang="en">Crank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#DownTube -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#DownTube">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Frame"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the part of frame tube that connects the head tube to the bottom bracket shell.</rdfs:comment>
+        <rdfs:label xml:lang="en">DownTube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#FlatTire -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#FlatTire">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Inflate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ReplacePart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isProblemOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#InnerTube"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>the process where the tubeless tires lose air.</rdfs:comment>
+        <rdfs:label xml:lang="en">FlatTire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Fork -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Fork">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#FrontSet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A bicycle fork is the part of a bicycle that holds the front wheel.</rdfs:comment>
+        <rdfs:label xml:lang="en">Fork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Frame -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Frame">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPartArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ChainStay"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#DownTube"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#SeatTube"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#TopTube"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>the main component of a bicycle, onto which wheels and other components are fitted. It includes the chain stay, the top, down and seat tubes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Frame</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#FrontDerailleur -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#FrontDerailleur">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ChainArea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">an assembly of levers, usually cable actuated, that moves the chain between sprockets on a cassette or chainring assembly. The front derailleur has to move the chain side to side between the front chainrings.</rdfs:comment>
+        <rdfs:label xml:lang="en">FrontDerailleur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#FrontSet -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#FrontSet">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPartArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Fork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#HandlebarGrip"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#HeadTube"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ShockAbsorber"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>anterior area of the bike including the pieces of the fork, front brake, handlebar grip, the head tube and the shock absorber.</rdfs:comment>
+        <rdfs:label xml:lang="en">FrontSet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Glue -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Glue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Tool"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isRequestedFor"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#PatchTire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>a solution of glue used for sticking things together.</rdfs:comment>
+        <rdfs:label xml:lang="en">Glue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#HandlebarGrip -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#HandlebarGrip">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#FrontSet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">a lever attached, usually using an intermediary stem, to the steerer tube of the fork. Allows steering and provides a point of attachment for controls and accessories.</rdfs:comment>
+        <rdfs:label xml:lang="en">HandlebarGrip</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#HeadTube -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#HeadTube">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#FrontSet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the part of frame tube that contains the headset, the bearings for the fork via its steerer tube.</rdfs:comment>
+        <rdfs:label xml:lang="en">HeadTube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Hub -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Hub">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Wheel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the core of a wheel; contains bearings and, in a traditional wheel, has drilled flanges for attachment of spokes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Hub</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Inflate -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Inflate">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Puncture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#requests"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Pump"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the solution to a flat tire that needs a pump as a tool.</rdfs:comment>
+        <rdfs:label xml:lang="en">Inflate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#InnerTube -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#InnerTube">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasProblem"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#FlatTire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasProblem"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Puncture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Wheel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">an inflatable ring that forms the interior of some pneumatic tires.</rdfs:comment>
+        <rdfs:label xml:lang="en">InnerTube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#MissingSpokes -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#MissingSpokes">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ReplacePart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isProblemOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Wheel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the problem of one or more missing spokes in a wheel.</rdfs:comment>
+        <rdfs:label xml:lang="en">MissingSpokes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Motor -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Motor">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:comment xml:lang="en">is the electric motor added to an electric bike, it can be integrated on the axis of one of the two wheels, in order to help the cyclist in cases where the required propulsive action is very high.</rdfs:comment>
+        <rdfs:label xml:lang="en">Motor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Patch -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Patch">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Tool"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isRequestedFor"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#PatchTire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>a piece of material used to mend or cover a hole or a weak spot.</rdfs:comment>
+        <rdfs:label xml:lang="en">Patch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#PatchTire -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#PatchTire">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Puncture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#requests"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Glue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#requests"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Patch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#requests"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Pump"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the solution to the problem of a puncture on the tire, using a patch as tool.</rdfs:comment>
+        <rdfs:label xml:lang="en">PatchTire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Pedal -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Pedal">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:comment xml:lang="en">mechanical interface between foot and crank arm that the rider pushes with their foot to propel the vehicle.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pedal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Problem -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Problem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isProblemOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">is a general class describing some possible problems that could affect a bicycle.</rdfs:comment>
+        <rdfs:label xml:lang="en">Problem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Pump -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Pump">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Tool"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isRequestedFor"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Inflate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isRequestedFor"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#PatchTire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>a type of positive-displacement air pump specifically designed for inflating bicycle tires.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pump</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Puncture -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Puncture">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#PatchTire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isProblemOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#InnerTube"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>the process where the tires lose air due to a puncture.</rdfs:comment>
+        <rdfs:label xml:lang="en">Puncture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#RearDerailleur -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#RearDerailleur">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:comment xml:lang="en">an assembly of levers, usually cable actuated, that moves the chain between sprockets on a cassette or chainring assembly. The rear derailleur moves the chain between rear sprockets and takes up chain slack caused by moving to a smaller sprocket at the rear or a smaller chainring by the front derailleur.</rdfs:comment>
+        <rdfs:label xml:lang="en">RearDerailleur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#RefitChain -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#RefitChain">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#SnappedChain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#requests"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ChainLink"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#requests"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ChainRivet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>act of reconnecting the chain which has previously broken and exited from its track.</rdfs:comment>
+        <rdfs:label xml:lang="en">RefitChain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#ReplacePart -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#ReplacePart">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#BrokenPart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#MissingSpokes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Puncture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#SnappedChain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#WornBrakes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>act of replacement of a damaged or broken piece with an equivalent in good condition.</rdfs:comment>
+        <rdfs:label xml:lang="en">ReplacePart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Rim -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Rim">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Wheel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the part of a wheel to which the tire is attached and often forms part of the braking mechanism.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Saddle -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Saddle">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#SeatArea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">a seat for the rider of a bicycle. It is commonly attached to the seatpost and the height of the saddle can usually be adjusted by the seatpost telescoping in and out of the seat tube.</rdfs:comment>
+        <rdfs:label xml:lang="en">Saddle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#SeatArea -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#SeatArea">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPartArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Saddle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#SeatPost"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>central area of the bike including the saddle and the seat post.</rdfs:comment>
+        <rdfs:label xml:lang="en">SeatArea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#SeatHeight -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#SeatHeight">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#AdjustSeatpost"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isProblemOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#SeatPost"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the adjustment needed by a cyclist in case of a seat height too high or low.</rdfs:comment>
+        <rdfs:label xml:lang="en">SeatHeight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#SeatPost -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#SeatPost">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasProblem"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#SeatHeight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#SeatArea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A bicycle seatpost, or saddle pillar, is a tube that extends upwards from the bicycle frame to the saddle.</rdfs:comment>
+        <rdfs:label xml:lang="en">SeatPost</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#SeatTube -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#SeatTube">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Frame"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the part of frame tube that contains the seatpost of the bike, which connects to the saddle.</rdfs:comment>
+        <rdfs:label xml:lang="en">SeatTube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#ShockAbsorber -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#ShockAbsorber">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#FrontSet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">for bicycles with suspensions, a device that limits the rate at which suspension rebounds after absorbing an impact.</rdfs:comment>
+        <rdfs:label xml:lang="en">ShockAbsorber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#SnappedChain -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#SnappedChain">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#RefitChain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ReplacePart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isProblemOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ChainArea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">mechanical problem consisting in the snapping of the chain that that makes the bike impossible to operate.</rdfs:comment>
+        <rdfs:label xml:lang="en">SnappedChain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Solution -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Solution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#requests"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Tool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">some possible solutions to the problems that can happen to a bike.</rdfs:comment>
+        <rdfs:label xml:lang="en">Solution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Spokes -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Spokes">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Wheel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">connects wheel rim to hub. Usually wire with one end swaged to form a head and one threaded end. A typical wheel has 36 spokes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Spokes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Tighten -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Tighten">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isSolutionOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#WornBrakes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#requests"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#AllenKey"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>act of tightening the brakes when they are loose in a manner that the rider cannot effectively stop the bike at the instant he/she want it to.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tighten</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Tire -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Tire">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Wheel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">a tire that fits on the wheel of a bicycle. Usually pneumatic, it provide an important source of suspension, generate the lateral forces necessary for balancing and turning, and generate the longitudinal forces necessary for propulsion and braking.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Tool -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Tool">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isRequestedFor"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Solution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>a device used to perform or facilitate manual or mechanical work.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#TopTube -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#TopTube">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Frame"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the part of frame tube that connects the top of the head tube to the top of the seat tube.</rdfs:comment>
+        <rdfs:label xml:lang="en">TopTube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#TypeOfBike -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#TypeOfBike">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isTypeOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Bike"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">class defining the possible type of bike given a specific bike model.</rdfs:comment>
+        <rdfs:label xml:lang="en">TypeOfBike</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Valve -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Valve">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPart"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isComprisedIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Wheel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">port for adding or releasing air from the inner tube.</rdfs:comment>
+        <rdfs:label xml:lang="en">Valve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#Wheel -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#Wheel">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#CommonPartArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Hub"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#InnerTube"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Rim"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Spokes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Tire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#comprises"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Valve"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasProblem"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#MissingSpokes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>the set of pieces, like the tire and the air chamber, that form the wheel.</rdfs:comment>
+        <rdfs:label xml:lang="en">Wheel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/bikeo#WornBrakes -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bikeo#WornBrakes">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bikeo#Problem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#ReplacePart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#hasSolution"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Tighten"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/bikeo#isProblemOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/ontology/bikeo#Brakes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">all the possible problems connected to worn or slacken brakes.</rdfs:comment>
+        <rdfs:label xml:lang="en">WornBrakes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#AdjustSeatpost"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Inflate"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#PatchTire"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#RefitChain"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#ReplacePart"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Tighten"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#AllenKey"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#ChainLink"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#ChainRivet"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Glue"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Patch"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Pump"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Battery"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Brakes"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Chain"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#ChainStay"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Cogset"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#CommonPartArea"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Crank"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#DownTube"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Fork"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#FrontDerailleur"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#HandlebarGrip"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#HeadTube"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Hub"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#InnerTube"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Motor"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Pedal"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#RearDerailleur"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Rim"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Saddle"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#SeatPost"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#SeatTube"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#ShockAbsorber"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Spokes"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Tire"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#TopTube"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Valve"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Bike"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Brand"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#CommonPart"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Problem"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Solution"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Tool"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#TypeOfBike"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#BrokenPart"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#FlatTire"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#MissingSpokes"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Puncture"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#SeatHeight"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#SnappedChain"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#WornBrakes"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#ChainArea"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Frame"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#FrontSet"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#SeatArea"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#Wheel"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#comprises"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#hasBrand"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#hasPart"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#hasProblem"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#hasSolution"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#hasType"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#isBrandOf"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#isComprisedIn"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#isPartOf"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#isProblemOf"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#isRequestedFor"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#isSolutionOf"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#isTypeOf"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#producedBy"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#produces"/>
+            <rdf:Description rdf:about="http://purl.org/ontology/bikeo#requests"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

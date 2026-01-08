@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-S1000DBIKE-AAA-DA30000-0-U8025-00503-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA30000-0-U8025-00503-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA30000-0-U8025-00534-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA30000-0-U8025-00534-A-04-1.CGM" NDATA cgm>
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/descript.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Frame - Description of how it is made</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Frame - Description of how it is made</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-DA3-00-00-00AA-041A-A_003-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA3</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Frame</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle>
+<issno issno ="003" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this
+data module to all countries that are the residence of organizations that
+are users of S1000D is permitted. Storage of this data module is to be at
+the discretion of the organization.</expcont>
+<handling>There are no specific
+handling instructions for this data module.</handling>
+<destruct>Users may
+destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY15</sbc>
+<skill skill ="sk02"/>
+<rfu><p>Editorial changes</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<descript>
+<para0><title>The bicycle frame</title>
+<para>The frame is the skeleton, the primary part of your bicycle. Its structure
+makes the bicycle resistant to large forces.</para>
+<para>The initial frames (refer to <xref xrefid ="fig-0001" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001"></xref>)
+were tubes of aluminum or steel welded together.</para>
+<figure id ="fig-0001">
+<title>Welded frame joints</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA30000-0-U8025-00534-A-04-1" xlink:title="Welded frame joints" boardno ="ICN-S1000DBIKE-AAA-DA30000-0-U8025-00534-A-04-1"></graphic></figure>
+<para>Subsequent frames (refer to <xref xrefid ="fig-0002" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0002"></xref>)
+can be made out of a wide variety of materials, including aluminium, titanium,
+or chrome moly.</para>
+<figure id ="fig-0002">
+<title>Frame</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA30000-0-U8025-00503-A-04-1" xlink:title="Frame" boardno ="ICN-S1000DBIKE-AAA-DA30000-0-U8025-00503-A-04-1"></graphic></figure>
+<para> are different and can also be of different materials (for
+example, titanium or chrome moly). Some bicycle frames are of carbon fiber.
+To get this material, it is necessary to put sheets of carbon fiber cloth
+on foam forms and epoxy them in position. This procedure gives a very light,
+strong structure that can have different shapes.</para>
+<para>The frame includes the parts that follow: 
+<randlist prefix ="pf02"><item><para>the top tube (the higher bar of the bicycle frame)</para>
+</item>
+<item><para>the down tube (the section of the frame that extends from the
+stem to the bottom bracket)</para>
+</item>
+<item><para>the head tube (the part of the frame that the fork steerer tube
+goes through)</para>
+</item>
+<item><para>the seat tube (the vertical part of the frame that is the rear
+of the front triangle and that is between the bottom bracket and
+the top tube)</para>
+</item>
+<item><para>the seat stay (the tube that includes the distance between the
+seat tube and the rear dropouts)</para>
+</item>
+<item><para>the chain stay (the tube that is the bottom part of the rear triangle)</para>
+</item>
+</randlist>
+</para>
+</para0>
+</descript>
+</content>
+</dmodule>
+

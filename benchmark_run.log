@@ -1,0 +1,95 @@
+No sentence-transformers model found with name answerdotai/ModernBERT-base. Creating a new one with mean pooling.
+======================================================================
+ONTOLOGY MATCHING BENCHMARK
+======================================================================
+
+[1/5] LOADING GOLD STANDARD
+----------------------------------------------------------------------
+✓ Loaded 144 gold standard annotations
+
+[2/5] LOADING DATA & EMBEDDINGS
+----------------------------------------------------------------------
+======================================================================
+LOADING ALL CONCEPTS WITH HIERARCHICAL CONTEXT
+======================================================================
+
+[1/2] LOADING S1000D DATA
+----------------------------------------------------------------------
+Found 56 XML files in 'bike'
+Successfully parsed 56 S1000D concepts
+
+[2/2] LOADING OWL ONTOLOGIES
+----------------------------------------------------------------------
+======================================================================
+LOADING OWL ONTOLOGIES (DeepOnto-Style)
+======================================================================
+  Using cached: tbox.owl
+  Using cached: final.owl
+
+Parsing 2 ontology files...
+  Loaded tbox: 919 triples
+  Loaded final: 16255 triples
+
+Extracting OWL Classes with hierarchical paths...
+  Found 57 classes with hierarchical context
+
+Extracting OWL Named Individuals...
+  Found 1234 individuals
+
+Total ontology concepts: 1291
+
+======================================================================
+SUMMARY
+======================================================================
+Total concepts: 1347
+  bike_ontology: 1291
+  s1000d: 56
+
+Context Statistics:
+  Average length: 69 chars
+  Max length: 1097 chars
+
+✓ Data loaded:
+  S1000D concepts: 56
+  Ontology concepts: 1291
+
+[3/5] BUILDING EMBEDDINGS
+----------------------------------------------------------------------
+Loading ModernBERT model: answerdotai/ModernBERT-base
+This may take a moment on first run...
+✓ Model loaded successfully
+  Max sequence length: 8192
+Building embeddings (this will take a few minutes)...
+Batches:   0%|          | 0/169 [00:00<?, ?it/s]Batches:   1%|          | 1/169 [00:13<37:00, 13.22s/it]Batches:   1%|          | 2/169 [00:13<15:18,  5.50s/it]Batches:   4%|▎         | 6/169 [00:13<03:29,  1.28s/it]Batches:   7%|▋         | 11/169 [00:13<01:27,  1.80it/s]Batches:  10%|█         | 17/169 [00:13<00:43,  3.46it/s]Batches:  13%|█▎        | 22/169 [00:13<00:28,  5.21it/s]Batches:  16%|█▌        | 27/169 [00:13<00:19,  7.44it/s]Batches:  19%|█▉        | 32/169 [00:14<00:13, 10.35it/s]Batches:  22%|██▏       | 37/169 [00:14<00:09, 13.52it/s]Batches:  25%|██▍       | 42/169 [00:14<00:07, 17.06it/s]Batches:  28%|██▊       | 48/169 [00:14<00:05, 22.25it/s]Batches:  31%|███▏      | 53/169 [00:14<00:04, 25.60it/s]Batches:  34%|███▍      | 58/169 [00:14<00:03, 28.22it/s]Batches:  37%|███▋      | 63/169 [00:14<00:03, 30.82it/s]Batches:  40%|████      | 68/169 [00:14<00:03, 31.51it/s]Batches:  43%|████▎     | 72/169 [00:15<00:02, 32.87it/s]Batches:  46%|████▌     | 77/169 [00:15<00:02, 35.92it/s]Batches:  49%|████▊     | 82/169 [00:15<00:02, 38.30it/s]Batches:  51%|█████▏    | 87/169 [00:15<00:02, 37.19it/s]Batches:  55%|█████▌    | 93/169 [00:15<00:01, 41.44it/s]Batches:  58%|█████▊    | 98/169 [00:15<00:01, 38.63it/s]Batches:  61%|██████    | 103/169 [00:15<00:01, 33.68it/s]Batches:  63%|██████▎   | 107/169 [00:16<00:01, 33.46it/s]Batches:  66%|██████▌   | 111/169 [00:16<00:01, 34.66it/s]Batches:  68%|██████▊   | 115/169 [00:16<00:01, 33.44it/s]Batches:  71%|███████   | 120/169 [00:16<00:01, 37.32it/s]Batches:  74%|███████▍  | 125/169 [00:16<00:01, 40.49it/s]Batches:  78%|███████▊  | 131/169 [00:16<00:00, 44.29it/s]Batches:  80%|████████  | 136/169 [00:16<00:00, 45.82it/s]Batches:  84%|████████▍ | 142/169 [00:16<00:00, 48.13it/s]Batches:  88%|████████▊ | 148/169 [00:16<00:00, 49.96it/s]Batches:  91%|█████████ | 154/169 [00:17<00:00, 50.39it/s]Batches:  95%|█████████▍| 160/169 [00:17<00:00, 50.51it/s]Batches:  98%|█████████▊| 166/169 [00:17<00:00, 49.81it/s]Batches: 100%|██████████| 169/169 [00:17<00:00,  9.72it/s]
+
+✓ Embeddings ready
+
+[4/5] INITIALIZING CLAUDE API
+----------------------------------------------------------------------
+✓ Claude API initialized
+
+[5/5] RUNNING BENCHMARK
+----------------------------------------------------------------------
+
+======================================================================
+RUNNING BENCHMARK EVALUATION
+======================================================================
+
+Evaluating 144 pairs...
+Evaluating pairs:   0%|          | 0/144 [00:00<?, ?pair/s]Evaluating pairs:   0%|          | 0/144 [00:00<?, ?pair/s]
+Traceback (most recent call last):
+  File "/mnt/d/Software Projekte/Intellj/IdeaProjects/BA-arbeit/run_benchmark.py", line 495, in <module>
+    main()
+  File "/mnt/d/Software Projekte/Intellj/IdeaProjects/BA-arbeit/run_benchmark.py", line 461, in main
+    results = run_benchmark(
+              ^^^^^^^^^^^^^^
+  File "/mnt/d/Software Projekte/Intellj/IdeaProjects/BA-arbeit/run_benchmark.py", line 158, in run_benchmark
+    s1000d_concept, s1000d_embedding = get_concept_embedding(
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Software Projekte/Intellj/IdeaProjects/BA-arbeit/run_benchmark.py", line 64, in get_concept_embedding
+    idx = df[df['uri'] == uri].index[0]
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/mnt/d/Software Projekte/Intellj/IdeaProjects/BA-arbeit/venv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 5401, in __getitem__
+    return getitem(key)
+           ^^^^^^^^^^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0

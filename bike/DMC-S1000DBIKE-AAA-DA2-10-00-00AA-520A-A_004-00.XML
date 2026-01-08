@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-S1000DBIKE-AAA-DA21000-0-U8025-00531-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA21000-0-U8025-00531-A-04-1.CGM" NDATA cgm>
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/proced.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Stem - Remove procedures</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Stem - Remove procedures</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-DA2-10-00-00AA-520A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Stem</techname>
+<infoname>Remove procedures</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this
+data module to all countries that are the residence of organizations that
+are users of S1000D is permitted. Storage of this data module is to be at
+the discretion of the organization.</expcont>
+<handling>There are no specific
+handling instructions for this data module.</handling>
+<destruct>Users may
+destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY141</sbc>
+<skill skill ="sk02"/>
+<rfu><p>Personnel requirements specified</p><p>Illustration updated to Issue 2.3 profile</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Handlebar - Remove procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Handlebar</techname>
+<infoname>Remove procedures</infoname>
+</dmtitle></refdm></refs><proced>
+<prelreqs><reqconds><reqcond>Safety the bicycle in a bicycle stand and hold the front wheel off
+the ground</reqcond>
+</reqconds>
+<reqpers><person man ="A"/>
+<perscat category ="Bike Rider"/>
+<perskill skill ="sk02" mark ="1" change ="add"/>
+<trade>Operator</trade>
+<esttime>1,5 h</esttime>
+</reqpers>
+<supequip>
+<supeqli>
+<supequi id ="seq-0001"><nomen>Set of Allen wrenches</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-13</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi><nomen>Work stand</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>Stand-001</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<nosupply/>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<safecond>
+<note><para>It is not necessary to remove the handlebar when you remove the stem
+to get access to the headset.</para>
+</note>
+</safecond>
+</safety>
+</prelreqs>
+<mainfunc><step1><para>Remove the handlebar <refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>.</para>
+</step1>
+<step1><para>Remove the stem.</para>
+<step2><para>Remove the bolt in the center of the stem cap.</para>
+<figure>
+<title>Remove the bolt</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA21000-0-U8025-00531-A-04-1" xlink:title="Remove the bolt" boardno ="ICN-S1000DBIKE-AAA-DA21000-0-U8025-00531-A-04-1"></graphic></figure>
+</step2>
+<step2><para mark ="1">Loosen the stem clam bolt with a <xref xrefid ="seq-0001" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0001"></xref>.</para>
+</step2>
+<step2><para>Remove the stem from the steerer tube.</para>
+</step2>
+<step2><para>Note: It is not necessary to remove the handlebar if you remove the
+stem to get access to the headset.</para>
+</step2>
+</step1>
+</mainfunc>
+<closereqs><reqconds><noconds/>
+</reqconds>
+</closereqs>
+</proced>
+</content>
+</dmodule>
+

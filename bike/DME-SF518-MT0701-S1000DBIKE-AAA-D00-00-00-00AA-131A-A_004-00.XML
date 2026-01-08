@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/crew.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Bicycle - Normal operation procedures (crew)</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Bicycle - Normal operation procedures (crew)</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>SF518-MT0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmcextension><dmeproducer>SF518</dmeproducer>
+<dmecode>MT0701</dmecode>
+</dmcextension>
+<dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>131</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Normal operation procedures (crew)</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<srcdmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>131</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Normal operation procedures (crew)</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</srcdmaddres>
+<status>
+<security class ="01" commcls ="cc51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+</applic>
+<inlineapplics><applic id ="app-0001"><model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+</applic>
+</inlineapplics>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<skill skill ="sk01"/>
+<rfu refapplic ="app-0001"><p>Bike computer is replaced</p></rfu>
+<rfu><p>Editorial changes</p><p>Updated business rules (BREX dm) referred</p></rfu>
+<remarks>Caption color "blue" is not in the list of S1000D interpreted values. Has been set to "co51".</remarks>
+</status>
+</idstatus>
+<content>
+<acrw>
+<frc><title>Pre-ride Inspection</title>
+<drill><title>Brakes</title>
+<subdrill><title>Pads</title>
+<step><challrsp><challeng><para>Pads</para>
+</challeng>
+<response><para>Free of unwanted material</para>
+</response>
+</challrsp>
+</step>
+<step><challrsp><challeng><para>Pads</para>
+</challeng>
+<response><para>Acceptable pad width</para>
+</response>
+</challrsp>
+</step>
+<step><challrsp><challeng><para>Pads</para>
+</challeng>
+<response><para>Acceptable pad clearance</para>
+</response>
+</challrsp>
+</step>
+</subdrill>
+<subdrill><title>Callipers</title>
+<step><challrsp><challeng><para>Link Wire</para>
+</challeng>
+<response><para>Firmly attached</para>
+</response>
+</challrsp>
+</step>
+</subdrill>
+<subdrill><title>Levers</title>
+<step><challrsp><challeng><para>Levers</para>
+</challeng>
+<response><para>Approximately 1 inch of travel before engagement</para>
+</response>
+</challrsp>
+</step>
+<step><challrsp><challeng><para>Levers</para>
+</challeng>
+<response><para>Space between lever and handlebar when fully pulled</para>
+</response>
+</challrsp>
+</step>
+</subdrill>
+<subdrill><title>Cables</title>
+<step><challrsp><challeng><para>Cables</para>
+</challeng>
+<response><para>No cuts or fraying</para>
+</response>
+</challrsp>
+</step>
+</subdrill>
+</drill>
+<drill><title>Tires</title>
+<step><challrsp><challeng><para>Pressure</para>
+</challeng>
+<response><table><tgroup cols ="3"><colspec colnum ="1" colname ="col1" colwidth ="*"/>
+<colspec colnum ="2" colname ="col2" colwidth ="*"/>
+<colspec colnum ="3" colname ="col3" colwidth ="*"/>
+<thead><row><entry colname ="col1">Tire Pressures</entry>
+<entry colname ="col2">Min</entry>
+<entry colname ="col3">Max</entry>
+</row>
+</thead>
+<tbody><row><entry colname ="col1">Off Road</entry>
+<entry colname ="col2">35lbs</entry>
+<entry colname ="col3">40lbs</entry>
+</row>
+<row><entry colname ="col1">On Road</entry>
+<entry colname ="col2">55lbs</entry>
+<entry colname ="col3">60lbs</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</response>
+</challrsp>
+</step>
+<step><challrsp><challeng><para>Tires</para>
+</challeng>
+<response><para>No cracks or splits</para>
+</response>
+</challrsp>
+</step>
+</drill>
+<drill><title>Wheels</title>
+<step><challrsp><challeng><para>Wheels</para>
+</challeng>
+<response><para>No loose bearings</para>
+</response>
+</challrsp>
+</step>
+<step><challrsp><challeng><para>Wheels</para>
+</challeng>
+<response><para>True</para>
+</response>
+</challrsp>
+</step>
+<step><challrsp><challeng><para>Spokes</para>
+</challeng>
+<response><para>Not broken</para>
+</response>
+</challrsp>
+</step>
+<if><condit>Spokes not broken</condit>
+<step><challrsp><challeng><para>Spokes</para>
+</challeng>
+<response><para>Tight</para>
+</response>
+</challrsp>
+</step>
+</if>
+<step><challrsp><challeng><para>Axel Nuts</para>
+</challeng>
+<response><para>Tight</para>
+</response>
+</challrsp>
+</step>
+</drill>
+<drill><title>Headset</title>
+<step><challrsp><challeng><para>Headset bearings</para>
+</challeng>
+<response><para>Tight</para>
+</response>
+</challrsp>
+</step>
+</drill>
+<drill><title>Chain</title>
+<step><challrsp><challeng><para>Links</para>
+</challeng>
+<response><para>Easy movement of links</para>
+</response>
+</challrsp>
+</step>
+</drill>
+<drill><title>Handlebar</title>
+<warning><para>Do not ride with a cracked stem</para>
+</warning>
+<if><condit>Stem cracked</condit>
+<step><procd><para>Replace stem</para>
+</procd>
+</step>
+</if>
+<elseif><condit>Stem is loose</condit>
+<step><procd><para>Tighten stem</para>
+</procd>
+</step>
+</elseif>
+<if><condit>Handlebars twist in stem</condit>
+<step><procd><para>Tighten clamp bolt</para>
+</procd>
+</step>
+</if>
+</drill>
+<drill><title>Computer</title>
+<step><challrsp><challeng><para>Computer Display</para>
+</challeng>
+<response><para><capgrp cols ="2" refapplic ="app-0001" mark ="1" change ="add"><colspec colnum ="1" colname ="col1" colwidth ="30mm"/>
+<colspec colnum ="2" colname ="col2" colwidth ="30mm"/>
+<capbody><caprow><capentry colname ="col1"><caption colour ="co04" width ="30mm"><capline>ALTITUDE</capline>
+</caption>
+</capentry>
+<capentry colname ="col2"><caption colour ="co51" width ="30mm"><capline>0 miles</capline>
+</caption>
+</capentry>
+</caprow>
+<caprow><capentry colname ="col1"><caption colour ="co04" width ="30mm"><capline>SPEED</capline>
+</caption>
+</capentry>
+<capentry colname ="col2"><caption colour ="co51" width ="30mm"><capline>0 mph</capline>
+</caption>
+</capentry>
+</caprow>
+<caprow><capentry colname ="col1"><caption colour ="co04" width ="30mm"><capline>DISTANCE</capline>
+</caption>
+</capentry>
+<capentry colname ="col2"><caption colour ="co51" width ="30mm"><capline>0 miles</capline>
+</caption>
+</capentry>
+</caprow>
+</capbody>
+</capgrp>
+</para>
+</response>
+</challrsp>
+</step>
+</drill>
+</frc>
+</acrw>
+</content>
+</dmodule>
+

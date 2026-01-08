@@ -1,0 +1,141 @@
+No sentence-transformers model found with name answerdotai/ModernBERT-base. Creating a new one with mean pooling.
+======================================================================
+MODERNBERT KNOWLEDGE BASE BUILDER
+======================================================================
+
+[1/5] LOADING DATA
+----------------------------------------------------------------------
+======================================================================
+LOADING ALL CONCEPTS WITH HIERARCHICAL CONTEXT
+======================================================================
+
+[1/2] LOADING S1000D DATA
+----------------------------------------------------------------------
+Found 56 XML files in 'bike'
+Successfully parsed 56 S1000D concepts
+
+[2/2] LOADING OWL ONTOLOGIES
+----------------------------------------------------------------------
+======================================================================
+LOADING OWL ONTOLOGIES (DeepOnto-Style)
+======================================================================
+  Using cached: tbox.owl
+  Using cached: final.owl
+
+Parsing 2 ontology files...
+  Loaded tbox: 919 triples
+  Loaded final: 16255 triples
+
+Extracting OWL Classes with hierarchical paths...
+  Found 57 classes with hierarchical context
+
+Extracting OWL Named Individuals...
+  Found 1234 individuals
+
+Total ontology concepts: 1291
+
+======================================================================
+SUMMARY
+======================================================================
+Total concepts: 1347
+  bike_ontology: 1291
+  s1000d: 56
+
+Context Statistics:
+  Average length: 69 chars
+  Max length: 1097 chars
+
+✓ Data loaded:
+  S1000D concepts: 56
+  Ontology concepts: 1291
+
+[2/5] INITIALIZING ModernBERT
+----------------------------------------------------------------------
+Loading ModernBERT model: answerdotai/ModernBERT-base
+This may take a moment on first run...
+✓ Model loaded successfully
+  Max sequence length: 8192
+
+[3/5] BUILDING EMBEDDINGS
+----------------------------------------------------------------------
+
+✓ Loading cached embeddings from embeddings_cache.pkl
+  Cache valid: 1347 embeddings
+
+✓ Embeddings ready:
+  S1000D: (56, 768)
+  Ontology: (1291, 768)
+
+[4/5] FINDING MATCHES
+----------------------------------------------------------------------
+✓ Claude API initialized for verification
+
+======================================================================
+FINDING MATCHES WITH CLAUDE INTEGRATION
+======================================================================
+
+Strategy:
+  Score >= 0.85: Automatic owl:sameAs
+  Score 0.60-0.85: Claude verification
+    ✓ Claude confirms → owl:sameAs
+    ✗ Claude rejects → discard
+
+Comparing 56 S1000D concepts with 1291 ontology concepts...
+Processing S1000D concepts:   0%|          | 0/56 [00:00<?, ?concept/s]Processing S1000D concepts:  32%|███▏      | 18/56 [00:00<00:00, 178.04concept/s]Processing S1000D concepts:  71%|███████▏  | 40/56 [00:00<00:00, 201.82concept/s]Processing S1000D concepts: 100%|██████████| 56/56 [00:00<00:00, 192.24concept/s]
+
+✓ Matching complete
+
+  Results:
+    High confidence matches (≥0.85): 280
+    Claude API calls: 0
+      ✓ Accepted: 0
+      ✗ Rejected: 0
+    Total matches: 280
+
+[5/5] GENERATING LINKED ONTOLOGY
+----------------------------------------------------------------------
+
+======================================================================
+GENERATING LINKED ONTOLOGY
+======================================================================
+
+Step 1: Adding 56 S1000D concepts as OWL Classes...
+Adding S1000D concepts:   0%|          | 0/56 [00:00<?, ?it/s]Adding S1000D concepts: 100%|██████████| 56/56 [00:00<00:00, 4473.41it/s]
+✓ Added 56 S1000D concepts to ontology
+
+Step 2: Adding 280 links to BikeOntology...
+Adding ontology links:   0%|          | 0/280 [00:00<?, ?link/s]Adding ontology links: 100%|██████████| 280/280 [00:00<00:00, 15129.99link/s]
+✓ Added links:
+  owl:sameAs: 280
+
+Step 3: Serializing to new_linked_bike_network.ttl...
+
+✓ Linked ontology saved: new_linked_bike_network.ttl
+  Total triples: 858
+  S1000D concepts: 56
+  Links: 280
+
+======================================================================
+SUMMARY
+======================================================================
+✓ Pipeline complete!
+
+  Data processed:
+    Total concepts: 1347
+    S1000D concepts: 56
+    Ontology concepts: 1291
+
+  Matching results:
+    Total matches: 280
+
+  Match methods:
+    High confidence (≥0.85): 280
+    Claude verified (0.60-0.85): 0
+
+  Link types:
+    owl:sameAs: 280
+
+  Output:
+    File: new_linked_bike_network.ttl
+    S1000D concepts exported: 56
+    Links created: 280

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/descript.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Bicycle - Description of function</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Bicycle - Description of function</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-D00-00-00-00AA-042A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>042</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Description of function</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of
+organizations that are users of S1000D is permitted. Storage of this data
+module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data
+module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local
+procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data
+module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<skill skill ="sk01"/>
+<rfu><p>Editorial changes</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Frame - Description of how it is made" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA3-00-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA3</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Frame</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Wheel - Description of how it is made" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Wheel</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Handlebar - Install procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>720</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Handlebar</techname>
+<infoname>Install procedures</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Shifters - Description of how it is made" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA5-30-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA5</chapnum>
+<section>3</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Shifters</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Stem - Install procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-10-00-00AA-720A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>720</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Stem</techname>
+<infoname>Install procedures</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Stem - Remove procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Stem</techname>
+<infoname>Remove procedures</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Gears - Description of how it is made" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA5-00-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA5</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Gears</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Brake system - Description of how it is made" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA1-00-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA1</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Brake system</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Handlebar - Remove procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Handlebar</techname>
+<infoname>Remove procedures</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Chain - Clean with chain cleaning fluid" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA4-10-00-00AA-251B-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA4</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>251</incode>
+<incodev>B</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Chain</techname>
+<infoname>Clean with chain cleaning fluid</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Mechs - Description of how it is made" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA5-10-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA5</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Mechs</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle></refdm></refs><descript>
+<para0><title>Functional description of a bicycle</title>
+<para>Below is a list of the different bicycle components and a functional
+description of them.
+<deflist><term>Frame</term>
+<def>The frame is the skeleton of the bicycle. Refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA3-00-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA3</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+ for a functional description of the frame system.</def>
+<term>Wheel</term>
+<def>The wheel is the point of contact between the bicycle and the road for the
+bicycle to have movement. Refer to 
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+ for a functional description of the wheel.</def>
+<term>Spokes</term>
+<def>The spokes are thick wires with tension applied that connect the hub to
+the rim. You can adjust the tension with the nipple on the rim side.</def>
+<term>Hub</term>
+<def>The hub attaches to the center of the wheel where the axle and the
+bearings are.</def>
+<term>Metal rim</term>
+<def>The metal rim is a metal ring that has a U-shaped cross section to hold
+the spokes on the inner side and the tire on the outer side.</def>
+<term>Seat</term>
+<def>The Seat, which is also known as the 'saddle', is used as the support
+platform for the person to sit on the bicycle.</def>
+<term>Seat post</term>
+<def>The Seat post is used as a support post for the seat and to change the
+height of the seat for the rider.</def>
+<term>Handle bar</term>
+<def>The handle bar is a horizontal bar with handles on each end. The handle
+bar is a steering mechanism that the rider uses to change the direction of the
+bicycle. The brake levers are also on the handle bar. Refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>720</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+ for information on how to install the handle bar. Refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+ for information on removing the handlebar.</def>
+<term>Handle bar stem</term>
+<def>The handle bar stem (the stem) attaches the handle bar to the steering
+tube. Refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-10-00-00AA-720A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>720</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+ for information on how to install a stem. Refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+for information on how to remove the stem.</def>
+<term>Brake levers</term>
+<def>When you operate the brake lever, the brake pads move against the wheel to decrease the speed.
+The brake lever on the left side operates the front brake. The brake lever on
+the right side operates the rear brake.</def>
+<term>Brakes</term>
+<def>When you operate the brakes, the brake pad moves against the wheel to
+decrease the speed of the bicycle. Refer to 
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA1-00-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA1</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+ for a description of the braking system.</def>
+<term>Shifters</term>
+<def>The shifters are the mechanisms that you use to change the gears on the
+bicycle. There are 7 different types of shifters that have been developed over
+the years, but they all have the same functionality. When you operate the
+shifters, they pull the control cable to move the derailleur towards a larger
+diameter chain ring. The shifters can also loosen the cable to let the
+derailleur move towards a smaller diameter chain ring. Refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA5-30-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA5</chapnum>
+<section>3</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+ for a functional description of the shifters.</def>
+<term>Crank</term>
+<def>The crank moves the power to the chain rings when the pedals
+operate.</def>
+<term>Pedals</term>
+<def>The pedals move the force of movement from the feet to the cranks.</def>
+<term>Chain</term>
+<def>The chain moves the power from the chain rings to the cogs on the
+freewheel. Refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA4-10-00-00AA-251B-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA4</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>251</incode>
+<incodev>B</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+for the procedure on how to clean the chain.</def>
+<term>Gears</term>
+<def>The gears have different mechanisms that function together to change the
+speed of the bicycle. These mechanisms include:
+<randlist prefix ="pf01"><item><para>the sprockets</para>
+</item>
+<item><para>the chain</para>
+</item>
+<item><para>the derailleur</para>
+</item>
+</randlist>
+
+
+Refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA5-00-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA5</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+ for a functional description of the gear system.</def>
+<term>Chain rings</term>
+<def>The chain rings (also known as the 'chain wheel') pull on the chain when
+the cranks turn.</def>
+<term>Derailleur</term>
+<def>A derailleur moves the chain from one sprocket to another to change the
+gears. There are two different types of derailleur, the front and the rear. The
+highest ratio (highest gear) is when the chain is on the largest sprocket on
+the front and the smallest at the rear. To get the lowest gear, the smallest
+sprocket is at the front and the largest at the rear. Refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA5-10-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA5</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+ for a functional description of the derailleur system.</def>
+</deflist>
+</para>
+</para0>
+</descript>
+</content>
+</dmodule>
+

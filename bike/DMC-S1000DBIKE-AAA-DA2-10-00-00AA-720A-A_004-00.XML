@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-S1000DBIKE-AAA-DA21000-0-U8025-00529-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA21000-0-U8025-00529-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA21000-0-U8025-00530-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA21000-0-U8025-00530-A-04-1.CGM" NDATA cgm>
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/proced.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Stem - Install procedures</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Stem - Install procedures</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>720</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Stem</techname>
+<infoname>Install procedures</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this
+data module to all countries that are the residence of organizations that
+are users of S1000D is permitted. Storage of this data module is to be at
+the discretion of the organization.</expcont>
+<handling>There are no specific
+handling instructions for this data module.</handling>
+<destruct>Users may
+destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY141</sbc>
+<skill skill ="sk02"/>
+<rfu><p>Personnel requirements specified</p><p>Rubbing alcohol amount clarified</p><p>Illustration updated to Issue 2.3 profile</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Handlebar - Install procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>720</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Handlebar</techname>
+<infoname>Install procedures</infoname>
+</dmtitle></refdm></refs><proced>
+<prelreqs><reqconds><reqcond>Make sure the bicycle is held safely on a work stand with the front
+wheel free of the ground</reqcond>
+</reqconds>
+<reqpers><person man ="A"/>
+<perscat category ="Bike Rider"/>
+<perskill skill ="sk02" mark ="1" change ="add"/>
+<trade>Operator</trade>
+<esttime>1,0 h</esttime>
+</reqpers>
+<supequip>
+<supeqli>
+<supequi id ="seq-0001"><nomen>Clean dry cloth</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-12</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi><nomen>Work stand</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>Stand-001</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<supplyli>
+<supply id ="sup-0001"><nomen>Rubbing alcohol</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-002</pnr>
+</identno>
+<qty uom ="L" mark ="1" change ="modify">1</qty>
+</supply>
+<supply id ="sup-0002"><nomen>General lubricant</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-001</pnr>
+</identno>
+<qty uom ="L">1</qty>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<sparesli>
+<spare id ="spa-0002"><nomen>Stem</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>St-001</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</spare>
+<spare id ="spa-0001"><nomen>Stem bolt</nomen>
+<identno><mfc>KZ555</mfc>
+<pnr>St-001-01</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</spare>
+</sparesli>
+</spares>
+<safety>
+<safecond>
+<caution><para>Do not tighten the stem bolt too much. You can cause damage to the headset
+bearings if you tighten the stem too much.</para>
+</caution>
+<caution><para>The stem bolt does not safety the stem.</para>
+</caution>
+<note><para>The stem must point forward in alignment with the wheel.</para>
+</note>
+</safecond>
+</safety>
+</prelreqs>
+<mainfunc><step1><para mark ="1">Remove all the rust and the corrosion with
+a <xref xrefid ="seq-0001" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0001"></xref> and
+<xref xrefid ="sup-0001" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0001"></xref>.</para>
+</step1>
+<step1><para>Install the stem.</para>
+<step2><para mark ="1">Use a <xref xrefid ="sup-0002" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0002"></xref> and lubricate: <randlist prefix ="pf02" mark ="1"><item><para>the threads of the <xref xrefid ="spa-0002" xidtype ="spares" xlink:actuate="onRequest" xlink:show="replace" xlink:href="spa-0002"></xref> and <xref xrefid ="spa-0001" xidtype ="spares" xlink:actuate="onRequest" xlink:show="replace" xlink:href="spa-0001"></xref></para>
+</item>
+<item><para>the sides</para>
+</item>
+<item><para>the top of the wedge</para>
+</item>
+</randlist>
+</para>
+<figure>
+<title>Lubricate the thread</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA21000-0-U8025-00529-A-04-1" xlink:title="Lubricate the thread" boardno ="ICN-S1000DBIKE-AAA-DA21000-0-U8025-00529-A-04-1"></graphic></figure>
+</step2>
+<step2><para mark ="1">Install the <xref xrefid ="spa-0002" xidtype ="spares" xlink:actuate="onRequest" xlink:show="replace" xlink:href="spa-0002"></xref> in the steerer tube.</para>
+<figure>
+<title>Tighten the bolt</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA21000-0-U8025-00530-A-04-1" xlink:title="Tighten the bolt" boardno ="ICN-S1000DBIKE-AAA-DA21000-0-U8025-00530-A-04-1"></graphic></figure>
+</step2>
+<step2><para mark ="1">Adjust to align the <xref xrefid ="spa-0002" xidtype ="spares" xlink:actuate="onRequest" xlink:show="replace" xlink:href="spa-0002"></xref> with the wheel and tighten the <xref xrefid ="spa-0001" xidtype ="spares" xlink:actuate="onRequest" xlink:show="replace" xlink:href="spa-0001"></xref> firmly.</para>
+</step2>
+</step1>
+<step1><para>Install the handlebars (refer to <refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>720</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>).</para>
+</step1>
+</mainfunc>
+<closereqs><reqconds><noconds/>
+</reqconds>
+</closereqs>
+</proced>
+</content>
+</dmodule>
+

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/descript.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Steering - Description of how it is made</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Steering - Description of how it is made</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Steering</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of
+organizations that are users of S1000D is permitted. Storage of this data
+module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data
+module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local
+procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data
+module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY142</sbc>
+<skill skill ="sk01"/>
+<rfu><p>Editorial change</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Handlebar - Remove procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Handlebar</techname>
+<infoname>Remove procedures</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Handlebar - Install procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>720</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Handlebar</techname>
+<infoname>Install procedures</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Headset - Description of how it is made" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-30-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>3</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Headset</techname>
+<infoname>Description of how it is made</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Headset - Remove procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-30-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>3</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Headset</techname>
+<infoname>Remove procedures</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Headset - Install procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>3</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>720</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Headset</techname>
+<infoname>Install procedures</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Stem - Remove procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Stem</techname>
+<infoname>Remove procedures</infoname>
+</dmtitle></refdm><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Stem - Install procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-10-00-00AA-720A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>720</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Stem</techname>
+<infoname>Install procedures</infoname>
+</dmtitle></refdm></refs><descript>
+<para0><title>Steering</title>
+<para>The steering on the bike is what enables the bike to manoeuvre in a given
+direction during travel. The steering system on the bike is made of three
+parts, they are:</para>
+<para><randlist prefix ="pf01"><item><xref xrefid ="par-0001" xidtype ="para" xlink:actuate="onRequest" xlink:show="replace" xlink:href="par-0001"></xref>The handlebar</item>
+<item><xref xrefid ="par-0002" xidtype ="para" xlink:actuate="onRequest" xlink:show="replace" xlink:href="par-0002"></xref>The headset</item>
+<item><xref xrefid ="par-0003" xidtype ="para" xlink:actuate="onRequest" xlink:show="replace" xlink:href="par-0003"></xref>The stem</item>
+</randlist>
+</para>
+<subpara1 id ="par-0001"><title>Handlebar</title>
+<para>This consists of a horizontal bar attached to the stem with handgrips at
+the end. Brake levers and shifters are also attached to this bar although they
+do not have any part in the steering mechanism. The handlebars manoeuvrability
+is a sideways swivelling action. The handlebars themselves do not provide this
+swivelling, the headset (also known as the steering tube) is the mechanism that
+enables the handlebars to swivel.</para>
+</subpara1>
+<subpara1 id ="par-0002"><title>Headset</title>
+<para>This mechanism is situated in front of the frame and connects the front
+fork to the stem and handlebars. The headset allows the handlebars to swivel
+left and right for steering purposes.</para>
+<para>For a full description of the headset, refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA2-30-00-00AA-041A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>3</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>041</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>
+.</para>
+</subpara1>
+<subpara1 id ="par-0003"><title>Stem</title>
+<para>The stem is a piece that attaches the handlebar to the steering tube.
+Basically the stem is just a threaded stem bolt situated inside the steerer
+tube and is what attaches the handlebars to the headset.</para>
+</subpara1>
+</para0>
+</descript>
+</content>
+</dmodule>
+

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-S1000DBIKE-AAA-DA10000-0-U8025-00516-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA10000-0-U8025-00516-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA41000-0-U8025-00528-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA41000-0-U8025-00528-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA51000-0-U8025-00521-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA51000-0-U8025-00521-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA51000-0-U8025-00522-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA51000-0-U8025-00522-A-04-1.CGM" NDATA cgm>
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/proced.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Chain - Oil</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Chain - Oil</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA4</chapnum>
+<section>1</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>241</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Chain</techname>
+<infoname>Oil</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this
+data module to all countries that are the residence of organizations that
+are users of S1000D is permitted. Storage of this data module is to be at
+the discretion of the organization.</expcont>
+<handling>There are no specific
+handling instructions for this data module.</handling>
+<destruct>Users may
+destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY161</sbc>
+<skill skill ="sk01"/>
+<rfu><p>Personnel requirements specified</p><p>Consumable amounts clarified</p><p>Hazard identified</p><p>Illustration updated to Issue 2.3 profile</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<proced>
+<prelreqs><reqconds><reqcond>The bicycle chain is clean and dry</reqcond>
+</reqconds>
+<reqpers><person man ="A"/>
+<perscat category ="Operator"/>
+<perskill skill ="sk02" mark ="1" change ="add"/>
+<trade>Bike rider</trade>
+<esttime>0,5 h</esttime>
+</reqpers>
+<supequip>
+<supeqli>
+<supequi id ="seq-0001"><nomen>Clean dry cloth</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-12</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi id ="seq-0002"><nomen>Floor covering</nomen>
+<identno><mfc>KK999</mfc>
+<pnr>PPP-001</pnr>
+</identno>
+<qty uom ="pack" mark ="1" change ="modify">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<supplyli>
+<supply id ="sup-0001"><nomen>Wet lube</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-007</pnr>
+</identno>
+<qty uom ="dl" mark ="1" change ="modify">1</qty>
+</supply>
+<supply id ="sup-0002"><nomen>Dry lube</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-006</pnr>
+</identno>
+<qty uom ="dl" mark ="1" change ="modify">1</qty>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<safecond>
+<warning mark ="1" change ="add"><para>Dry Lube is a very dangerous substance. Do not get it onto your skin. 
+Use it in a well ventilated area. If you swallow it seek immediate medical advice. 
+If it gets into your eyes wash your eyes in clean water and seek medical advice.</para>
+</warning>
+<warning mark ="1" change ="add"><para>Wet Lube is a very dangerous substance. Do not get it onto your skin. 
+Use it in a well ventilated area. If you swallow it seek immediate medical advice. 
+If it gets into your eyes wash your eyes in clean water and seek medical advice.</para>
+</warning>
+</safecond>
+</safety>
+</prelreqs>
+<mainfunc><step1><para>Apply the penetrating lubricant into all the parts
+of the bike that move. This includes: 
+<randlist prefix ="pf02"><item><para>derailleur pivots (refer to <xref xrefid ="fig-0001" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001"></xref>)</para>
+</item>
+<item><para>derailleur tension (refer to <xref xrefid ="fig-0002" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0002"></xref>)</para>
+</item>
+<item><para>brake lever pivots (refer to <xref xrefid ="fig-0003" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0003"></xref>)</para>
+</item>
+</randlist>
+
+These brake lever pivots include: 
+<randlist prefix ="pf02"><item><para>derailleur pivots</para>
+</item>
+<item><para>derailleur tension</para>
+</item>
+<item><para>guide wheels</para>
+</item>
+<item><para>brake lever pivots</para>
+</item>
+<item><para>control cables and where they go into their casings</para>
+</item>
+</randlist>
+</para>
+<figure id ="fig-0001">
+<title>Derailleur pivots</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA51000-0-U8025-00521-A-04-1" xlink:title="Derailleur pivots" boardno ="ICN-S1000DBIKE-AAA-DA51000-0-U8025-00521-A-04-1"></graphic></figure>
+<figure id ="fig-0002">
+<title>Derailleur tension</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA51000-0-U8025-00522-A-04-1" xlink:title="Derailleur tension" boardno ="ICN-S1000DBIKE-AAA-DA51000-0-U8025-00522-A-04-1"></graphic></figure>
+<figure id ="fig-0003">
+<title>Brake lever pivots</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA10000-0-U8025-00516-A-04-1" xlink:title="Brake lever pivots" boardno ="ICN-S1000DBIKE-AAA-DA10000-0-U8025-00516-A-04-1"></graphic></figure>
+</step1>
+<step1 id ="stp-0001"><para>Lubricate the chain.</para>
+<step2><para>Make sure the chain is clean and dry.</para>
+</step2>
+<step2 mark ="1" change ="modify" rfc ="New floor cover used"><para>Put the <xref xrefid ="seq-0002" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0002"></xref> on 
+the floor below the chain.</para>
+</step2>
+<step2><para>Use a <xref xrefid ="sup-0002" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0002"></xref> 
+for dry conditions.</para>
+</step2>
+<step2><para>Use a <xref xrefid ="sup-0001" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0001"></xref> 
+for wet conditions</para>
+</step2>
+<step2><para>Apply the lubricant to each roller of the chain (refer to 
+<xref xrefid ="fig-0004" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0004"></xref>) but only apply a 
+small quantity.</para>
+<figure id ="fig-0004">
+<title>Lubricate the chain</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA41000-0-U8025-00528-A-04-1" xlink:title="Lubricate the chain" boardno ="ICN-S1000DBIKE-AAA-DA41000-0-U8025-00528-A-04-1"></graphic></figure>
+</step2>
+<step2><para>Hold the nozzle of the container above the front of the chain ring and
+slowly turn the cranks rearwards.</para>
+</step2>
+<step2><caution mark ="1" change ="modify" rfc ="Hazard report"><para>Do not get lubrication oil into the brake system. 
+Oil in the break system can affect the efficiency of the bake system. 
+Do not get oil onto the floor where it can easily get transferred onto 
+the brake system.</para>
+</caution>
+<para>Let the lubricant soak into chain before you clean the unwanted lubricant
+from the chain.</para>
+</step2>
+</step1>
+<step1><para>Do a check of the rear wheel rim and clean the unwanted lubricant
+if necessary.</para>
+</step1>
+<step1><para>Do a check of the chain to make sure that each link is lubricated.
+If there are links that do not move easily or have become frozen, lubricate
+the chain again (refer to <xref xrefid ="stp-0001" xidtype ="step" xlink:actuate="onRequest" xlink:show="replace" xlink:href="stp-0001"></xref>).</para>
+</step1>
+<step1><para>Do a check of the remaining lubricated parts
+and clean the unwanted lubricant with a <xref xrefid ="seq-0001" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0001"></xref>.</para>
+</step1>
+</mainfunc>
+<closereqs><reqconds><noconds/>
+</reqconds>
+</closereqs>
+</proced>
+</content>
+</dmodule>
+

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-S1000DBIKE-AAA-D000000-0-U8025-00536-B-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-D000000-0-U8025-00536-B-04-1.CGM" NDATA cgm>
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/ipd.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Bicycle - Illustrated Parts Data - IPD</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Bicycle - Illustrated Parts Data - IPD</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-D00-00-00-00AA-941A-D_003-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>941</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Illustrated Parts Data - IPD</infoname>
+</dmtitle>
+<issno issno ="003" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<rfu><p>Illustration updated to Issue 2.3 profile</p><p>Updated business rules (BREX dm) referred</p></rfu>
+<remarks><p>This DM was originally named DMC-S1000DBIKE-AAA-D00-00-00-00AA-941A-A</p></remarks>
+</status>
+</idstatus>
+<content>
+<ipc>
+<figure id ="fig-0001">
+<title>Bicycle</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-D000000-0-U8025-00536-B-04-1" xlink:title="Bicycle" boardno ="ICN-S1000DBIKE-AAA-D000000-0-U8025-00536-B-04-1"></graphic></figure>
+<ipp ippn ="KZ9990001" ips ="BICYCLE" fid ="s"></ipp>
+<csn csn ="D00000000A000 " ind ="1" item ="000 "><isn isn ="00A"><rfs value ="0"/>
+<qna>REF</qna>
+<mfc>KZ999</mfc>
+<pnr>BICYCLE-001</pnr>
+<pas><dfp>Bicycle</dfp>
+</pas>
+<cbs></cbs>
+<ces><srv>UKA</srv>
+<smr>XB</smr>
+<mov mov ="MB"></mov>
+</ces>
+<n2d><n2ddata n2did ="qre"><n2dvalue>2</n2dvalue>
+</n2ddata>
+<n2ddata n2did ="xnt"><n2dvalue>SP</n2dvalue>
+</n2ddata>
+<n2ddata n2did ="key"><n2dvalue>Bicycle</n2dvalue>
+</n2ddata>
+<n2ddata n2did ="emb"><n2dvalue>KZ999:LNS10276051</n2dvalue>
+</n2ddata>
+<n2ddata n2did ="nse"><n2dvalue>8145144345</n2dvalue>
+</n2ddata>
+<n2ddata n2did ="dhy"><n2dvalue>F2408:1-4UD:02</n2dvalue>
+</n2ddata>
+</n2d>
+</isn>
+</csn>
+<csn csn ="D00000000A001 " ind ="2" item ="001 "><isn isn ="00A"><rfs value ="1"/>
+<qna>1</qna>
+<mfc>KZ999</mfc>
+<pnr>BICYCLE-001/1</pnr>
+<pas><dfp>Frame assembly</dfp>
+<uoi>EA</uoi>
+<str>0</str>
+</pas>
+<cbs></cbs>
+<ces><srv>UKA</srv>
+<smr>PAODD</smr>
+<mov mov ="MB"></mov>
+</ces>
+</isn>
+</csn>
+<csn csn ="D00000000A002 " ind ="3" item ="002 "><isn isn ="00A"><rfs value ="1"/>
+<qna>1</qna>
+<mfc>KZ999</mfc>
+<pnr>BICYCLE-001/2A</pnr>
+<pas><dfp>Seat, assembly</dfp>
+<uoi>EA</uoi>
+<str>0</str>
+</pas>
+<cbs></cbs>
+<ces><srv>UKA</srv>
+<smr>PGOOF</smr>
+<mov mov ="MB"></mov>
+</ces>
+</isn>
+<isn isn ="05A"><rfs value ="7"/>
+<qna>1</qna>
+<mfc>KZ999</mfc>
+<pnr>BICYCLE-001/2B</pnr>
+<pas><dfp>Cruiser Seat, assembly</dfp>
+<uoi>EA</uoi>
+<str>0</str>
+</pas>
+<cbs></cbs>
+<ces><srv>UKX</srv>
+<smr>PGOOF</smr>
+<mov mov ="MB"></mov>
+</ces>
+</isn>
+</csn>
+<csn csn ="D00000000A003 " ind ="3" item ="003 "><isn isn ="00A"><rfs value ="1"/>
+<qna>1</qna>
+<mfc>KZ999</mfc>
+<pnr>BICYCLE-001/3</pnr>
+<pas><dfp>Steering system</dfp>
+<uoi>EA</uoi>
+<str>0</str>
+</pas>
+<cbs></cbs>
+<ces><srv>UKA</srv>
+<smr>PAFFD</smr>
+<mov mov ="MB"></mov>
+</ces>
+</isn>
+</csn>
+<csn csn ="D00000000A004 " ind ="3" item ="004 "><isn isn ="00A"><rfs value ="1"/>
+<qna>1</qna>
+<mfc>KZ999</mfc>
+<pnr>BICYCLE-001/4</pnr>
+<pas><dfp>Drive train system</dfp>
+<uoi>EA</uoi>
+<str>0</str>
+</pas>
+<cbs></cbs>
+<ces><srv>UKA</srv>
+<smr>PAFFD</smr>
+<mov mov ="MB"></mov>
+</ces>
+</isn>
+</csn>
+<csn csn ="D00000000A005 " ind ="3" item ="005 "><isn isn ="00A"><rfs value ="1"/>
+<qna>1</qna>
+<mfc>KZ999</mfc>
+<pnr>BICYCLE-001/5</pnr>
+<pas><dfp>Brake sub-system</dfp>
+<uoi>EA</uoi>
+<str>0</str>
+</pas>
+<cbs></cbs>
+<ces><srv>UKA</srv>
+<smr>PAFFD</smr>
+<mov mov ="MB"></mov>
+</ces>
+</isn>
+</csn>
+<csn csn ="D00000000A006 " ind ="3" item ="006 "><isn isn ="00A"><rfs value ="1"/>
+<qna>1</qna>
+<mfc>KZ777</mfc>
+<pnr>LRU1001</pnr>
+<pas><dfp>Light system</dfp>
+<uoi>EA</uoi>
+<str>1</str>
+<psc>J</psc>
+</pas>
+<cbs></cbs>
+<ces><srv>UKA</srv>
+<smr>PAFFD</smr>
+<mov mov ="MB"></mov>
+</ces>
+</isn>
+</csn>
+<csn csn ="D00000000A007 " ind ="3" item ="007 "><isn isn ="00A"><rfs value ="1"/>
+<qna>1</qna>
+<mfc>KZ888</mfc>
+<pnr>WH-001</pnr>
+<pas><dfp>Wheel, assembly rear</dfp>
+<uoi>EA</uoi>
+<str>0</str>
+</pas>
+<cbs></cbs>
+<ces><srv>UKA</srv>
+<smr>PAFFD</smr>
+<mov mov ="MB"></mov>
+</ces>
+</isn>
+</csn>
+<csn csn ="D00000000A008 " ind ="3" item ="008 "><isn isn ="00A"><rfs value ="1"/>
+<qna>1</qna>
+<mfc>KZ888</mfc>
+<pnr>WH-002</pnr>
+<pas><dfp>Wheel, assembly front</dfp>
+<uoi>EA</uoi>
+<str>0</str>
+</pas>
+<cbs></cbs>
+<ces><srv>UKA</srv>
+<smr>PAODD</smr>
+<mov mov ="MB"></mov>
+</ces>
+</isn>
+</csn>
+<csn csn ="D00000000A009 " ind ="3" item ="009 "><isn isn ="00A"><rfs value ="1"/>
+<qna>1</qna>
+<mfc>KZ888</mfc>
+<pnr>CP-001</pnr>
+<pas><dfp>Computer</dfp>
+<uoi>EA</uoi>
+<str>0</str>
+</pas>
+<cbs></cbs>
+<ces><srv>UKA</srv>
+<smr>PAOZZ</smr>
+<mov mov ="MB"></mov>
+</ces>
+</isn>
+</csn>
+</ipc>
+</content>
+</dmodule>
+

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-S1000DBIKE-AAA-DA00000-0-U8025-00506-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA00000-0-U8025-00506-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA01010-0-U8025-00508-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA01010-0-U8025-00508-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA01010-0-U8025-00509-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA01010-0-U8025-00509-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA01010-0-U8025-00510-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA01010-0-U8025-00510-A-04-1.CGM" NDATA cgm>
+<!ENTITY ICN-S1000DBIKE-AAA-DA01010-0-U8025-00511-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA01010-0-U8025-00511-A-04-1.CGM" NDATA cgm>
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/proced.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Bicycle - Standard repair procedures</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Bicycle - Standard repair procedures</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-D00-00-00-00AA-663A-A_005-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>663</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Bicycle</techname>
+<infoname>Standard repair procedures</infoname>
+</dmtitle>
+<issno issno ="005" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this data module to all countries that are the residence of
+organizations that are users of S1000D is permitted. Storage of this data
+module is to be at the discretion of the organization.</expcont>
+<handling>There are no specific handling instructions for this data
+module.</handling>
+<destruct>Users may destroy this data module in accordance with their own local
+procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data
+module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY</sbc>
+<skill skill ="sk01"/>
+<rfu><p>Editorial change</p><p>Illustrations updated to Issue 2.3 profile</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<refs><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:title="Rear wheel - Remove procedures" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-20-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee><dmtitle><techname>Rear wheel</techname>
+<infoname>Remove procedures</infoname>
+</dmtitle></refdm></refs><proced>
+<prelreqs><reqconds><noconds/>
+</reqconds>
+<reqpers><person man ="A"/>
+<perscat category ="Operator"/>
+<perskill skill ="sk01"/>
+<trade>Bike rider</trade>
+<esttime>0,5 h</esttime>
+</reqpers>
+<supequip>
+<supeqli>
+<supequi id ="seq-0001"><nomen>Tire lever</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-04</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi id ="seq-0002"><nomen>Foot pump</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-05</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi id ="seq-0003"><nomen>Marker pen</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-07</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+<supequi id ="seq-0004"><nomen>Tube patch kit</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001-07</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<nosupply/>
+</supplies>
+<spares>
+<sparesli>
+<spare><nomen>Inner-tube</nomen>
+<identno><mfc>KT222</mfc>
+<pnr>IT-001</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</spare>
+</sparesli>
+</spares>
+<safety>
+<safecond>
+<caution><para>When you remove the rear wheel to repair a puncture, disconnect the brake
+arm from the chain stay.</para>
+</caution>
+</safecond>
+</safety>
+</prelreqs>
+<mainfunc><step1><para>Remove the rear wheel. (Refer to
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-20-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm>)</para>
+</step1>
+<step1><para>Make sure that there is no air in the tube.</para>
+<step2><para>Loosen the cap on the valve stem.</para>
+</step2>
+<step2><para>Push the valve stem core down to bleed all the air.</para>
+</step2>
+</step1>
+<step1><para>Use a
+<xref xrefid ="seq-0001" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0001"></xref>
+to move the tire bead out of
+its seat. Lift the tire bead above the lip of the rim.</para>
+</step1>
+<figure>
+<title>Unseating the tire with a tire lever</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA00000-0-U8025-00506-A-04-1" xlink:title="Unseating the tire with a tire lever" boardno ="ICN-S1000DBIKE-AAA-DA00000-0-U8025-00506-A-04-1"></graphic></figure>
+<step1><para>Remove the tube.</para>
+</step1>
+<step1><para>Inflate (not fully) the tube with the
+<xref xrefid ="seq-0002" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0002"></xref>. Examine the tube for leaks.</para>
+</step1>
+<step1><para>If you find a leak, identify it with a circle made with a
+<xref xrefid ="seq-0003" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0003"></xref>.</para>
+<figure>
+<title>Circle leak</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA01010-0-U8025-00508-A-04-1" xlink:title="Circle leak" boardno ="ICN-S1000DBIKE-AAA-DA01010-0-U8025-00508-A-04-1"></graphic></figure>
+</step1>
+<step1><para>Release most of the air.</para>
+</step1>
+<step1><para> Use a piece of sandpaper from the
+<xref xrefid ="seq-0004" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0004"></xref>
+and make the area on and around
+the hole rough. This will help the patch bond correctly.</para>
+<figure>
+<title>Sanding the application area</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA01010-0-U8025-00509-A-04-1" xlink:title="Sanding the application area" boardno ="ICN-S1000DBIKE-AAA-DA01010-0-U8025-00509-A-04-1"></graphic></figure>
+</step1>
+<step1><para>Apply a thin layer of glue from the patch kit on and around the hole.
+Make sure that the area with the glue is larger than the patch.</para>
+<figure>
+<title>Apply glue to application area</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA01010-0-U8025-00510-A-04-1" xlink:title="Apply glue to application area" boardno ="ICN-S1000DBIKE-AAA-DA01010-0-U8025-00510-A-04-1"></graphic></figure>
+</step1>
+<step1><para>Let the glue dry for five minutes until it becomes tacky and dim.</para>
+</step1>
+<step1><para>Remove the rear foil from the patch (that is a part of the patch kit) and
+push the patch in its position.</para>
+</step1>
+<step1><para>Push with your thumbs from the center of the patch to the outer part of
+the applied area.</para>
+<figure>
+<title>Apply pressure to tube</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA01010-0-U8025-00511-A-04-1" xlink:title="Apply pressure to tube" boardno ="ICN-S1000DBIKE-AAA-DA01010-0-U8025-00511-A-04-1"></graphic></figure>
+</step1>
+<step1><para>Remove the thin cover from the patch.</para>
+</step1>
+<step1><para>Put a very thin layer of talcum powder on and around the patch.</para>
+</step1>
+<step1><para>Inflate (not fully) the repaired tube with the foot pump.</para>
+</step1>
+<step1><para>Start at the valve stem and install the tube again between the tire and
+the rim.</para>
+</step1>
+<step1><para>Push the valve stem through the hole in the rim.</para>
+</step1>
+<step1><para>Make sure that the valve stem is straight.</para>
+</step1>
+<step1><para>Install the remaining of the tire.</para>
+</step1>
+</mainfunc>
+<closereqs><reqconds><noconds/>
+</reqconds>
+</closereqs>
+</proced>
+</content>
+</dmodule>
+

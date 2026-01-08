@@ -1,0 +1,1154 @@
+[
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Gears - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9418738484382629,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Gears - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.9358973503112793,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Gears - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Saddle",
+    "bike_label": "Saddle",
+    "similarity_score": 0.9318861961364746,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-258-A-A",
+    "s1000d_label": "Bicycle - Other procedures to clean",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9435909986495972,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-258-A-A",
+    "s1000d_label": "Bicycle - Other procedures to clean",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9349210262298584,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-258-A-A",
+    "s1000d_label": "Bicycle - Other procedures to clean",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.9210248589515686,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Bicycle - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9614119529724121,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Bicycle - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9544159173965454,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Bicycle - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.934943675994873,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-057-A-A",
+    "s1000d_label": "Wiring - Wire list",
+    "bike_uri": "http://purl.org/ontology/bikeo#sunrace",
+    "bike_label": "SunRace",
+    "similarity_score": 0.8647340536117554,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-057-A-A",
+    "s1000d_label": "Wiring - Wire list",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.8642046451568604,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-057-A-A",
+    "s1000d_label": "Wiring - Wire list",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-cxr-2-carbon-disc-wheelsystem-wheel",
+    "bike_label": "Giant CXR 2 Carbon Disc WheelSystem",
+    "similarity_score": 0.8618079423904419,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-20-00-AA-362-B-A",
+    "s1000d_label": "Tire - Check pressure",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.9134853482246399,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-20-00-AA-362-B-A",
+    "s1000d_label": "Tire - Check pressure",
+    "bike_uri": "http://purl.org/ontology/bikeo#Saddle",
+    "bike_label": "Saddle",
+    "similarity_score": 0.9074649810791016,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-20-00-AA-362-B-A",
+    "s1000d_label": "Tire - Check pressure",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tighten",
+    "bike_label": "Tighten",
+    "similarity_score": 0.9051874876022339,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-10-00-AA-921-A-A",
+    "s1000d_label": "Inner tube - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9153339266777039,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-10-00-AA-921-A-A",
+    "s1000d_label": "Inner tube - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.906286358833313,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-10-00-AA-921-A-A",
+    "s1000d_label": "Inner tube - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9046844840049744,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Wheel - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9633865356445312,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Wheel - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9552828669548035,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Wheel - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9366899728775024,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-330-A-A",
+    "s1000d_label": "Bicycle - Place on test stand",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9271232485771179,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-330-A-A",
+    "s1000d_label": "Bicycle - Place on test stand",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9212146401405334,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-330-A-A",
+    "s1000d_label": "Bicycle - Place on test stand",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9168633818626404,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-921-A-A",
+    "s1000d_label": "Lighting - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9109266996383667,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-921-A-A",
+    "s1000d_label": "Lighting - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9060840010643005,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-921-A-A",
+    "s1000d_label": "Lighting - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.8942264914512634,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-151-A-A",
+    "s1000d_label": "Bicycle - Post-operation procedures (crew)",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9559285640716553,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-151-A-A",
+    "s1000d_label": "Bicycle - Post-operation procedures (crew)",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9395649433135986,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-151-A-A",
+    "s1000d_label": "Bicycle - Post-operation procedures (crew)",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.93696129322052,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-3-0-00-00-AA-041-A-A",
+    "s1000d_label": "Shifters - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9283291697502136,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-3-0-00-00-AA-041-A-A",
+    "s1000d_label": "Shifters - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9259889125823975,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-3-0-00-00-AA-041-A-A",
+    "s1000d_label": "Shifters - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9096977710723877,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-00-00-AA-411-A-A",
+    "s1000d_label": "Horn - Isolated fault",
+    "bike_uri": "http://purl.org/ontology/bikeo#s-works-diverge-fact-11r-carbon-frame",
+    "bike_label": "S-Works Diverge FACT 11r carbon",
+    "similarity_score": 0.929539144039154,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-00-00-AA-411-A-A",
+    "s1000d_label": "Horn - Isolated fault",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-cxr-2-carbon-disc-wheelsystem-wheel",
+    "bike_label": "Giant CXR 2 Carbon Disc WheelSystem",
+    "similarity_score": 0.9288745522499084,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-00-00-AA-411-A-A",
+    "s1000d_label": "Horn - Isolated fault",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.9288156628608704,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-00-00-AA-241-A-A",
+    "s1000d_label": "Chain - Oil",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9078953266143799,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-00-00-AA-241-A-A",
+    "s1000d_label": "Chain - Oil",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9015116691589355,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-00-00-AA-241-A-A",
+    "s1000d_label": "Chain - Oil",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.895077645778656,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-00-00-AA-720-A-A",
+    "s1000d_label": "Stem - Install procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9394428730010986,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-00-00-AA-720-A-A",
+    "s1000d_label": "Stem - Install procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9290748834609985,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-00-00-AA-720-A-A",
+    "s1000d_label": "Stem - Install procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.9217901229858398,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-042-A-A",
+    "s1000d_label": "Bicycle - Description of function",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9445054531097412,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-042-A-A",
+    "s1000d_label": "Bicycle - Description of function",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9380148649215698,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-042-A-A",
+    "s1000d_label": "Bicycle - Description of function",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.9326300621032715,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-941-A-D",
+    "s1000d_label": "Light system - Illustrated Parts Data - IPD",
+    "bike_uri": "http://purl.org/ontology/bikeo#s-works-diverge-fact-11r-carbon-frame",
+    "bike_label": "S-Works Diverge FACT 11r carbon",
+    "similarity_score": 0.9180248975753784,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-941-A-D",
+    "s1000d_label": "Light system - Illustrated Parts Data - IPD",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.9177370667457581,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-941-A-D",
+    "s1000d_label": "Light system - Illustrated Parts Data - IPD",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-cxr-2-carbon-disc-wheelsystem-wheel",
+    "bike_label": "Giant CXR 2 Carbon Disc WheelSystem",
+    "similarity_score": 0.9167425632476807,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-040-A-A",
+    "s1000d_label": "Electrical system - Description of how it is made and its function",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9542477130889893,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-040-A-A",
+    "s1000d_label": "Electrical system - Description of how it is made and its function",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.9435234069824219,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-040-A-A",
+    "s1000d_label": "Electrical system - Description of how it is made and its function",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9411604404449463,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D05-4-0-00-00-AA-000-A-A",
+    "s1000d_label": "Bicycle - Scheduled maintenance checks",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.9258389472961426,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D05-4-0-00-00-AA-000-A-A",
+    "s1000d_label": "Bicycle - Scheduled maintenance checks",
+    "bike_uri": "http://purl.org/ontology/bikeo#s-works-diverge-fact-11r-carbon-frame",
+    "bike_label": "S-Works Diverge FACT 11r carbon",
+    "similarity_score": 0.9223997592926025,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D05-4-0-00-00-AA-000-A-A",
+    "s1000d_label": "Bicycle - Scheduled maintenance checks",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-cxr-2-carbon-disc-wheelsystem-wheel",
+    "bike_label": "Giant CXR 2 Carbon Disc WheelSystem",
+    "similarity_score": 0.9199819564819336,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-341-A-A",
+    "s1000d_label": "Lights - Manual test",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9037124514579773,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-341-A-A",
+    "s1000d_label": "Lights - Manual test",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.8950379490852356,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-341-A-A",
+    "s1000d_label": "Lights - Manual test",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.8936131596565247,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-00-00-AA-720-A-A",
+    "s1000d_label": "Headset - Install procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9303709864616394,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-00-00-AA-720-A-A",
+    "s1000d_label": "Headset - Install procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9239770770072937,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-00-00-AA-720-A-A",
+    "s1000d_label": "Headset - Install procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.9178799390792847,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-00-00-AA-414-A-A",
+    "s1000d_label": "Drive train - Correlated fault",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.9289385080337524,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-00-00-AA-414-A-A",
+    "s1000d_label": "Drive train - Correlated fault",
+    "bike_uri": "http://purl.org/ontology/bikeo#s-works-diverge-fact-11r-carbon-frame",
+    "bike_label": "S-Works Diverge FACT 11r carbon",
+    "similarity_score": 0.9242299795150757,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-00-00-AA-414-A-A",
+    "s1000d_label": "Drive train - Correlated fault",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.923713743686676,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D05-2-0-00-00-AA-000-A-A",
+    "s1000d_label": "Bicycle - Scheduled maintenance lists",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.9223484992980957,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D05-2-0-00-00-AA-000-A-A",
+    "s1000d_label": "Bicycle - Scheduled maintenance lists",
+    "bike_uri": "http://purl.org/ontology/bikeo#s-works-diverge-fact-11r-carbon-frame",
+    "bike_label": "S-Works Diverge FACT 11r carbon",
+    "similarity_score": 0.9218232035636902,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D05-2-0-00-00-AA-000-A-A",
+    "s1000d_label": "Bicycle - Scheduled maintenance lists",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-cxr-2-carbon-disc-wheelsystem-wheel",
+    "bike_label": "Giant CXR 2 Carbon Disc WheelSystem",
+    "similarity_score": 0.9186797142028809,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-00-00-AA-520-A-A",
+    "s1000d_label": "Stem - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9315879344940186,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-00-00-AA-520-A-A",
+    "s1000d_label": "Stem - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9247846603393555,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-00-00-AA-520-A-A",
+    "s1000d_label": "Stem - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.9203671813011169,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Drivetrain - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.947068989276886,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Drivetrain - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9318687915802002,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Drivetrain - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9186221957206726,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-00-00-AA-520-A-A",
+    "s1000d_label": "Headset - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9519263505935669,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-00-00-AA-520-A-A",
+    "s1000d_label": "Headset - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#ChainStay",
+    "bike_label": "ChainStay",
+    "similarity_score": 0.9368128776550293,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-00-00-AA-520-A-A",
+    "s1000d_label": "Headset - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+    "bike_label": "FrontDerailleur",
+    "similarity_score": 0.9325413107872009,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-20-00-AA-400-A-A",
+    "s1000d_label": "Front wheel - Fault reports and isolation procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.9252538084983826,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-20-00-AA-400-A-A",
+    "s1000d_label": "Front wheel - Fault reports and isolation procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#s-works-diverge-fact-11r-carbon-frame",
+    "bike_label": "S-Works Diverge FACT 11r carbon",
+    "similarity_score": 0.9250991940498352,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-20-00-AA-400-A-A",
+    "s1000d_label": "Front wheel - Fault reports and isolation procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-cxr-2-carbon-disc-wheelsystem-wheel",
+    "bike_label": "Giant CXR 2 Carbon Disc WheelSystem",
+    "similarity_score": 0.9230647683143616,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-058-A-A",
+    "s1000d_label": "Wiring - Loom list",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-cxr-2-carbon-disc-wheelsystem-wheel",
+    "bike_label": "Giant CXR 2 Carbon Disc WheelSystem",
+    "similarity_score": 0.8971409201622009,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-058-A-A",
+    "s1000d_label": "Wiring - Loom list",
+    "bike_uri": "http://purl.org/ontology/bikeo#sunrace",
+    "bike_label": "SunRace",
+    "similarity_score": 0.8966299891471863,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-058-A-A",
+    "s1000d_label": "Wiring - Loom list",
+    "bike_uri": "http://purl.org/ontology/bikeo#tranzx",
+    "bike_label": "TranzX",
+    "similarity_score": 0.8962700963020325,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Steering - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9586511254310608,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Steering - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9564570784568787,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Steering - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.935136616230011,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-022-A-D",
+    "s1000d_label": "Mountain bicycle - Business rules",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.8820746541023254,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-022-A-D",
+    "s1000d_label": "Mountain bicycle - Business rules",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.8770059943199158,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-022-A-D",
+    "s1000d_label": "Mountain bicycle - Business rules",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-cxr-2-carbon-disc-wheelsystem-wheel",
+    "bike_label": "Giant CXR 2 Carbon Disc WheelSystem",
+    "similarity_score": 0.8654930591583252,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-1-0-00-00-AA-251-A-A",
+    "s1000d_label": "Brake pads - Clean with rubbing alcohol",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9347692131996155,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-1-0-00-00-AA-251-A-A",
+    "s1000d_label": "Brake pads - Clean with rubbing alcohol",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.932960033416748,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-1-0-00-00-AA-251-A-A",
+    "s1000d_label": "Brake pads - Clean with rubbing alcohol",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9190912842750549,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-00-00-AA-251-B-A",
+    "s1000d_label": "Chain - Clean with chain cleaning fluid",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9482081532478333,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-00-00-AA-251-B-A",
+    "s1000d_label": "Chain - Clean with chain cleaning fluid",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9297236800193787,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-00-00-AA-251-B-A",
+    "s1000d_label": "Chain - Clean with chain cleaning fluid",
+    "bike_uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+    "bike_label": "FrontDerailleur",
+    "similarity_score": 0.9168463945388794,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Brake system - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9505788683891296,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Brake system - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9330586194992065,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Brake system - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9238980412483215,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-2-0-00-00-AA-251-C-A",
+    "s1000d_label": "Hubs - Clean with degreasing agent",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.928839385509491,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-2-0-00-00-AA-251-C-A",
+    "s1000d_label": "Hubs - Clean with degreasing agent",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9287463426589966,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-2-0-00-00-AA-251-C-A",
+    "s1000d_label": "Hubs - Clean with degreasing agent",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.9048736095428467,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-941-A-D",
+    "s1000d_label": "Bicycle - Illustrated Parts Data - IPD",
+    "bike_uri": "http://purl.org/ontology/bikeo#s-works-diverge-fact-11r-carbon-frame",
+    "bike_label": "S-Works Diverge FACT 11r carbon",
+    "similarity_score": 0.9209188222885132,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-941-A-D",
+    "s1000d_label": "Bicycle - Illustrated Parts Data - IPD",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-cxr-2-carbon-disc-wheelsystem-wheel",
+    "bike_label": "Giant CXR 2 Carbon Disc WheelSystem",
+    "similarity_score": 0.918991208076477,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-941-A-D",
+    "s1000d_label": "Bicycle - Illustrated Parts Data - IPD",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-slr-1-36-carbon-disc-hookless-wheelsystem-wheel",
+    "bike_label": "Giant SLR 1 36 Carbon Disc Hookless WheelSystem",
+    "similarity_score": 0.9182019233703613,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-00-00-AA-520-A-A",
+    "s1000d_label": "Handlebar - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9419845342636108,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-00-00-AA-520-A-A",
+    "s1000d_label": "Handlebar - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9367249011993408,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-00-00-AA-520-A-A",
+    "s1000d_label": "Handlebar - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9248470664024353,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-121-A-A",
+    "s1000d_label": "Bicycle - Pre-operation procedures (crew)",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9339966177940369,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-121-A-A",
+    "s1000d_label": "Bicycle - Pre-operation procedures (crew)",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9284939169883728,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-121-A-A",
+    "s1000d_label": "Bicycle - Pre-operation procedures (crew)",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9136102199554443,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-056-A-A",
+    "s1000d_label": "Wiring - Equipment lists",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.8126786351203918,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-056-A-A",
+    "s1000d_label": "Wiring - Equipment lists",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.8126692771911621,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-056-A-A",
+    "s1000d_label": "Wiring - Equipment lists",
+    "bike_uri": "http://purl.org/ontology/bikeo#giant-cxr-2-carbon-disc-wheelsystem-wheel",
+    "bike_label": "Giant CXR 2 Carbon Disc WheelSystem",
+    "similarity_score": 0.8076784014701843,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-2-0-00-00-AA-520-A-A",
+    "s1000d_label": "Rear wheel - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9283879399299622,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-2-0-00-00-AA-520-A-A",
+    "s1000d_label": "Rear wheel - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9225446581840515,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-2-0-00-00-AA-520-A-A",
+    "s1000d_label": "Rear wheel - Remove procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9215785264968872,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-043-A-A",
+    "s1000d_label": "Bicycle - Description attributed to crew",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9479984641075134,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-043-A-A",
+    "s1000d_label": "Bicycle - Description attributed to crew",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9367322325706482,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-043-A-A",
+    "s1000d_label": "Bicycle - Description attributed to crew",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9238141775131226,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-00-00-AA-720-A-A",
+    "s1000d_label": "Handlebar - Install procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.925291895866394,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-00-00-AA-720-A-A",
+    "s1000d_label": "Handlebar - Install procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.92425936460495,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-00-00-AA-720-A-A",
+    "s1000d_label": "Handlebar - Install procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9098076224327087,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-029-A-A",
+    "s1000d_label": "Wiring data - Field description",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.8536602258682251,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-029-A-A",
+    "s1000d_label": "Wiring data - Field description",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.8514251708984375,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-029-A-A",
+    "s1000d_label": "Wiring data - Field description",
+    "bike_uri": "http://purl.org/ontology/bikeo#s-works-diverge-fact-11r-carbon-frame",
+    "bike_label": "S-Works Diverge FACT 11r carbon",
+    "similarity_score": 0.8509624004364014,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-1-0-00-00-AA-041-A-A",
+    "s1000d_label": "Mechs - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9549870491027832,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-1-0-00-00-AA-041-A-A",
+    "s1000d_label": "Mechs - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9512365460395813,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-1-0-00-00-AA-041-A-A",
+    "s1000d_label": "Mechs - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.9334862232208252,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Frame - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9611029028892517,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Frame - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9488005042076111,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-0-0-00-00-AA-041-A-A",
+    "s1000d_label": "Frame - Description of how it is made",
+    "bike_uri": "http://purl.org/ontology/bikeo#Battery",
+    "bike_label": "Battery",
+    "similarity_score": 0.9364033937454224,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-663-A-A",
+    "s1000d_label": "Bicycle - Standard repair procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9371547698974609,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-663-A-A",
+    "s1000d_label": "Bicycle - Standard repair procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9353673458099365,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-663-A-A",
+    "s1000d_label": "Bicycle - Standard repair procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Pedal",
+    "bike_label": "Pedal",
+    "similarity_score": 0.924467921257019,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-20-00-AA-921-A-A",
+    "s1000d_label": "Tire - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.9129929542541504,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-20-00-AA-921-A-A",
+    "s1000d_label": "Tire - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#energypak-compact-500wh-energypak-plus-range-extender-compatible-battery",
+    "bike_label": "EnergyPak Compact 500Wh EnergyPak Plus range extender compatible",
+    "similarity_score": 0.9085603952407837,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-20-00-AA-921-A-A",
+    "s1000d_label": "Tire - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9080784320831299,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-00-00-AA-921-A-A",
+    "s1000d_label": "Horn - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9193434715270996,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-00-00-AA-921-A-A",
+    "s1000d_label": "Horn - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9152320623397827,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-00-00-AA-921-A-A",
+    "s1000d_label": "Horn - Remove and install a new item",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.904353678226471,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-131-A-A",
+    "s1000d_label": "Bicycle - Normal operation procedures (crew)",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9068907499313354,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-131-A-A",
+    "s1000d_label": "Bicycle - Normal operation procedures (crew)",
+    "bike_uri": "http://purl.org/ontology/bikeo#ChainStay",
+    "bike_label": "ChainStay",
+    "similarity_score": 0.8937851786613464,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-00-00-AA-131-A-A",
+    "s1000d_label": "Bicycle - Normal operation procedures (crew)",
+    "bike_uri": "http://purl.org/ontology/bikeo#HandlebarGrip",
+    "bike_label": "HandlebarGrip",
+    "similarity_score": 0.8926041126251221,
+    "is_match_manual": true
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-700-A-A",
+    "s1000d_label": "Lighting - Assemble, install and connect procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+    "bike_label": "RearDerailleur",
+    "similarity_score": 0.9299587607383728,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-700-A-A",
+    "s1000d_label": "Lighting - Assemble, install and connect procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Motor",
+    "bike_label": "Motor",
+    "similarity_score": 0.9206079244613647,
+    "is_match_manual": false
+  },
+  {
+    "s1000d_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-00-00-AA-700-A-A",
+    "s1000d_label": "Lighting - Assemble, install and connect procedures",
+    "bike_uri": "http://purl.org/ontology/bikeo#Tire",
+    "bike_label": "Tire",
+    "similarity_score": 0.9143846035003662,
+    "is_match_manual": false
+  }
+]

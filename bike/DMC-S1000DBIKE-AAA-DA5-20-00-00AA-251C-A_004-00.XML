@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-S1000DBIKE-AAA-DA52000-0-U8025-00524-A-04-1 SYSTEM "../../../illustrations/ICN-S1000DBIKE-AAA-DA52000-0-U8025-00524-A-04-1.CGM" NDATA cgm>
+]>
+<dmodule
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_2-3/xml_schema_flat/proced.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Hubs - Clean with degreasing agent</dc:title>
+<dc:creator>U8025</dc:creator>
+<dc:subject>Hubs - Clean with degreasing agent</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2007-02-28</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_004-00</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<idstatus>
+<dmaddres><dmc><avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA5</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>251</incode>
+<incodev>C</incodev>
+<itemloc>A</itemloc>
+</avee></dmc>
+<dmtitle><techname>Hubs</techname>
+<infoname>Clean with degreasing agent</infoname>
+</dmtitle>
+<issno issno ="004" inwork ="00" type ="changed"/>
+<issdate year ="2007" month ="02" day ="28"/>
+</dmaddres>
+<status>
+<security class ="01" commcls ="cc51" caveat ="cv51"/>
+<datarest><instruct><distrib>To be made available to all S1000D users.</distrib>
+<expcont>Export of this
+data module to all countries that are the residence of organizations that
+are users of S1000D is permitted. Storage of this data module is to be at
+the discretion of the organization.</expcont>
+<handling>There are no specific
+handling instructions for this data module.</handling>
+<destruct>Users may
+destroy this data module in accordance with their own local procedures.</destruct>
+<disclose>There are no dissemination limitations that apply to this data module.</disclose>
+</instruct>
+<inform><copyright><para>TPSMG UK, 2003-2010</para>
+<para>Government License - TPSMG 001</para>
+</copyright>
+<polref>TPSMG TOR 001</polref>
+<datacond>There are no known conditions that would change the data restrictions
+for, or security classification of, this data module.</datacond>
+</inform>
+</datarest>
+<rpc rpcname ="UK MoD">U8025</rpc>
+<orig origname ="UK MoD">U8025</orig>
+<applic><type>Mountain bicycle</type>
+<model model ="Mountain storm"><version version ="Mk1"></version>
+</model>
+<model model ="Brook trekker"><version version ="Mk9"></version>
+</model>
+</applic>
+<techstd><autandtp><authblk>20010131</authblk>
+<tpbase>Bike book</tpbase>
+</autandtp>
+<authex></authex>
+<notes></notes>
+</techstd>
+<brexref><refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_004">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>D00</chapnum>
+<section>0</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>022</incode>
+<incodev>A</incodev>
+<itemloc>D</itemloc>
+</avee><issno issno ="004"/></refdm></brexref>
+<qa><firstver type ="tabtop"/>
+</qa>
+<sbc>BY172</sbc>
+<skill skill ="sk01"/>
+<rfu><p>Personnel requirements specified</p><p>Illustration updated to Issue 2.3 profile</p><p>Updated business rules (BREX dm) referred</p></rfu>
+</status>
+</idstatus>
+<content>
+<proced>
+<prelreqs><reqconds><reqcondm><reqcond>Rear wheel removed</reqcond>
+<refdm xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-20-00-00AA-520A-A">
+<avee><modelic>S1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA0</chapnum>
+<section>2</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>AA</discodev>
+<incode>520</incode>
+<incodev>A</incodev>
+<itemloc>A</itemloc>
+</avee></refdm></reqcondm>
+</reqconds>
+<reqpers><person man ="B"/>
+<perscat category ="Supervisor"/>
+<perskill skill ="sk03" mark ="1" change ="add"/>
+<trade>Bicycle mechanic</trade>
+<esttime>0,75 h</esttime>
+<person man ="A"/>
+<perscat category ="Basic user"/>
+<trade>Operator</trade>
+<esttime>0,25 h</esttime>
+</reqpers>
+<supequip>
+<supeqli>
+<supequi id ="seq-0001"><nomen>Specialist toolset</nomen>
+<identno><mfc>KZ666</mfc>
+<pnr>BSK-TLST-001</pnr>
+</identno>
+<qty uom ="EA">1</qty>
+</supequi>
+</supeqli>
+</supequip>
+<supplies>
+<supplyli>
+<supply id ="sup-0001"><nomen>Degreasing agent</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-004</pnr>
+</identno>
+<qty>As required</qty>
+</supply>
+<supply id ="sup-0002"><nomen>General grease</nomen>
+<identno><mfc>KZ222</mfc>
+<pnr>LL-005</pnr>
+</identno>
+<qty>As required</qty>
+</supply>
+</supplyli>
+</supplies>
+<spares>
+<nospares/>
+</spares>
+<safety>
+<nosafety/>
+</safety>
+</prelreqs>
+<mainfunc><step1><para>Remove the axle.</para>
+<step2><para mark ="1">Use the cone-wrench from the <xref xrefid ="seq-0001" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0001"></xref> and remove the locknut from one side of the axle.</para>
+</step2>
+<step2><para>Remove the washer and the cone from the axle.</para>
+</step2>
+<step2><caution><para>Make sure you do not lose the bearings from the hub. Be prepared to
+catch the bearings if they fall out. Missing bearings can cause damage to
+the hub.</para>
+</caution>
+<para>Pull the axle out from the other side as shown in <xref xrefid ="fig-0001" xidtype ="figure" xlink:actuate="onRequest" xlink:show="replace" xlink:href="fig-0001"></xref> .</para>
+<figure id ="fig-0001">
+<title>Removing the axle</title>
+<graphic xlink:type="simple" xlink:href="URN:S1000D:ICN-S1000DBIKE-AAA-DA52000-0-U8025-00524-A-04-1" xlink:title="Removing the axle" boardno ="ICN-S1000DBIKE-AAA-DA52000-0-U8025-00524-A-04-1"></graphic></figure>
+</step2>
+</step1>
+<step1><para>Remove the bearings.</para>
+<step2><para mark ="1">Use a small screwdriver from the <xref xrefid ="seq-0001" xidtype ="supequip" xlink:actuate="onRequest" xlink:show="replace" xlink:href="seq-0001"></xref> and remove the bearings from their races.</para>
+</step2>
+<step2><para>Make sure that each side of the hub has the same number of bearings.</para>
+</step2>
+<step2><para mark ="1">Use the <xref xrefid ="sup-0001" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0001"></xref> and clean all the parts of the hub.</para>
+</step2>
+<step2><para>Do a check of the axle to make sure that it is straight.</para>
+</step2>
+<step2><para>Examine the bearing contact area on the cones and the races in the hub
+for pitting and other signs of damage.</para>
+</step2>
+<step2><para>Do a check of the ball bearings for signs of damage.</para>
+</step2>
+<step2><para>Apply a large quantity of <xref xrefid ="sup-0002" xidtype ="supply" xlink:actuate="onRequest" xlink:show="replace" xlink:href="sup-0002"></xref>
+on each hub race.</para>
+</step2>
+</step1>
+<step1><para>Assemble the hub.</para>
+<step2><para>Install the ball bearings into the races and push them into the grease.</para>
+</step2>
+<step2><para>Apply more grease on the tops of the bearings.</para>
+</step2>
+<step2><para>Install the axle through the hub.</para>
+</step2>
+<step2><para>Install the cone, the washer and the locknut on the other side of the
+axle.</para>
+</step2>
+<step2><para>Use the cone-wrench from the specialist toolset and carefully tighten
+the locknut.</para>
+</step2>
+</step1>
+</mainfunc>
+<closereqs><reqconds><noconds/>
+</reqconds>
+</closereqs>
+</proced>
+</content>
+</dmodule>
+
