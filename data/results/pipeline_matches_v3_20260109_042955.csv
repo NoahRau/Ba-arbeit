@@ -1,0 +1,869 @@
+source_uri,source_label,selected_uri,selected_label,confidence,method,reason
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-022,Mountain bicycle - Business rules,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Mountain bicycle - Business rules' ist ein Regelwerk/Dokumentationsknoten in S1000D (AAA > D00 > 0 > 0 > 022), NICHT eine physische Komponente oder Entität.
+
+2. KANDIDAT 0 (FrontDerailleur): Physische Komponente (Umwerfer). KEINE funktionale Äquivalenz - Business Rules ≠ Fahrradteil.
+
+3. KANDIDAT 1 (Frame): Physische Komponente (Rahmen). KEINE funktionale Äquivalenz - Business Rules ≠ Fahrradteil.
+
+4. KANDIDAT 2 (Bike): Repräsentiert das gesamte Fahrrad als Entität. Könnte theoretisch Mountain Bikes umfassen, aber 'Bike' ist generisch und repräsentiert NICHT spezifisch 'Business Rules' oder 'Mountain bicycle'. KEINE funktionale Äquivalenz.
+
+5. KANDIDAT 3 (CommonPart): Abstrakte Klasse für Fahrradteile. KEINE funktionale Äquivalenz - Business Rules sind keine Komponente.
+
+6. KANDIDAT 4 (Problem): Beschreibt Probleme/Fehler am Fahrrad. KEINE funktionale Äquivalenz - Business Rules sind keine Problembeschreibung.
+
+KERNPROBLEM: Das Quell-Konzept ist ein DOKUMENTATIONS-/REGELKNOTEN (Business rules), während alle Kandidaten entweder physische Komponenten, abstrakte Komponentenklassen oder Problemkategorien sind. Keiner repräsentiert Geschäftsregeln oder Dokumentationsstrukturen. Die Ziel-Ontologie scheint keine Entsprechung für Meta-Dokumentationskonzepte zu haben."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-041,Bicycle - Description of how it is made,http://purl.org/ontology/bikeo#Bike,Bike,0.95,llm_reranking,"SCHRITT-FÜR-SCHRITT ANALYSE:
+
+1. QUELL-KONZEPT VERSTEHEN:
+- Label: 'Bicycle - Description of how it is made'
+- Kontext beschreibt ein Fahrrad als Ganzes: 'a frame and a number of movable components with mechanical parts'
+- Hierarchie: S1000DBIKE > AAA > D00 > 0 > 0 > 041
+- Funktionale Bedeutung: Das gesamte Fahrrad als Produkt/Objekt
+
+2. KANDIDATEN-ANALYSE:
+
+KANDIDAT 0 (Frame):
+- Hierarchie: CommonPart > CommonPartArea > Frame
+- Ist nur EINE KOMPONENTE des Fahrrads (Rahmen)
+- KEINE funktionale Äquivalenz: Teil ≠ Ganzes
+- Ablehnung: Hierarchisch untergeordnet
+
+KANDIDAT 1 (Bike):
+- Hierarchie: Bike (Top-Level)
+- Definition: 'A bike or bicycle is a two-wheeled steerable machine that is pedaled'
+- EXAKTE funktionale Äquivalenz: Repräsentiert das gesamte Fahrrad
+- sameAs: vso:Bicycle bestätigt semantische Gleichheit
+- MATCH: Gleiche Entität, gleiche hierarchische Ebene (Gesamtobjekt)
+
+KANDIDAT 2 (Motor):
+- Hierarchie: CommonPart > Motor
+- Ist eine spezifische Komponente (E-Bike Motor)
+- KEINE Äquivalenz: Spezielle Komponente ≠ Gesamtfahrrad
+- Ablehnung: Zu spezifisch, nur für E-Bikes
+
+KANDIDAT 3 (Battery):
+- Hierarchie: CommonPart > Battery
+- Ist eine Komponente (Batterie für E-Bikes)
+- KEINE Äquivalenz: Komponente ≠ Gesamtfahrrad
+- Ablehnung: Teil des Systems, nicht das System selbst
+
+KANDIDAT 4 (FrontDerailleur):
+- Hierarchie: CommonPart > FrontDerailleur
+- Ist eine spezifische mechanische Komponente
+- KEINE Äquivalenz: Einzelteil ≠ Gesamtfahrrad
+- Ablehnung: Zu granular, nur ein Mechanismus
+
+3. VERGLEICHENDE BEWERTUNG:
+- Kandidat 1 ist der EINZIGE, der das Fahrrad als Ganzes repräsentiert
+- Alle anderen sind Komponenten/Teile (hierarchisch untergeordnet)
+- Kandidat 1 hat explizite semantische Verknüpfung (sameAs: vso:Bicycle)
+- Funktionale Äquivalenz ist klar gegeben
+
+4. ENTSCHEIDUNG:
+Kandidat 1 (Bike) ist der klare Match mit hoher Sicherheit."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-042,Bicycle - Description of function,http://purl.org/ontology/bikeo#Bike,Bike,0.92,llm_reranking,"KANDIDAT 0 'Bike' ist der beste Match. ANALYSE: Das Quell-Konzept 'Bicycle - Description of function' ist ein übergeordnetes Dokument, das die gesamte Fahrrad-Entität und ihre Hauptkomponenten (Frame, Wheel) beschreibt. KANDIDAT 0: 'Bike' repräsentiert die vollständige Fahrrad-Entität auf oberster Ebene, mit explizitem sameAs zu vso:Bicycle. Dies ist funktional äquivalent zum Quell-Konzept, das das gesamte Fahrrad beschreibt. KANDIDAT 1 'ChainArea': Ist nur ein spezifischer Teilbereich (CommonPart > CommonPartArea > ChainArea), nicht das gesamte Fahrrad - KEIN MATCH. KANDIDAT 2 'Frame': Ist nur eine Komponente (CommonPart > CommonPartArea > Frame), wird im Quell-Konzept als Teil erwähnt, aber ist nicht das Gesamtfahrrad - KEIN MATCH. KANDIDAT 3 'Battery': Ist eine spezifische E-Bike-Komponente, nicht relevant für die allgemeine Fahrradbeschreibung - KEIN MATCH. KANDIDAT 4 'Fork': Ist nur die Vorderradgabel, eine einzelne Komponente - KEIN MATCH. Kandidat 0 ist der einzige, der die gleiche hierarchische Ebene (Gesamtfahrrad) und funktionale Äquivalenz (vollständige Fahrrad-Entität) aufweist."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-043,Bicycle - Description attributed to crew,,,0.0,llm_rejected,Parse error: No JSON found in response
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-121,Bicycle - Pre-operation procedures (crew),,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Bicycle - Pre-operation procedures (crew)' ist eine PROZEDUR/AKTIVITÄT für Wartungs- und Inspektionsaufgaben vor dem Betrieb. Der Kontext beschreibt spezifische Prüfschritte (Bremsen prüfen, Bremsbeläge untersuchen, hydraulisches Bremssystem testen).
+
+2. KANDIDATEN-ANALYSE:
+
+KANDIDAT 0 (ChainArea): Physische KOMPONENTE - Strukturteil mit Kette und vorderem Schaltwerk. KEINE funktionale Äquivalenz zu einer Prozedur.
+
+KANDIDAT 1 (Frame): Physische KOMPONENTE - Hauptrahmen des Fahrrads. KEINE funktionale Äquivalenz zu einer Prozedur.
+
+KANDIDAT 2 (Battery): Physische KOMPONENTE - Wiederaufladbare Batterie für E-Bikes. KEINE funktionale Äquivalenz zu einer Prozedur.
+
+KANDIDAT 3 (Motor): Physische KOMPONENTE - Elektromotor für E-Bikes. KEINE funktionale Äquivalenz zu einer Prozedur.
+
+KANDIDAT 4 (FrontDerailleur): Physische KOMPONENTE - Vorderes Schaltwerk. KEINE funktionale Äquivalenz zu einer Prozedur.
+
+3. FUNDAMENTALES PROBLEM: Das Quell-Konzept ist eine PROZEDUR/AKTIVITÄT (Pre-operation procedures), während ALLE Kandidaten physische KOMPONENTEN/TEILE sind. Dies ist ein kategorialer Mismatch.
+
+4. HIERARCHIE: Die Ziel-Ontologie scheint nur physische Komponenten zu modellieren (CommonPart-Hierarchie), keine Prozeduren oder Aktivitäten.
+
+5. ENTSCHEIDUNG: NULL - Keiner der Kandidaten repräsentiert eine Prozedur oder Aktivität. Funktionale Äquivalenz ist nicht gegeben."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-131,Bicycle - Normal operation procedures (crew),,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Bicycle - Normal operation procedures (crew)' ist ein PROZEDURALES Konzept - es beschreibt Wartungs- und Inspektionsverfahren (Pads, Levers, Cables, Tires, Wheels, Spokes prüfen). Dies ist eine ANLEITUNG/PROZEDUR, keine physische Komponente.
+
+2. KANDIDAT 0 (Frame): Physische Komponente - Hauptrahmen des Fahrrads. KEINE funktionale Äquivalenz zu Betriebsverfahren.
+
+3. KANDIDAT 1 (Bike): Repräsentiert das gesamte Fahrrad als Objekt/Maschine. KEINE Prozedur, sondern das physische Produkt selbst.
+
+4. KANDIDAT 2 (CommonPart): Allgemeine Klasse für Fahrradteile. KEINE Prozedur, sondern Komponenten-Kategorie.
+
+5. KANDIDAT 3 (Problem): Beschreibt mögliche Probleme am Fahrrad. Zwar verwandt mit Wartung, aber NICHT die Betriebsverfahren selbst. Problem ≠ Procedure.
+
+6. KANDIDAT 4 (ChainArea): Spezifische physische Komponente (Kette, Umwerfer). KEINE Prozedur.
+
+KERNPROBLEM: Das Quell-Konzept ist ein PROZEDURALES/OPERATIONALES Konzept (Checkliste für normale Betriebsabläufe), während ALLE Kandidaten entweder physische Komponenten (0,2,4), das Produkt selbst (1) oder Problemkategorien (3) sind. Es fehlt eine Ziel-Klasse für 'Procedures', 'Operations' oder 'Maintenance Tasks'. Keine funktionale Äquivalenz vorhanden."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-151,Bicycle - Post-operation procedures (crew),,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Bicycle - Post-operation procedures (crew)' ist ein PROZEDURALES Konzept - es beschreibt Wartungsaktivitäten (Reinigen, Schmieren) nach dem Betrieb eines Fahrrads.
+
+2. KANDIDAT 0 (FrontDerailleur): Physische KOMPONENTE (vorderer Umwerfer). Keine funktionale Äquivalenz - ein Bauteil ist keine Wartungsprozedur. NICHT PASSEND.
+
+3. KANDIDAT 1 (Frame): Physische KOMPONENTE (Rahmen). Keine funktionale Äquivalenz - ein Strukturbauteil ist keine Prozedur. NICHT PASSEND.
+
+4. KANDIDAT 2 (Bike): Repräsentiert das GESAMTE Fahrrad als Objekt. Keine funktionale Äquivalenz - das Fahrrad selbst ist nicht die Wartungsprozedur für das Fahrrad. NICHT PASSEND.
+
+5. KANDIDAT 3 (CommonPart): Abstrakte Klasse für KOMPONENTEN. Keine funktionale Äquivalenz - allgemeine Teile-Klasse vs. spezifische Wartungsprozedur. NICHT PASSEND.
+
+6. KANDIDAT 4 (Problem): Klasse für PROBLEME/Fehler. Keine funktionale Äquivalenz - Problembeschreibungen sind nicht Wartungsprozeduren. NICHT PASSEND.
+
+KERNPROBLEM: Das Quell-Konzept ist eine PROZEDUR/AKTIVITÄT (Post-operation procedures), während ALLE Kandidaten entweder physische Komponenten (0,1), Objekte (2), abstrakte Komponentenklassen (3) oder Problemklassen (4) sind. Es gibt keine semantische Übereinstimmung auf der Ebene der Konzepttypen. Die Ziel-Ontologie scheint keine Prozedur- oder Wartungsklassen zu enthalten."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-258,Bicycle - Other procedures to clean,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Bicycle - Other procedures to clean' ist eine PROZEDUR/WARTUNGSANWEISUNG zum Reinigen eines Fahrrads mit spezifischen Sicherheitshinweisen (Augenschutz, kein Hochdruckreiniger, nicht direkt auf Nabe sprühen).
+
+2. KANDIDAT 0 (Frame): Physische KOMPONENTE - Rahmen des Fahrrads. KEINE funktionale Äquivalenz zu einer Reinigungsprozedur. Falsche Kategorie (Objekt vs. Prozess).
+
+3. KANDIDAT 1 (Bike): Repräsentiert das GESAMTE Fahrrad als Objekt. Zwar ist dies das Objekt, das gereinigt wird, aber NICHT die Reinigungsprozedur selbst. Falsche Kategorie (Objekt vs. Prozess).
+
+4. KANDIDAT 2 (Motor): Spezifische KOMPONENTE - Elektromotor für E-Bikes. KEINE Verbindung zu Reinigungsprozeduren. Falsche Kategorie und zu spezifisch.
+
+5. KANDIDAT 3 (CommonPart): Allgemeine Klasse für KOMPONENTEN. Repräsentiert physische Teile, nicht Wartungsprozeduren. Falsche Kategorie.
+
+6. KANDIDAT 4 (Problem): Beschreibt PROBLEME, die ein Fahrrad betreffen können. Eine Reinigungsprozedur ist KEIN Problem, sondern eine präventive Wartungsmaßnahme. Falsche semantische Kategorie.
+
+FAZIT: Alle Kandidaten repräsentieren entweder physische Objekte/Komponenten oder Problemzustände. KEINER repräsentiert Wartungsprozeduren, Reinigungsanweisungen oder Prozesse. Das Quell-Konzept ist eine PROZEDUR (Cleaning Procedure), während alle Kandidaten ENTITÄTEN sind. Fundamentaler kategorialer Mismatch."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-330,Bicycle - Place on test stand,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Bicycle - Place on test stand' ist eine PROZEDUR/AKTION (Fahrrad auf Prüfstand stellen), keine physische Komponente oder Entität.
+
+2. KANDIDAT 0 (Frame): Physische Komponente (Rahmen) - KEINE funktionale Äquivalenz zu einer Prozedur. Frame ist ein Teil, keine Aktion.
+
+3. KANDIDAT 1 (Bike): Physisches Objekt (Fahrrad als Ganzes) - KEINE funktionale Äquivalenz. Dies ist das Objekt, auf das die Aktion angewendet wird, nicht die Aktion selbst.
+
+4. KANDIDAT 2 (Canyon Endurace:ON 7 2022): Spezifisches Fahrradmodell - KEINE funktionale Äquivalenz. Noch spezifischer als Kandidat 1, aber immer noch ein Objekt, keine Prozedur.
+
+5. KANDIDAT 3 (CommonPart): Allgemeine Klasse für Fahrradteile - KEINE funktionale Äquivalenz. Beschreibt Komponenten, nicht Prozeduren.
+
+6. KANDIDAT 4 (Problem): Klasse für Probleme - KEINE funktionale Äquivalenz. 'Place on test stand' ist keine Problembeschreibung, sondern eine Wartungsprozedur.
+
+KERNPROBLEM: Das Quell-Konzept ist eine PROZEDUR/TASK aus der S1000D-Dokumentation (erkennbar am Kontext 'Ensure is level. Place bicycle...'). Alle Kandidaten beschreiben entweder physische Objekte (Bike, Frame, Parts) oder Zustände (Problem). Keiner repräsentiert eine Prozedur oder Aktion.
+
+Für einen validen Match bräuchte man ein Konzept wie 'MaintenanceProcedure', 'TestStandSetup' oder ähnliches in der Ziel-Ontologie."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-663,Bicycle - Standard repair procedures,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Bicycle - Standard repair procedures' ist ein PROZEDURALES Konzept - es beschreibt Reparaturanweisungen (Hinterrad entfernen, Reifenpanne reparieren, Ventil entlüften). Hierarchie: S1000DBIKE > AAA > D00 > 0 > 0 > 663 deutet auf eine Prozedur-Kodierung hin.
+
+2. KANDIDAT 0 (Bike): Repräsentiert das PHYSISCHE OBJEKT 'Fahrrad' selbst, NICHT Reparaturprozeduren. Funktional unterschiedlich: Objekt ≠ Prozess.
+
+3. KANDIDAT 1 (ChainArea): Strukturelle KOMPONENTE (Kettenbereich). Das Quell-Konzept erwähnt zwar 'chain stay', aber es ist eine Reparaturanleitung, keine Komponentendefinition. Funktional inkompatibel.
+
+4. KANDIDAT 2 (FrontDerailleur): Spezifische KOMPONENTE (vorderer Umwerfer). Quell-Konzept fokussiert auf Hinterrad/Reifen-Reparatur, nicht auf Schaltungskomponenten. Falsche Domäne.
+
+5. KANDIDAT 3 (Frame): Strukturelle KOMPONENTE (Rahmen). Erwähnt 'chain stay', aber Quell-Konzept ist über Reparaturprozeduren, nicht über Rahmenstruktur. Funktional unterschiedlich.
+
+6. KANDIDAT 4 (CommonPart): Generische Klasse für KOMPONENTEN. Quell-Konzept ist eine PROZEDUR, keine Komponente.
+
+KERNPROBLEM: Alle Kandidaten sind OBJEKT/KOMPONENTEN-Konzepte aus einer Produkt-Ontologie. Das Quell-Konzept ist ein PROZEDURALES/TASK-Konzept aus einer Wartungsdokumentation. Diese fundamentale kategoriale Inkompatibilität (Objekt vs. Prozess) macht keinen Kandidaten zu einem validen Match.
+
+Keine funktionale Äquivalenz vorhanden."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-941,Bicycle - Illustrated Parts Data - IPD,http://purl.org/ontology/bikeo#Bike,Bike,0.92,llm_reranking,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Bicycle - Illustrated Parts Data - IPD' ist ein S1000D Data Module für Fahrrad-Ersatzteilkataloge. Der Kontext zeigt, dass dies die oberste Ebene (AAA) der technischen Dokumentation für ein komplettes Fahrrad ist.
+
+2. KANDIDAT 0 (Frame): KEIN MATCH - Frame ist nur eine Komponente des Fahrrads, nicht das gesamte Fahrrad. Hierarchisch ein Teil, nicht das Ganze.
+
+3. KANDIDAT 1 (Bike): BESTER MATCH - 'Bike' repräsentiert das komplette Fahrrad als Entität ('two-wheeled steerable machine'). Die sameAs-Relation zu 'vso:Bicycle' bestätigt die Äquivalenz. Dies entspricht dem Dokumentationsgegenstand des IPD-Moduls.
+
+4. KANDIDAT 2 (CommonPart): KEIN MATCH - Dies ist eine abstrakte Klasse für Fahrradteile ('principal pieces composing a bike'), nicht das Fahrrad selbst. Zu generisch und auf Komponentenebene.
+
+5. KANDIDAT 3 (Problem): KEIN MATCH - Völlig anderer semantischer Bereich (Problembeschreibungen statt physisches Objekt).
+
+6. KANDIDAT 4 (ChainArea): KEIN MATCH - Spezifische Komponente/Bereich des Fahrrads, nicht das Gesamtsystem.
+
+KANDIDAT 1 ist der einzige, der das komplette Fahrrad als Entität repräsentiert, was dem Dokumentationsgegenstand des IPD entspricht."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D05-1-0-000,Bicycle - Time limits,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT VERSTEHEN:
+   - Label: 'Bicycle - Time limits'
+   - Hierarchie: S1000DBIKE > AAA > D05 > 1 > 0 > 000
+   - Kontext: Wartungs-/Zeitlimits für Fahrräder (typisch für S1000D Maintenance Planning)
+   - Funktionale Bedeutung: Zeitbasierte Wartungsintervalle oder Nutzungsgrenzen
+
+2. KANDIDATEN-ANALYSE:
+
+   KANDIDAT 0 (Alpha Platinum Aluminum):
+   - Hierarchie: CommonPart > CommonPartArea > Frame
+   - Funktionale Bedeutung: Spezifisches Rahmenmaterial
+   - Match-Prüfung: NEIN - Material ≠ Zeitlimit
+   - Hierarchie-Ebene: Physische Komponente vs. Wartungskonzept
+
+   KANDIDAT 1 (Advanced-Grade Composite):
+   - Hierarchie: CommonPart > CommonPartArea > Frame
+   - Funktionale Bedeutung: Rahmenmaterial (Composite)
+   - Match-Prüfung: NEIN - Material ≠ Zeitlimit
+
+   KANDIDAT 2 (Aethos FACT 10R Carbon):
+   - Hierarchie: CommonPart > CommonPartArea > Frame
+   - Funktionale Bedeutung: Spezifischer Rahmentyp
+   - Match-Prüfung: NEIN - Physische Komponente ≠ Zeitlimit
+
+   KANDIDAT 3 (Alexrims RXD5C):
+   - Hierarchie: CommonPart > CommonPartArea > Wheel
+   - Funktionale Bedeutung: Spezifisches Rad-Modell
+   - Match-Prüfung: NEIN - Physische Komponente ≠ Zeitlimit
+
+   KANDIDAT 4 (All-New):
+   - Hierarchie: CommonPart > CommonPartArea > Frame
+   - Funktionale Bedeutung: Deskriptor für Rahmen
+   - Match-Prüfung: NEIN - Produktbeschreibung ≠ Zeitlimit
+
+3. VERGLEICHENDE BEWERTUNG:
+   - Alle Kandidaten sind physische Komponenten oder Materialbeschreibungen
+   - Quell-Konzept ist ein Wartungs-/Planungskonzept (Time limits)
+   - Fundamentaler kategorialer Unterschied: Physisches Objekt vs. Zeitbasiertes Konzept
+   - Keine funktionale Äquivalenz bei irgendeinem Kandidaten
+
+4. FAZIT:
+   - Kein Kandidat repräsentiert Zeitlimits oder Wartungsintervalle
+   - Alle Kandidaten sind auf falscher konzeptueller Ebene
+   - NULL ist die einzig korrekte Antwort"
+http://my-company.com/s1000d/S1000DBIKE-AAA-D05-2-0-000,Bicycle - Scheduled maintenance lists,,,0.95,llm_rejected,"Das Quell-Konzept 'Bicycle - Scheduled maintenance lists' ist ein DOKUMENTTYP/PROZESS für geplante Wartungslisten, während ALLE 5 Kandidaten PHYSISCHE KOMPONENTEN sind (Räder und Rahmen). Funktionale Äquivalenz-Analyse: KANDIDAT 0-4 sind spezifische Produktmodelle (Bontrager Aeolus RSL 37V Rad, Advanced-Grade Composite Rahmen, etc.) - dies sind materielle Fahrradteile. Das Quell-Konzept hingegen repräsentiert eine Wartungsdokumentation/Checkliste. Dies ist ein fundamentaler kategorialer Unterschied: Dokumentation vs. physische Komponente. Keine hierarchische Kompatibilität: Quelle ist auf Dokumentationsebene (AAA > D05 = Wartungslisten), Kandidaten sind auf Komponentenebene (CommonPartArea > Frame/Wheel). Kein Kandidat erfüllt die Anforderung der funktionalen Äquivalenz. Ein Match würde bedeuten, eine Wartungsliste mit einem Fahrradteil gleichzusetzen, was semantisch inkorrekt ist."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D05-4-0-000,Bicycle - Scheduled maintenance checks,,,0.95,llm_rejected,"Das Quell-Konzept 'Bicycle - Scheduled maintenance checks' repräsentiert einen WARTUNGSPROZESS oder eine PROZEDUR für das gesamte Fahrrad. Keiner der 5 Kandidaten passt funktional:
+
+KANDIDAT 0 (Bontrager Aeolus RSL 37V): Spezifisches Laufrad-Modell - ist eine KOMPONENTE, kein Wartungsprozess.
+
+KANDIDAT 1 (Advanced-Grade Composite): Rahmen-Material/Typ - ist eine KOMPONENTE, kein Wartungsprozess.
+
+KANDIDAT 2 (Aethos FACT 10R Carbon): Spezifischer Rahmen-Typ - ist eine KOMPONENTE, kein Wartungsprozess.
+
+KANDIDAT 3 (Alexrims RXD5C): Spezifisches Laufrad-Modell - ist eine KOMPONENTE, kein Wartungsprozess.
+
+KANDIDAT 4 (All-New): Rahmen-Bezeichnung - ist eine KOMPONENTE, kein Wartungsprozess.
+
+Alle Kandidaten befinden sich in der Hierarchie 'CommonPart > CommonPartArea' und repräsentieren physische Fahrradkomponenten (Räder, Rahmen). Das Quell-Konzept ist jedoch eine WARTUNGSAKTIVITÄT/PROZEDUR, die auf das gesamte Fahrrad angewendet wird. Dies ist ein fundamentaler kategorialer Unterschied: Prozess vs. Physisches Objekt. Es gibt keine funktionale Äquivalenz."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-0-0-041,Wheel - Description of how it is made,http://purl.org/ontology/bikeo#Wheel,Wheel,0.95,llm_reranking,"SCHRITT-FÜR-SCHRITT ANALYSE:
+
+1. QUELL-KONZEPT VERSTEHEN:
+- Label: 'Wheel - Description of how it is made'
+- Beschreibt die GESAMTE Radstruktur als komplexe Baugruppe
+- Listet Komponenten: tire, tube, spokes, spoke nipples, valve, hub
+- Betont: Einzelteile schwach, aber zusammen stark → beschreibt das KOMPLETTE RAD
+- Hierarchie: Unter '041' (vermutlich Rad-Sektion)
+
+2. KANDIDATEN-ANALYSE:
+
+KANDIDAT 0 (Wheel):
+✓ Label: 'Wheel' - exakte funktionale Übereinstimmung
+✓ Beschreibung: 'the set of pieces, like the tire and the air chamber, that form the wheel'
+✓ Repräsentiert die GESAMTE Radbaugruppe (nicht nur ein Teil)
+✓ Hierarchie: CommonPart > CommonPartArea > Wheel (eigenständiges Konzept)
+✓ Funktionale Äquivalenz: JA - beide beschreiben das komplette Rad als Baugruppe
+
+KANDIDAT 1 (Spokes):
+✗ Nur EINE Komponente des Rades (in Quelle erwähnt als Teil)
+✗ Hierarchie: CommonPart > Spokes (Einzelteil, nicht Baugruppe)
+✗ Funktionale Äquivalenz: NEIN - Teil ≠ Ganzes
+
+KANDIDAT 2 (Hub):
+✗ Nur EINE Komponente (Kern des Rades)
+✗ In Quelle als Teil der Wheel-Assembly aufgelistet
+✗ Funktionale Äquivalenz: NEIN - Teil ≠ Ganzes
+
+KANDIDAT 3 (Tire):
+✗ Nur EINE Komponente des Rades
+✗ In Quelle als Teil der Wheel-Assembly aufgelistet
+✗ Funktionale Äquivalenz: NEIN - Teil ≠ Ganzes
+
+KANDIDAT 4 (Rim):
+✗ Nur EINE Komponente (Felge)
+✗ Nicht einmal in der Quell-Komponentenliste erwähnt
+✗ Funktionale Äquivalenz: NEIN - Teil ≠ Ganzes
+
+3. VERGLEICHENDE BEWERTUNG:
+- Kandidaten 1-4 sind alle TEILE des Rades → keine Matches
+- Nur Kandidat 0 repräsentiert das KOMPLETTE RAD als Baugruppe
+- Quelle beschreibt explizit 'the complete wheel' → passt zu Kandidat 0
+- Kandidat 0's Beschreibung 'set of pieces...that form the wheel' entspricht genau der Quell-Beschreibung
+
+4. FAZIT:
+Kandidat 0 ist der einzige funktional äquivalente Match - beide repräsentieren das komplette Rad als Baugruppe von Komponenten."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-921,Inner tube - Remove and install a new item,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Inner tube - Remove and install a new item' ist eine PROZEDUR/AUFGABE zum Entfernen und Installieren eines Schlauchs (inner tube). Der Kontext beschreibt eine Wartungsanweisung mit Vorsichtsmaßnahmen.
+
+2. KANDIDAT 0 (Wheel): Repräsentiert das gesamte Rad-System. Ein Schlauch ist ein TEIL des Rades, nicht das Rad selbst. Hierarchisch: Wheel ist übergeordnet. KEINE funktionale Äquivalenz.
+
+3. KANDIDAT 1 (Spokes): Speichen verbinden Felge und Nabe. Völlig andere Komponente als ein Schlauch. KEINE funktionale Äquivalenz.
+
+4. KANDIDAT 2 (Hub): Die Radnabe ist das Zentrum des Rades mit Lagern. Komplett unterschiedliche Komponente vom Schlauch. KEINE funktionale Äquivalenz.
+
+5. KANDIDAT 3 (Rim): Die Felge ist der äußere Ring, an dem der Reifen befestigt wird. Zwar Teil des Rad-Systems, aber nicht der Schlauch selbst. KEINE funktionale Äquivalenz.
+
+6. KANDIDAT 4 (Alexrims RXD5C): Spezifisches Felgenmodell. Noch spezifischer als Kandidat 3, aber ebenfalls nicht der Schlauch. KEINE funktionale Äquivalenz.
+
+KRITISCHE FESTSTELLUNG: Keiner der Kandidaten repräsentiert einen 'Inner tube' (Schlauch/Luftkammer). Alle Kandidaten sind andere Rad-Komponenten (Wheel, Spokes, Hub, Rim) oder eine Wartungsprozedur fehlt komplett. Die Quelle beschreibt zudem eine PROZEDUR, während alle Kandidaten KOMPONENTEN sind.
+
+Fazit: NULL - Kein passender Match vorhanden."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-215,Tire - Fill with air,http://purl.org/ontology/bikeo#Tire,Tire,0.88,llm_reranking,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Tire - Fill with air' ist eine Prozedur zum Befüllen eines Reifens mit Luft. Der Kontext beschreibt den Vorgang des Aufpumpens eines entleerten Reifens am Fahrrad.
+
+2. KANDIDAT 0 (Tire): Repräsentiert das physische Bauteil 'Reifen' selbst. Dies ist das Objekt, auf das sich die Prozedur bezieht. Hierarchie: CommonPart > Tire. Funktional: Der Reifen ist die Entität, die mit Luft befüllt wird.
+
+3. KANDIDAT 1 (Wheel): Repräsentiert das gesamte Rad-System inklusive Reifen und Luftkammer. Dies ist eine übergeordnete Baugruppe. Hierarchie: CommonPart > CommonPartArea > Wheel. Funktional: Zu breit gefasst - das Rad als Ganzes wird nicht befüllt, nur der Reifen.
+
+4. KANDIDAT 2 (RearDerailleur): Schaltwerk - komplett unrelated zur Reifenbefüllung. Keine funktionale Verbindung.
+
+5. KANDIDAT 3 (Spokes): Speichen - Teil des Rads, aber nicht das Objekt der Befüllungsprozedur. Keine funktionale Äquivalenz.
+
+6. KANDIDAT 4 (Hub): Radnabe - Kernkomponente des Rads, aber nicht das zu befüllende Element.
+
+ENTSCHEIDUNG: Kandidat 0 (Tire) ist der beste Match. Die Quell-Prozedur 'Tire - Fill with air' referenziert das Bauteil 'Tire' als Objekt der Handlung. In S1000D werden Prozeduren oft mit dem betroffenen Bauteil verknüpft. Der Kandidat 0 repräsentiert genau dieses Bauteil auf der korrekten hierarchischen Ebene (CommonPart). Die anderen Kandidaten sind entweder zu breit (Wheel), zu spezifisch (Hub, Spokes) oder irrelevant (RearDerailleur)."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-362,Tire - Check pressure,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Tire - Check pressure' ist eine WARTUNGSAKTIVITÄT (Prozess), die das Überprüfen des Reifendrucks beschreibt. Es ist KEINE physische Komponente, sondern eine Prozedur/Task.
+
+2. KANDIDAT 0 (Tire): Repräsentiert die physische KOMPONENTE 'Reifen'. Dies ist das OBJEKT der Wartung, nicht die Wartungsaktivität selbst. Funktional NICHT äquivalent - Komponente ≠ Prozess.
+
+3. KANDIDAT 1 (Wheel): Repräsentiert das komplette Rad-System. Hierarchisch übergeordnet zum Reifen und noch weiter entfernt von der Wartungsaktivität. KEIN Match.
+
+4. KANDIDAT 2 & 3 (Bontrager/Giant Wheelsets): Spezifische Rad-Produkte. Noch spezifischer und weiter entfernt vom Quell-Konzept. KEIN Match.
+
+5. KANDIDAT 4 (RearDerailleur): Völlig andere Komponente (Schaltwerk). Keine Beziehung zu Reifen oder Druckprüfung. KEIN Match.
+
+KERNPROBLEM: Das Quell-Konzept ist eine PROZEDUR/TASK ('Check pressure'), während alle Kandidaten PHYSISCHE KOMPONENTEN sind. Die Ziel-Ontologie scheint keine Wartungsprozesse zu modellieren, nur Komponenten. Es gibt keine funktionale Äquivalenz zwischen einer Wartungsaktivität und einer physischen Komponente.
+
+FAZIT: NULL - Keiner der Kandidaten repräsentiert eine Wartungsaktivität oder Prozedur."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-400,Front wheel - Fault reports and isolation procedures,,,0.95,llm_rejected,"SCHRITT-FÜR-SCHRITT ANALYSE:
+
+1. QUELL-KONZEPT VERSTEHEN:
+- Label: 'Front wheel - Fault reports and isolation procedures'
+- Dies ist ein PROZEDURALES DOKUMENT über Fehlerdiagnose
+- Hierarchie: S1000DBIKE > AAA > DA0 > 1 > 0 > 400
+- Kontext: Technische Dokumentation für Wartung/Troubleshooting
+- NICHT die physische Komponente selbst, sondern DOKUMENTATION darüber
+
+2. KANDIDATEN-ANALYSE:
+
+KANDIDAT 0 (Wheel):
+- Repräsentiert die PHYSISCHE Komponente 'Rad'
+- Hierarchie: CommonPart > CommonPartArea > Wheel
+- NICHT funktional äquivalent: Physisches Teil ≠ Wartungsdokumentation
+- Keine Prozedur-Semantik
+
+KANDIDAT 1 (Bontrager Aeolus Pro 3V):
+- Spezifisches Rad-MODELL
+- Noch spezifischer als Kandidat 0
+- NICHT funktional äquivalent: Produktmodell ≠ Fehlerisolierungsprozedur
+
+KANDIDAT 2 (Spokes):
+- TEIL-Komponente eines Rades
+- Hierarchisch UNTER Rad-Ebene
+- NICHT funktional äquivalent: Speichen ≠ Vorderrad-Fehlerdiagnose
+
+KANDIDAT 3 (Hub):
+- TEIL-Komponente eines Rades (Nabe)
+- Hierarchisch UNTER Rad-Ebene
+- NICHT funktional äquivalent: Nabe ≠ Vorderrad-Wartungsprozedur
+
+KANDIDAT 4 (Rim):
+- TEIL-Komponente eines Rades (Felge)
+- Hierarchisch UNTER Rad-Ebene
+- NICHT funktional äquivalent: Felge ≠ Fehlerberichtsprozedur
+
+3. KERNPROBLEM:
+- Quelle: DOKUMENTATIONSTYP (Prozedur/Anleitung)
+- Alle Kandidaten: PHYSISCHE KOMPONENTEN
+- Semantischer Mismatch: Dokumentation vs. Hardware
+- Keine Kandidaten repräsentieren Prozeduren, Anleitungen oder Dokumentation
+
+4. FAZIT:
+KEINER der Kandidaten ist funktional äquivalent. Die Ziel-Ontologie scheint keine Konzepte für technische Dokumentationstypen zu enthalten, nur physische Teile."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-921,Inner tube - Remove and install a new item,http://purl.org/ontology/bikeo#Tire,Tire,0.92,llm_reranking,"KANDIDAT 0 (Tire) ist der beste Match. Analyse: Das Quell-Konzept beschreibt eine Wartungsprozedur 'Tire - Remove and install a new item', die sich explizit auf den Reifen (Tire) bezieht. Der Prozedurtext bestätigt dies: 'remove the old tire from the wheel' und 'attach the new [tire] to the wheel'. KANDIDAT 0 repräsentiert exakt die Entität 'Tire' mit der Definition 'a tire that fits on the wheel of a bicycle'. Funktionale Äquivalenz: Beide beziehen sich auf denselben physischen Gegenstand - den Fahrradreifen. KANDIDAT 1 (Wheel) ist das übergeordnete System, nicht der Reifen selbst. KANDIDAT 2 (Spokes) ist eine separate Komponente des Rads. KANDIDAT 3 (RearDerailleur) ist völlig unrelated. KANDIDAT 4 (Hub) ist ebenfalls eine separate Radkomponente. Obwohl das Quell-Konzept eine Prozedur ist und der Kandidat eine Komponente, ist die funktionale Äquivalenz gegeben, da die Prozedur sich eindeutig auf die Tire-Komponente bezieht."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-2-0-412,Rear wheel - Detected fault,,,0.95,llm_rejected,"Das Quell-Konzept 'Rear wheel - Detected fault' repräsentiert einen FEHLERZUSTAND oder eine DIAGNOSE-MELDUNG bezüglich des Hinterrads, nicht das physische Rad selbst. Analyse der Kandidaten: KANDIDAT 1 ('Wheel') ist das generische Rad-Konzept und repräsentiert die physische Komponente, nicht einen Fehlerzustand. KANDIDATEN 0, 2, 3, 4 sind spezifische Rad-Modelle (Bontrager Aeolus, Giant P-R2, etc.) - ebenfalls physische Komponenten. KEINER der Kandidaten repräsentiert einen Fehler, eine Diagnose oder einen Zustand. Die Quelle gehört konzeptionell in eine Fehler-/Diagnose-Hierarchie, während alle Kandidaten in einer Komponenten-Hierarchie sind. Dies ist ein fundamentaler semantischer Unterschied: Fehlermeldung vs. physisches Objekt. Zusätzlich: Die Quelle spezifiziert 'Rear wheel' (Hinterrad), während Kandidat 1 nur 'Wheel' (allgemein) ist - aber selbst wenn es 'Rear Wheel' wäre, würde es nicht matchen, da es um unterschiedliche Konzepttypen geht."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-2-0-520,Rear wheel - Remove procedures,,,0.95,llm_rejected,"ANALYSE: Das Quell-Konzept 'Rear wheel - Remove procedures' ist eine PROZEDUR/ANLEITUNG zum Entfernen des Hinterrads, KEIN physisches Bauteil. Alle 5 Kandidaten repräsentieren physische KOMPONENTEN:
+
+KANDIDAT 0 (Wheel): Physisches Bauteil 'Rad' - KEINE Prozedur
+KANDIDAT 1 (Spokes): Physisches Bauteil 'Speichen' - KEINE Prozedur
+KANDIDAT 2 (Tire): Physisches Bauteil 'Reifen' - KEINE Prozedur
+KANDIDAT 3 (Bontrager Aeolus RSL 37V): Spezifisches Rad-Modell - KEINE Prozedur
+KANDIDAT 4 (Bontrager Aeolus Pro 3V): Spezifisches Rad-Modell - KEINE Prozedur
+
+KRITISCHER UNTERSCHIED: Quelle = Wartungsprozedur (WIE man etwas tut), Kandidaten = Physische Objekte (WAS existiert). Dies ist eine fundamentale ontologische Inkompatibilität. Die Ziel-Ontologie scheint keine Prozedur-Konzepte zu enthalten, nur Komponenten-Konzepte. Funktionale Äquivalenz ist nicht gegeben."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-0-0-041,Brake system - Description of how it is made,,,0.95,llm_rejected,"KEINE funktionale Äquivalenz gefunden. ANALYSE: Das Quell-Konzept 'Brake system - Description of how it is made' ist eine BESCHREIBUNG/DOKUMENTATION über Bremssysteme im Allgemeinen (Hierarchie: S1000DBIKE > AAA > DA1 > 0 > 0 > 041). Der Kontext zeigt, dass es um eine allgemeine Einführung zu Bremssystemen geht ('nine different types of brake systems'). ALLE 5 Kandidaten sind jedoch SPEZIFISCHE PHYSISCHE BREMSKOMPONENTEN (konkrete Produkte/Modelle): Kandidat 0-3 sind spezifische Markenprodukte (Tektro, Campagnolo), Kandidat 4 ist ein spezifischer Bremstyp. HIERARCHIE-KONFLIKT: Quelle ist auf Dokumentationsebene (DA1 = Descriptive Data Module), Kandidaten sind auf Komponentenebene (CommonPart > Brakes). FUNKTIONALE UNTERSCHEIDUNG: Quelle = Dokumentation/Beschreibung ÜBER Bremssysteme; Kandidaten = konkrete Bremskomponenten SELBST. Dies ist wie der Unterschied zwischen einem Handbuchkapitel 'Wie Bremsen funktionieren' und einer tatsächlichen Bremsscheibe. KEINE der Kandidaten repräsentiert eine allgemeine Bremssystem-Beschreibung oder Dokumentation."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-0-0-341,Brake system - Manual test,,,0.95,llm_rejected,"Das Quell-Konzept 'Brake system - Manual test' ist eine TESTPROZEDUR/PRÜFANWEISUNG, nicht eine physische Komponente. Es beschreibt einen manuellen Test des Bremssystems (Fahrrad schieben, Bremsen betätigen, Blockieren prüfen). KEINER der Kandidaten repräsentiert eine Testprozedur: Kandidat 0-1, 3-4 sind spezifische Bremsmodelle (Promax Render R, Decoder R, TRP Spyre, Tektro C550) - physische Produkte, keine Tests. Kandidat 2 'Brakes' ist die allgemeine Bremsen-Kategorie - ebenfalls eine Komponente, kein Testverfahren. Funktionale Äquivalenz fehlt komplett: Quelle = Prozess/Aktivität (Testing), Kandidaten = Objekte/Komponenten (Hardware). Dies ist ein fundamentaler kategorialer Unterschied. Die hierarchische Einordnung unter 'DA1 > 0 > 0 > 341' in S1000D deutet auf eine Prozedur-Nummer hin, während alle Kandidaten unter 'CommonPart > Brakes' physische Teile sind. Ein Match würde Äpfel mit Birnen vergleichen."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-1-0-251,Brake pads - Clean with rubbing alcohol,,,0.0,llm_rejected,"Funktionale Äquivalenz nicht gegeben. QUELLE: 'Brake pads - Clean with rubbing alcohol' ist eine WARTUNGSPROZEDUR/TASK für Bremsbeläge, keine physische Komponente. KANDIDATEN 0-4: Alle sind spezifische BREMSSYSTEME (komplette Bremsen verschiedener Hersteller: Tektro, Promax, Campagnolo). Hierarchische Analyse: Quelle ist eine Prozedur-Beschreibung (S1000D Task-Struktur), Kandidaten sind unter 'CommonPart > Brakes' kategorisiert als physische Teile. Kein Kandidat repräsentiert 'Bremsbeläge' als Komponente oder die Reinigungsprozedur. Die Kandidaten sind vollständige Bremssysteme (Felgenbremsen, mechanische/hydraulische Scheibenbremsen), nicht die Bremsbeläge selbst. Kategoriefehler: Prozedur vs. Komponente, Teil vs. System. Confidence für jeden Kandidaten <15%."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-0-0-041,Steering - Description of how it is made,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Steering - Description of how it is made' beschreibt das Lenksystem eines Fahrrads, bestehend aus Lenker (handlebar), Steuersatz (headset) und Vorbau (stem). Dies ist ein funktionales System zur Richtungssteuerung.
+
+2. KANDIDAT 0 (FrontDerailleur): Vorderer Umwerfer für Kettenschaltung - KEINE funktionale Äquivalenz. Schaltung ≠ Lenkung.
+
+3. KANDIDAT 1 (Frame): Rahmen als Hauptkomponente - KEINE funktionale Äquivalenz. Der Rahmen ist die strukturelle Basis, nicht das Lenksystem. Obwohl der Rahmen den Steuersatz aufnimmt, ist er nicht das Lenksystem selbst.
+
+4. KANDIDAT 2 (ChainStay): Kettenstrebe des Rahmens - KEINE funktionale Äquivalenz. Teil des hinteren Rahmendreiecks, keine Verbindung zur Lenkung.
+
+5. KANDIDAT 3 (RearDerailleur): Hinterer Umwerfer - KEINE funktionale Äquivalenz. Schaltung ≠ Lenkung.
+
+6. KANDIDAT 4 (ChainArea): Kettenbereich - KEINE funktionale Äquivalenz. Bezieht sich auf Antriebskomponenten, nicht auf Lenkung.
+
+FAZIT: Keiner der Kandidaten repräsentiert das Lenksystem (Steering System). Alle Kandidaten beziehen sich auf andere Fahrradkomponenten (Schaltung, Rahmen, Antrieb). Es fehlt ein Konzept wie 'SteeringSystem' oder 'Handlebar' in der Kandidatenliste. NULL ist die korrekte Antwort."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-520,Stem - Remove procedures,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Stem - Remove procedures' ist eine PROZEDUR zum Entfernen des Vorbaus (Stem) - ein Wartungs-/Demontageprozess, kein physisches Bauteil.
+
+2. KANDIDAT 0 (RearDerailleur): Physisches Bauteil (hintere Schaltung) - KEINE funktionale Äquivalenz. Dies ist ein Antriebskomponente, keine Prozedur und kein Lenker-bezogenes Teil.
+
+3. KANDIDAT 1 (ChainArea): Struktureller Bereich des Fahrrads (Kettenbereich) - KEINE funktionale Äquivalenz. Dies ist ein Bereich/Zone, keine Prozedur und nicht Lenker-bezogen.
+
+4. KANDIDAT 2 (FrontDerailleur): Physisches Bauteil (vordere Schaltung) - KEINE funktionale Äquivalenz. Wieder ein Antriebskomponente, keine Prozedur.
+
+5. KANDIDAT 3 (Shimano Ultegra FC-R8000 Chainring): Spezifisches Kettenblatt - KEINE funktionale Äquivalenz. Antriebskomponente, keine Prozedur.
+
+6. KANDIDAT 4 (ChainStay): Rahmenrohr (Kettenstrebe) - KEINE funktionale Äquivalenz. Strukturelles Rahmenelement, keine Prozedur.
+
+KERNPROBLEM: Das Quell-Konzept ist eine PROZEDUR (Remove procedures), während ALLE Kandidaten physische BAUTEILE oder BEREICHE sind. Keiner der Kandidaten repräsentiert eine Wartungsprozedur oder hat Bezug zum Stem/Vorbau (Lenkerkomponente). Die Kandidaten sind alle aus dem Antriebs-/Kettenbereich, während die Quelle aus dem Lenker-/Steuersatz-Bereich stammt.
+
+Fazit: NULL - Keine funktionale Äquivalenz vorhanden."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-720,Stem - Install procedures,,,0.95,llm_rejected,"Analyse der Kandidaten: Das Quell-Konzept 'Stem - Install procedures' beschreibt Installationsanweisungen für den Vorbau (Stem), der die Lenkstange mit der Gabelschaftklemmung verbindet. KANDIDAT 0 (FrontDerailleur): Umwerfer für vordere Kettenblätter - funktional völlig unterschiedlich, keine Äquivalenz. KANDIDAT 1 (ChainStay): Kettenstrebe des Rahmens - strukturelles Rahmenteil, nicht der Vorbau. KANDIDAT 2 (RearDerailleur): Hinterer Umwerfer - Schaltkomponente, keine Beziehung zum Vorbau. KANDIDAT 3 (Frame): Rahmen als Hauptkomponente - zu allgemein und hierarchisch übergeordnet, der Stem ist keine Frame-Komponente sondern Teil der Lenker-/Gabeleinheit. KANDIDAT 4 (Shimano Ultegra FC-R8000 Chainring): Kettenblatt - Antriebskomponente, keine Verbindung zum Vorbau. Keiner der Kandidaten repräsentiert den Vorbau (Stem) oder dessen Installationsprozeduren. Der Stem fehlt komplett in der Ziel-Ontologie. Alle Kandidaten sind funktional unterschiedliche Fahrradkomponenten ohne hierarchische oder funktionale Äquivalenz zum Quell-Konzept."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-520,Handlebar - Remove procedures,,,0.95,llm_rejected,"Das Quell-Konzept 'Handlebar - Remove procedures' ist eine PROZEDUR/ANLEITUNG zum Entfernen von Lenkergriffen, KEIN physisches Bauteil. Analyse der Kandidaten: KANDIDAT 0 (RearDerailleur): Hintere Schaltung - völlig anderes Bauteil, keine Beziehung zum Lenker. KANDIDAT 1 (ChainStay): Rahmenrohr parallel zur Kette - keine Beziehung zum Lenker. KANDIDAT 2 (FrontDerailleur): Vordere Schaltung - keine Beziehung zum Lenker. KANDIDAT 3 (Crank): Kurbel/Tretkurbel - keine Beziehung zum Lenker. KANDIDAT 4 (HandlebarGrip): Dies ist das physische Bauteil 'Lenkergriff', aber die Quelle beschreibt die ENTFERNUNGSPROZEDUR ('Remove procedures'), nicht das Bauteil selbst. Die Quelle ist eine Prozessbeschreibung (erkennbar an 'Do not ride...', 'Put a screwdriver...', 'Loosen the clamp screw...'), während alle Kandidaten physische Komponenten sind. Dies ist ein kategorialer Unterschied: Prozedur vs. Komponente. Kein funktional äquivalenter Match vorhanden."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-720,Handlebar - Install procedures,,,0.95,llm_rejected,"Analyse der Kandidaten: Das Quell-Konzept 'Handlebar - Install procedures' beschreibt Installationsverfahren für den Lenker (Handlebar), einschließlich Montage am Vorbau (stem), Ausrichtung und Befestigung der Griffe. KANDIDAT 0 (ChainStay): Rahmenrohr parallel zur Kette - keine funktionale Äquivalenz zum Lenker. KANDIDAT 1 (FrontDerailleur): Schaltwerk für Kettenführung - völlig andere Komponente. KANDIDAT 2 (Frame): Hauptrahmen des Fahrrads - übergeordnetes System, kein Match für Lenker. KANDIDAT 3 (Crank): Kurbel für Pedalantrieb - keine Beziehung zum Lenker. KANDIDAT 4 (ChainArea): Strukturbereich mit Kette und Schaltwerk - keine Verbindung zum Lenker. Keiner der Kandidaten repräsentiert den Lenker (Handlebar) oder dessen Installationsverfahren. Alle Kandidaten beziehen sich auf Antriebskomponenten oder Rahmenteile, während das Quell-Konzept eine Lenkungskomponente beschreibt. Es fehlt ein Kandidat wie 'Handlebar' oder 'SteeringComponent'."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-041,Headset - Description of how it is made,,,0.95,llm_rejected,"Analyse aller Kandidaten:
+
+KANDIDAT 0 (ChainStay): Ist ein spezifisches Rahmenrohr, das die Tretlagerachse mit den hinteren Ausfallenden verbindet. KEINE funktionale Äquivalenz zum Headset (Steuersatz), das Lager am Steuerrohr für die Gabelrotation ist.
+
+KANDIDAT 1 (RearDerailleur): Ist die hintere Schaltung für Gangwechsel. Völlig andere Funktion als Headset - keine Lenkfunktion, sondern Antriebskomponente.
+
+KANDIDAT 2 (FrontDerailleur): Ist die vordere Schaltung für Kettenbewegung zwischen Kettenblättern. Keine Beziehung zur Lenkung oder zu Lagern am Steuerrohr.
+
+KANDIDAT 3 (ChainArea): Ist ein struktureller Bereich für Kette und vordere Schaltung. Das Headset ist am Steuerrohr lokalisiert, nicht im Kettenbereich.
+
+KANDIDAT 4 (Frame): Ist der Hauptrahmen mit verschiedenen Rohren (chain stay, top/down/seat tubes). Das Headset ist NICHT der Rahmen selbst, sondern ein Lagersystem, das IN den Rahmen (head tube) eingebaut wird.
+
+Das Quell-Konzept 'Headset' ist ein spezifisches Lagersystem am Steuerrohr für die Gabelrotation. KEINER der Kandidaten repräsentiert diese funktionale Einheit. Alle Kandidaten sind entweder andere Rahmenteile, Antriebskomponenten oder strukturelle Bereiche ohne Bezug zur Lenklagerfunktion."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-520,Headset - Remove procedures,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Headset - Remove procedures' ist eine PROZEDUR zum Entfernen des Steuersatzes (Headset), der die Verbindung zwischen Gabel und Rahmen am Lenkkopf ermöglicht. Es beschreibt Arbeitsschritte: Spacer entfernen, Bremskabelhalter entfernen, Staubdichtungen entfernen, konische Expansionsscheiben entfernen, obere Lagerschale abheben.
+
+2. KANDIDATEN-ANALYSE:
+
+KANDIDAT 0 (RearDerailleur): Hinteres Schaltwerk - KEINE funktionale Äquivalenz. Dies ist eine Komponente zur Kettenschaltung, hat nichts mit dem Steuersatz oder dessen Entfernung zu tun.
+
+KANDIDAT 1 (ChainStay): Kettenstrebe des Rahmens - KEINE funktionale Äquivalenz. Dies ist ein Rahmenrohr, das parallel zur Kette verläuft, völlig anderer Bereich des Fahrrads als der Steuersatz.
+
+KANDIDAT 2 (FrontDerailleur): Vorderes Schaltwerk - KEINE funktionale Äquivalenz. Wie Kandidat 0, aber für vordere Kettenblätter. Keine Verbindung zum Steuersatz.
+
+KANDIDAT 3 (ChainArea): Kettenbereich - KEINE funktionale Äquivalenz. Dies beschreibt den strukturellen Bereich um Kette und vorderes Schaltwerk, nicht den Lenkkopfbereich mit Steuersatz.
+
+KANDIDAT 4 (Shimano Ultegra FC-R8000 Chainring): Spezifisches Kettenblatt - KEINE funktionale Äquivalenz. Dies ist ein konkretes Kettenblatt-Produkt, völlig unrelated zum Steuersatz.
+
+3. FAZIT: Alle Kandidaten beziehen sich auf den Antriebsstrang (Schaltung, Kette, Kettenblätter) oder Rahmenteile in diesem Bereich. Das Quell-Konzept beschreibt jedoch eine Wartungsprozedur für den Steuersatz (Headset) im Lenkkopfbereich. Es gibt KEINE funktionale Äquivalenz mit irgendeinem Kandidaten. Die Ziel-Ontologie scheint keine Headset-Komponente oder entsprechende Wartungsprozeduren zu enthalten."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-720,Headset - Install procedures,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Headset - Install procedures' ist eine PROZEDUR zur Installation des Steuersatzes (Headset), der die Verbindung zwischen Gabel und Rahmen ermöglicht. Hierarchie: S1000DBIKE > AAA > DA2 > 3 > 0 > 720. Der Kontext beschreibt Installationsschritte für Headset-Komponenten am Steuerrohr.
+
+2. KANDIDAT 0 (RearDerailleur): Hintere Schaltung - KEINE funktionale Äquivalenz. Dies ist eine Komponente zur Kettenschaltung, völlig unterschiedlich vom Steuersatz. Hierarchie: CommonPart > RearDerailleur. NICHT PASSEND.
+
+3. KANDIDAT 1 (ChainArea): Struktureller Bereich für Kette und vordere Schaltung - KEINE Äquivalenz. Dies ist ein Rahmenbereich, nicht der Steuersatz oder dessen Installation. Hierarchie: CommonPart > CommonPartArea > ChainArea. NICHT PASSEND.
+
+4. KANDIDAT 2 (FrontDerailleur): Vordere Schaltung - KEINE funktionale Äquivalenz. Wieder eine Schaltungskomponente, nicht der Steuersatz. Hierarchie: CommonPart > FrontDerailleur. NICHT PASSEND.
+
+5. KANDIDAT 3 (ChainStay): Kettenstrebe des Rahmens - KEINE Äquivalenz. Dies ist ein Rahmenrohr, das parallel zur Kette verläuft, völlig unterschiedlich vom Steuersatz am Steuerrohr. Hierarchie: CommonPart > ChainStay. NICHT PASSEND.
+
+6. KANDIDAT 4 (Shimano Ultegra FC-R8000 Chainring): Spezifisches Kettenblatt - KEINE Äquivalenz. Dies ist eine Antriebskomponente, nicht der Steuersatz. Hierarchie: CommonPart > Crank > Chainring. NICHT PASSEND.
+
+FAZIT: Alle Kandidaten beziehen sich auf Antriebs- oder Rahmenkomponenten (Schaltung, Kette, Kettenstrebe, Kettenblatt). KEINER repräsentiert den Steuersatz (Headset) oder dessen Installationsprozedur. Das Quell-Konzept beschreibt die Installation von Lenkungskomponenten am Steuerrohr, während alle Kandidaten mit dem Antriebsstrang oder anderen Rahmenbereichen zu tun haben. NULL ist die einzig korrekte Antwort."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-0-0-041,Frame - Description of how it is made,http://purl.org/ontology/bikeo#Frame,Frame,0.95,llm_reranking,"SCHRITT-FÜR-SCHRITT ANALYSE:
+
+1. QUELL-KONZEPT VERSTEHEN:
+- Label: 'Frame - Description of how it is made'
+- Kontext: Beschreibt den Rahmen als 'skeleton, primary part', seine strukturelle Funktion und Materialien (Aluminium, Stahl, Titan, Chrome Moly)
+- Hierarchie: Unter S1000DBIKE > AAA > DA3 > 0 > 0 > 041
+- Funktionale Rolle: Hauptkomponente, die Widerstand gegen große Kräfte bietet
+
+2. KANDIDATEN-ANALYSE:
+
+KANDIDAT 0 (Frame):
+✓ Exakte funktionale Äquivalenz: 'main component of a bicycle, onto which wheels and other components are fitted'
+✓ Gleiche hierarchische Ebene: Ist das Gesamtsystem 'Frame'
+✓ Beschreibung passt perfekt: Erwähnt die strukturellen Komponenten (chain stay, top, down, seat tubes)
+✓ Korrekte Abstraktion: Repräsentiert den kompletten Rahmen, nicht nur Teile davon
+
+KANDIDAT 1 (ChainStay):
+✗ Hierarchisch inkompatibel: ChainStay ist ein TEIL des Frames, nicht der Frame selbst
+✗ Funktional zu spezifisch: Nur ein einzelnes Rohr, nicht die Gesamtstruktur
+✗ Parent-Child Beziehung: ChainStay wird in Kandidat 0 als Teil des Frames erwähnt
+
+KANDIDAT 2 (SRAM RED eTap AXS):
+✗ Völlig andere Komponente: Schaltwerk (RearDerailleur), nicht Frame
+✗ Keine funktionale Ähnlichkeit
+✗ Falsche Kategorie
+
+KANDIDAT 3 (HeadTube):
+✗ Hierarchisch inkompatibel: HeadTube ist ein TEIL des Frames
+✗ Zu spezifisch: Nur das Rohr für die Gabel, nicht die Gesamtstruktur
+✗ Parent-Child Beziehung
+
+KANDIDAT 4 (BallisTec Carbon Frame):
+✗ Zu spezifisch: Dies ist eine spezifische Frame-IMPLEMENTIERUNG/MODELL
+✗ Hierarchisch tiefer: CommonPart > CommonPartArea > Frame > BallisTec Carbon Frame
+✗ Die Quelle beschreibt Frames generisch (verschiedene Materialien), nicht ein spezifisches Modell
+
+3. VERGLEICHENDE BEWERTUNG:
+- Kandidat 0 ist der einzige, der die gleiche Abstraktionsebene und funktionale Rolle hat
+- Kandidaten 1, 3 sind Frame-Komponenten (Teile, nicht das Ganze)
+- Kandidat 2 ist eine völlig andere Komponente
+- Kandidat 4 ist eine zu spezifische Instanz
+
+4. ENTSCHEIDUNG:
+Kandidat 0 'Frame' ist der klare Match - gleiche Entität, gleiche hierarchische Ebene, exakte funktionale Äquivalenz."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-411,Horn - Isolated fault,,,0.95,llm_rejected,"Analyse aller Kandidaten:
+
+QUELLE: 'Horn - Isolated fault' ist ein Fehlercode/Diagnosezustand für die Hupe eines Fahrzeugs (S1000D Kontext deutet auf militärische/technische Dokumentation hin).
+
+KANDIDAT 0 (ChainStay): Fahrradrahmenteil - strukturelle Komponente, keine Beziehung zu Horn oder Fehlerdiagnose.
+
+KANDIDAT 1 (HeadTube): Fahrradrahmenteil für Lenkung - strukturelle Komponente, keine Beziehung zu Horn oder Fehlerdiagnose.
+
+KANDIDAT 2 (Advanced-Grade Composite): Materialbeschreibung für Fahrradrahmen - keine funktionale Äquivalenz zu Fehlercode.
+
+KANDIDAT 3 (Aethos FACT 10R Carbon): Spezifisches Rahmenmodell - keine funktionale Äquivalenz zu Fehlercode.
+
+KANDIDAT 4 (All-New): Produktattribut/Marketing-Begriff - keine funktionale Äquivalenz zu Fehlercode.
+
+FAZIT: Alle Kandidaten sind Fahrradkomponenten oder -attribute. Das Quell-Konzept ist ein Diagnosecode für ein elektrisches/akustisches Warnsystem (Horn). Es gibt keine funktionale, semantische oder hierarchische Übereinstimmung. Die Domänen sind fundamental unterschiedlich (Fehlerdiagnose vs. physische Komponenten)."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-921,Horn - Remove and install a new item,,,0.95,llm_rejected,"Keine funktionale Äquivalenz gefunden. ANALYSE: Quell-Konzept ist 'Horn - Remove and install a new item' (Fahrradhorn mit Installations-/Entfernungsprozedur). KANDIDATEN-PRÜFUNG: (0) ChainStay - Rahmenrohr parallel zur Kette, KEINE Äquivalenz zu Horn; (1) HeadTube - Rahmenrohr mit Steuersatz, KEINE Äquivalenz zu Horn; (2) All-New Frame - generisches Frame-Konzept, KEINE Äquivalenz zu Horn; (3) All-New Fork - Gabel-Konzept, KEINE Äquivalenz zu Horn; (4) All-New Lefty Oliver - spezifische Gabel, KEINE Äquivalenz zu Horn. PROBLEM: Alle Kandidaten sind strukturelle Rahmen-/Gabel-Komponenten, während die Quelle ein akustisches Signalgerät (Horn) mit Wartungsprozedur beschreibt. Die 'All-New' Kandidaten sind zudem zu generisch und beziehen sich auf Neuheits-Kategorien, nicht auf spezifische Komponenten. HIERARCHIE: Quelle ist in Wartungsprozedur-Kontext (921 = Removal/Installation), Kandidaten sind in CommonPart-Hierarchie. Keine hierarchische oder funktionale Übereinstimmung."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-0-0-041,Drivetrain - Description of how it is made,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Drivetrain - Description of how it is made' ist ein SYSTEM-LEVEL Konzept, das die Antriebskomponenten (Kettenblätter, Kette, Pedale, Sattel) als funktionale Gruppe beschreibt. Hierarchie: S1000DBIKE > AAA > DA4 > ... > Drivetrain.
+
+2. KANDIDAT 0 (HandlebarGrip): Lenkergriff - Teil des Lenksystems, NICHT des Antriebsstrangs. Funktional völlig unterschiedlich (Lenkung vs. Antrieb). KEINE Äquivalenz.
+
+3. KANDIDAT 1 (HollowGram SAVE SystemBar): Spezifisches Lenkermodell, untergeordnet zu HandlebarGrip. Noch weiter vom Drivetrain entfernt. KEINE Äquivalenz.
+
+4. KANDIDAT 2 (HollowGram SystemBar SAVE): Weiteres spezifisches Lenkermodell. Gleiche Kategorie wie Kandidat 1. KEINE Äquivalenz.
+
+5. KANDIDAT 3 (FrontSet): Vorderer Bereich des Fahrrads (Gabel, Vorderbremse, Lenkergriff, Steuerrohr, Stoßdämpfer). Dies ist ein ANDERES System - Lenkung/Frontend, nicht Antrieb. KEINE Äquivalenz.
+
+6. KANDIDAT 4 (Bontrager Comp): Weiteres spezifisches Lenkergriff-Modell. KEINE Äquivalenz.
+
+FAZIT: Alle 5 Kandidaten gehören zum Lenk-/Frontend-System (HandlebarGrip, FrontSet). KEINER repräsentiert den Antriebsstrang (Drivetrain = Kette, Kettenblätter, Pedale). Dies ist ein klarer Fall von funktionaler Inkompatibilität. Die Kandidatenliste enthält keinen passenden Match für das Drivetrain-Konzept."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-241,Chain - Oil,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Chain - Oil' ist ein Schmiermittel/Pflegeprodukt für Fahrradketten. Der Kontext beschreibt Sicherheitshinweise für 'Dry Lube' und 'Wet Lube' - beides sind Kettenöle/Schmierstoffe.
+
+2. KANDIDAT 0 (ChainRivet): Mechanisches Befestigungselement (Niet) für Kettenglieder. KEINE funktionale Äquivalenz - dies ist ein Hardwareteil, kein Schmierstoff.
+
+3. KANDIDAT 1 (ChainLink): Ein Kettenglied (Verbindung von inneren und äußeren Kettenplatten). KEINE funktionale Äquivalenz - dies ist ein mechanisches Bauteil der Kette selbst, kein Pflegeprodukt.
+
+4. KANDIDAT 2 (RefitChain): Eine Wartungsaktivität (Wiederanbringen einer abgesprungenen Kette). KEINE funktionale Äquivalenz - dies ist eine Handlung/Prozess, kein Produkt/Material.
+
+5. KANDIDAT 3 (ChainArea): Struktureller Bereich des Fahrrads, der Kette und vorderen Umwerfer umfasst. KEINE funktionale Äquivalenz - dies ist ein räumlicher Bereich/Zone, kein Schmierstoff.
+
+6. KANDIDAT 4 (HandlebarGrip): Lenkergriff. KEINE funktionale Äquivalenz - völlig anderes Bauteil, keine Beziehung zu Kettenöl.
+
+FAZIT: Keiner der Kandidaten repräsentiert ein Schmiermittel, Öl oder Pflegeprodukt. Alle sind entweder mechanische Bauteile (0,1,4), ein Prozess (2) oder ein räumlicher Bereich (3). Das Quell-Konzept 'Chain - Oil' als Verbrauchsmaterial/Pflegeprodukt hat keine funktionale Entsprechung in der Kandidatenliste."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-251,Chain - Clean with chain cleaning fluid,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Chain - Clean with chain cleaning fluid' ist eine WARTUNGSAKTIVITÄT/PROZEDUR, keine physische Komponente. Der Kontext beschreibt einen Reinigungsprozess mit spezifischen Schritten (inspizieren, vorbereiten, reinigen).
+
+2. KANDIDAT 0 (HandlebarGrip): Physische Komponente (Lenkergriff) - KEINE funktionale Äquivalenz. Völlig andere Entität.
+
+3. KANDIDAT 1 (ChainLink): Physische Komponente (Kettenglied) unter 'Tool' - repräsentiert ein TEIL der Kette, nicht die Reinigungsprozedur. Falsche Kategorisierung als Tool, aber selbst wenn korrekt: Teil ≠ Wartungsprozess.
+
+4. KANDIDAT 2 (ChainRivet): Physische Komponente (Kettenniete) unter 'Tool' - ein Befestigungselement, keine Wartungsaktivität.
+
+5. KANDIDAT 3 (ChainArea): Physische Komponente (Kettenbereich) - repräsentiert einen BEREICH/ZONE am Fahrrad, nicht eine Wartungsprozedur. Struktureller Teil ≠ Prozess.
+
+6. KANDIDAT 4 (HollowGram SAVE SystemBar): Spezifischer Lenker - völlig irrelevant.
+
+KERNPROBLEM: Das Quell-Konzept ist eine PROZEDUR/AKTIVITÄT (Reinigen der Kette), während ALLE Kandidaten physische KOMPONENTEN sind. Es gibt keine funktionale Äquivalenz zwischen einer Wartungsaktivität und physischen Teilen. Die Ziel-Ontologie scheint keine Prozedur-Konzepte zu enthalten."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-414,Drive train - Correlated fault,,,0.95,llm_rejected,"KEINE funktionale Äquivalenz gefunden. Analyse: QUELLE ist 'Drive train - Correlated fault' - ein Fehlerkonzept im Antriebsstrang-System (S1000D Fault Isolation Code). KANDIDAT 0-3: Alle sind spezifische Lenkergriff-Modelle (HandlebarGrip) - völlig andere Komponente und Hierarchie. KANDIDAT 4: FrontSet ist ein vorderer Bereich des Fahrrads (Fork, Front Brake, Handlebar, Head Tube) - ebenfalls keine Beziehung zum Antriebsstrang. Der Antriebsstrang (Drive train) umfasst typischerweise Kette, Kassette, Kurbel, Schaltwerk - komplett andere funktionale Einheit als Frontend-Komponenten. Zudem ist die Quelle ein FEHLER-Konzept ('Correlated fault'), während alle Kandidaten physische KOMPONENTEN sind. Hierarchisch: Quelle ist in AAA>DA4>1>0>414 (S1000D Fault Code Struktur), Kandidaten sind in CommonPart-Hierarchie. Keine semantische, funktionale oder hierarchische Übereinstimmung."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-0-0-041,Gears - Description of how it is made,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT VERSTEHEN:
+- Label: 'Gears - Description of how it is made'
+- Kontext: Beschreibt das gesamte Schaltsystem eines Fahrrads (Mechanismus, Naben, Schalthebel)
+- Erwähnt 27+ Gänge, drei Kettenblätter vorne, Kassette hinten
+- Dies ist ein SYSTEM-Level Konzept, das mehrere Komponenten umfasst
+
+2. KANDIDATEN-ANALYSE:
+
+KANDIDAT 0 (SeatPost): 
+- Funktional NICHT äquivalent - Sattelstütze hat nichts mit Schaltsystem zu tun
+- Völlig andere Komponente
+- AUSGESCHLOSSEN
+
+KANDIDAT 1 (RearDerailleur):
+- Schaltwerk ist TEIL des Schaltsystems, nicht das gesamte System
+- Hierarchie: CommonPart > RearDerailleur (einzelne Komponente)
+- Quelle beschreibt das GESAMTE Schaltsystem (Mechanismus + Naben + Schalthebel)
+- Dies ist eine Parent-Child Beziehung: Gears-System enthält RearDerailleur
+- NICHT äquivalent (Teil vs. Ganzes)
+
+KANDIDAT 2 (Saddle):
+- Sattel - völlig andere Komponente
+- Keine Beziehung zum Schaltsystem
+- AUSGESCHLOSSEN
+
+KANDIDAT 3 (SeatTube):
+- Sitzrohr - Rahmenkomponente
+- Keine Beziehung zum Schaltsystem
+- AUSGESCHLOSSEN
+
+KANDIDAT 4 (SeatArea):
+- Sitzbereich - Bereichskonzept
+- Keine Beziehung zum Schaltsystem
+- AUSGESCHLOSSEN
+
+3. FAZIT:
+- Kandidaten 0, 2, 3, 4 sind funktional völlig unterschiedlich (Sattel-Komponenten)
+- Kandidat 1 (RearDerailleur) ist nur EINE Komponente des Schaltsystems
+- Das Quell-Konzept beschreibt das GESAMTE Schaltsystem als Aggregat
+- KEIN Kandidat repräsentiert das vollständige Schaltsystem
+- Benötigt würde ein Konzept wie 'GearSystem' oder 'Drivetrain'
+
+4. ENTSCHEIDUNG: NULL
+- Keine funktionale Äquivalenz gefunden
+- RearDerailleur ist zu spezifisch (Teil statt Ganzes)
+- Andere Kandidaten sind thematisch falsch"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-1-0-041,Mechs - Description of how it is made,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Mechs - Description of how it is made' beschreibt die Konstruktion und Funktionsweise von Schaltwerken (Derailleurs), speziell Front- und Heck-Schaltwerk mit ihren Anschlagschrauben (stop screws) zur Begrenzung der Schaltbewegung.
+
+2. KANDIDAT 0 (Saddle): Sattel - KEINE funktionale Äquivalenz. Völlig andere Komponente (Sitzkomponente vs. Schaltmechanismus).
+
+3. KANDIDAT 1 (SeatPost): Sattelstütze - KEINE funktionale Äquivalenz. Ebenfalls Sitzkomponente, nicht Schaltwerk.
+
+4. KANDIDAT 2 (SeatTube): Sitzrohr - KEINE funktionale Äquivalenz. Rahmenkomponente für Sattel, nicht Schaltwerk.
+
+5. KANDIDAT 3 (SeatArea): Sitzbereich - KEINE funktionale Äquivalenz. Bereichskonzept für Sattelbereich, nicht Schaltwerk.
+
+6. KANDIDAT 4 (Alloy Micro Adjust): Aluminium-Mikroverstellung - KEINE funktionale Äquivalenz. Dies ist eine spezifische Sattelstützen-Variante, nicht ein Schaltwerk.
+
+FAZIT: Alle 5 Kandidaten beziehen sich auf Sitz-/Sattelkomponenten (Saddle, SeatPost, SeatTube, SeatArea). Das Quell-Konzept beschreibt jedoch Schaltwerke (Derailleurs) - eine völlig andere funktionale Kategorie im Antriebssystem. Es gibt keine hierarchische oder funktionale Übereinstimmung. Die Kandidatenliste enthält offensichtlich keine passenden Schaltwerk-Konzepte."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-2-0-251,Hubs - Clean with degreasing agent,http://purl.org/ontology/bikeo#Hub,Hub,0.95,llm_reranking,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Hubs - Clean with degreasing agent' beschreibt eine Wartungsprozedur für Fahrradnaben (Hubs). Der Kontext zeigt detaillierte Anweisungen zum Entfernen der Achse, Muttern, Konen und Lager aus dem Hub.
+
+2. KANDIDAT 0 (Saddle): Sattel - KEINE funktionale Äquivalenz. Völlig andere Komponente.
+
+3. KANDIDAT 1 (Hub): 'the core of a wheel; contains bearings' - EXAKTE funktionale Äquivalenz! Die Definition beschreibt genau die Komponente, die im Quell-Kontext gewartet wird (enthält Lager, Kern des Rads). Die Hierarchie 'CommonPart > Hub' ist angemessen für eine Einzelkomponente.
+
+4. KANDIDAT 2 (SeatPost): Sattelstütze - KEINE Äquivalenz, andere Komponente.
+
+5. KANDIDAT 3 (SeatTube): Sitzrohr - KEINE Äquivalenz, Rahmenteil.
+
+6. KANDIDAT 4 (SeatArea): Sitzbereich - KEINE Äquivalenz, Bereichskonzept statt Komponente.
+
+VERGLEICH: Nur Kandidat 1 repräsentiert die gleiche physische Komponente (Hub/Nabe). Alle anderen Kandidaten beziehen sich auf den Sitzbereich des Fahrrads und haben keine Verbindung zu Radnaben. Die technischen Details im Quellkontext (Lager, Achse, Konen) stimmen perfekt mit der Hub-Definition überein."
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-3-0-041,Shifters - Description of how it is made,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Shifters - Description of how it is made' beschreibt die Konstruktion/Herstellung von Schalthebeln (thumb shifter, index vs friction shifters). Dies ist ein Dokumentationsabschnitt über Schaltkomponenten.
+
+2. KANDIDATEN-ANALYSE:
+   - KANDIDAT 0 (Saddle): Sattel - komplett andere Komponente, keine funktionale Beziehung zu Schalthebeln
+   - KANDIDAT 1 (Bontrager carbon seatmast cap): Spezifische Sattelstützen-Kappe - keine Beziehung zu Schalthebeln
+   - KANDIDAT 2 (SeatPost): Sattelstütze - keine Beziehung zu Schalthebeln
+   - KANDIDAT 3 (SeatTube): Sitzrohr des Rahmens - keine Beziehung zu Schalthebeln
+   - KANDIDAT 4 (SeatArea): Sitzbereich - keine Beziehung zu Schalthebeln
+
+3. PROBLEM: Alle Kandidaten beziehen sich auf den Sitzbereich (Saddle/SeatPost/SeatTube/SeatArea), während das Quell-Konzept Schalthebel (Shifters) beschreibt. Dies sind völlig unterschiedliche funktionale Bereiche eines Fahrrads.
+
+4. HIERARCHIE: Das Quell-Konzept gehört zur Antriebsgruppe/Schaltung, die Kandidaten zur Sitzgruppe - keine hierarchische Kompatibilität.
+
+5. FAZIT: Keiner der Kandidaten repräsentiert Schalthebel oder deren Herstellungsbeschreibung. Dies ist ein klarer Fall von fehlenden passenden Kandidaten."
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-029,Wiring data - Field description,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Wiring data - Field description' ist eine Metadaten-Beschreibung für Verkabelungsdaten im Kontext von S1000D Beleuchtungssystemen. Es handelt sich um eine dokumentarische/beschreibende Entität, die Feldbeschreibungen für Verkabelungsinformationen enthält.
+
+2. KANDIDAT 0 (Frame): Physische Fahrradkomponente - strukturelles Hauptelement. KEINE funktionale Äquivalenz zu Dokumentationsmetadaten.
+
+3. KANDIDAT 1 (Bike): Gesamtfahrzeug-Konzept. KEINE Beziehung zu Feldbeschreibungen oder Dokumentationsstrukturen.
+
+4. KANDIDAT 2 (CommonPart): Allgemeine Klasse für Fahrradteile. Beschreibt physische Komponenten, nicht Dokumentationsfelder. KEINE funktionale Äquivalenz.
+
+5. KANDIDAT 3 (Problem): Beschreibt Fahrradprobleme/Defekte. Völlig anderer semantischer Bereich als Dokumentationsmetadaten.
+
+6. KANDIDAT 4 (ChainArea): Spezifische physische Fahrradkomponente (Kettenbereich). KEINE Verbindung zu Wiring-Dokumentation.
+
+FAZIT: Das Quell-Konzept ist eine dokumentarische/Meta-Entität aus dem S1000D-Standard (technische Dokumentationsstruktur), während ALLE Kandidaten physische Fahrradkomponenten oder -konzepte beschreiben. Es gibt keine funktionale Äquivalenz zwischen Dokumentationsmetadaten und physischen Objekten. Die Ontologien operieren auf völlig unterschiedlichen Abstraktionsebenen."
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-040,Electrical system - Description of how it is made and its function,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Electrical system - Description of how it is made and its function' im Kontext des Beleuchtungssystems (S1000DLIGHTING). Dies beschreibt das elektrische System speziell für die Beleuchtung eines Fahrrads.
+
+2. KANDIDAT 0 (Bike): Repräsentiert das gesamte Fahrrad als Entität. Dies ist viel zu allgemein - das elektrische System ist ein TEIL des Fahrrads, nicht das Fahrrad selbst. Hierarchisch inkompatibel (Ganzes vs. Teil). KEIN MATCH.
+
+3. KANDIDAT 1 (Battery): Repräsentiert die Batterie als Energiequelle für E-Bikes. Die Batterie ist eine KOMPONENTE des elektrischen Systems, nicht das System selbst. Hierarchisch ist Battery ein Teil des elektrischen Systems, nicht äquivalent dazu. KEIN MATCH.
+
+4. KANDIDAT 2 (Brakes): Repräsentiert das Bremssystem. Dies ist ein völlig anderes funktionales System - mechanisch statt elektrisch. Keine funktionale Äquivalenz. KEIN MATCH.
+
+5. KANDIDAT 3 (FrontDerailleur): Repräsentiert die vordere Schaltung. Dies ist ein mechanisches Antriebskomponente, kein elektrisches System. Keine funktionale Äquivalenz. KEIN MATCH.
+
+6. KANDIDAT 4 (Frame): Repräsentiert den Rahmen als strukturelle Hauptkomponente. Dies ist eine mechanische Struktur, kein elektrisches System. Keine funktionale Äquivalenz. KEIN MATCH.
+
+FAZIT: Keiner der Kandidaten repräsentiert ein 'Electrical System' oder 'Lighting Electrical System'. Die Kandidaten sind entweder zu allgemein (Bike), zu spezifisch (Battery als Komponente), oder funktional völlig unterschiedlich (Brakes, Derailleur, Frame). Ein passendes Konzept würde 'ElectricalSystem' oder 'LightingSystem' heißen und auf gleicher hierarchischer Ebene wie 'Brakes' oder 'Frame' stehen."
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-056,Wiring - Equipment lists,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Wiring - Equipment lists' ist eine dokumentarische Einheit aus S1000D, die Ausrüstungslisten für Verkabelung beschreibt. Dies ist ein DOKUMENTATIONS-Konzept, kein physisches Bauteil.
+
+2. KANDIDAT 0 (Frame): Physisches Bauteil - Hauptrahmen eines Fahrrads. KEINE funktionale Äquivalenz zu einer Dokumentationsliste.
+
+3. KANDIDAT 1 (Bike): Gesamtfahrzeug-Konzept. KEINE Beziehung zu Verkabelungslisten oder Dokumentation.
+
+4. KANDIDAT 2 (CommonPart): Allgemeine Klasse für Fahrradkomponenten. Beschreibt physische Teile, nicht Dokumentationslisten. KEINE funktionale Äquivalenz.
+
+5. KANDIDAT 3 (Problem): Beschreibt Probleme/Fehler am Fahrrad. Obwohl dies näher an Dokumentation ist, repräsentiert es NICHT Ausrüstungslisten oder Verkabelungsdokumentation.
+
+6. KANDIDAT 4 (ChainArea): Physischer Bereich des Fahrrads (Kettenbereich). KEINE Verbindung zu Verkabelung oder Dokumentationslisten.
+
+KERNPROBLEM: Das Quell-Konzept ist ein DOKUMENTATIONS-Element (Equipment lists für Wiring), während ALLE Kandidaten entweder physische Komponenten (0,2,4), das Gesamtfahrzeug (1) oder Problemkategorien (3) beschreiben. Keiner der Kandidaten repräsentiert Dokumentationsstrukturen, Listen oder Verkabelungsinformationen.
+
+Fazit: KEINE funktionale Äquivalenz vorhanden."
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-057,Wiring - Wire list,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Wiring - Wire list' ist eine spezifische technische Dokumentationskomponente im Kontext von Beleuchtungssystemen (S1000DLIGHTING). Es repräsentiert eine Liste von Kabeln/Leitungen mit deren technischen Spezifikationen.
+
+2. KANDIDAT 0 (Frame): Strukturelle Hauptkomponente eines Fahrrads. KEINE funktionale Äquivalenz - Frame ist ein physisches Bauteil, keine Dokumentation oder Verkabelungsliste. Hierarchie: CommonPart > CommonPartArea > Frame. Völlig unterschiedliche Domäne.
+
+3. KANDIDAT 1 (Bike): Gesamtfahrzeug-Konzept. KEINE Äquivalenz - viel zu allgemein und repräsentiert das komplette Fahrrad, nicht eine spezifische Verkabelungsliste. Hierarchie: Top-Level. Keine Verbindung zu Verkabelung.
+
+4. KANDIDAT 2 (CommonPart): Allgemeine Klasse für Fahrradkomponenten. KEINE Äquivalenz - zu generisch und bezieht sich auf physische Teile, nicht auf Dokumentationselemente wie Kabellisten. Hierarchie: Top-Level Komponenten-Klasse.
+
+5. KANDIDAT 3 (Problem): Klasse für Fahrradprobleme. KEINE Äquivalenz - beschreibt Probleme/Fehler, nicht Verkabelungsdokumentation. Völlig andere semantische Kategorie.
+
+6. KANDIDAT 4 (ChainArea): Struktureller Bereich mit Kette und Umwerfer. KEINE Äquivalenz - physischer Bereich des Fahrrads, keine Verkabelung oder Dokumentation.
+
+FAZIT: Alle Kandidaten repräsentieren physische Fahrradkomponenten oder abstrakte Konzepte (Bike, Problem). KEINER repräsentiert Verkabelung, elektrische Komponenten, Kabellisten oder technische Dokumentation. Die Ziel-Ontologie scheint keine Konzepte für elektrische Systeme oder Dokumentationsartefakte zu enthalten. NULL ist die einzig korrekte Antwort."
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-058,Wiring - Loom list,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Wiring - Loom list' ist eine spezifische technische Komponente im Beleuchtungssystem (LIGHTING > AAA > D00 > ... > 058). Ein 'Wiring Loom' (Kabelsatz/Kabelbaum) ist eine Zusammenstellung von elektrischen Kabeln und Verbindungen.
+
+2. KANDIDAT 0 (Mahle ebikemotion X35+ 250W): Dies ist ein spezifischer Motor. Funktional NICHT äquivalent - ein Motor ist keine Verkabelung. Hierarchie: CommonPart > Motor. KEIN MATCH.
+
+3. KANDIDAT 1 (Frame): Der Rahmen ist die Hauptstruktur des Fahrrads (chain stay, tubes). Funktional NICHT äquivalent - ein Rahmen ist keine elektrische Verkabelung. KEIN MATCH.
+
+4. KANDIDAT 2 (Bike): Dies ist die Top-Level-Entität für das gesamte Fahrrad. Funktional NICHT äquivalent - das komplette Fahrrad ist nicht gleichbedeutend mit einem Kabelsatz. Zu allgemein. KEIN MATCH.
+
+5. KANDIDAT 3 (CommonPart): Dies ist eine abstrakte Oberklasse für Fahrradteile. Funktional NICHT äquivalent - eine generische Klasse kann nicht mit einer spezifischen Verkabelungskomponente gleichgesetzt werden. Zu abstrakt. KEIN MATCH.
+
+6. KANDIDAT 4 (Problem): Dies beschreibt mögliche Probleme am Fahrrad. Funktional NICHT äquivalent - ein Problem ist keine physische Komponente wie ein Kabelsatz. Kategorienfehler. KEIN MATCH.
+
+FAZIT: Keiner der Kandidaten repräsentiert eine elektrische Verkabelung oder einen Kabelsatz. Die Kandidaten umfassen einen Motor, strukturelle Komponenten, abstrakte Klassen und Problemkategorien - aber keine elektrischen/elektronischen Verkabelungskomponenten. NULL ist die korrekte Antwort."
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-341,Lights - Manual test,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Lights - Manual test' ist eine TEST-PROZEDUR für Beleuchtungssysteme (Anweisung: Lichter einschalten und Funktion prüfen). Hierarchie zeigt es ist ein spezifischer Test-Schritt in S1000D Dokumentation.
+
+2. KANDIDAT 0 (Frame): Strukturkomponente des Fahrrads - KEINE funktionale Äquivalenz. Frame ist ein physisches Bauteil, kein Test oder Beleuchtungssystem.
+
+3. KANDIDAT 1 (Bike): Gesamtfahrzeug-Konzept - KEINE funktionale Äquivalenz. Viel zu allgemein, repräsentiert das komplette Fahrrad, nicht einen spezifischen Test oder Beleuchtung.
+
+4. KANDIDAT 2 (CommonPart): Allgemeine Klasse für Fahrradteile - KEINE funktionale Äquivalenz. Abstrakte Oberklasse, kein Test und keine Beleuchtung.
+
+5. KANDIDAT 3 (Problem): Klasse für Fahrradprobleme - KEINE funktionale Äquivalenz. 'Lights - Manual test' ist eine Testprozedur, kein Problem. Semantisch entgegengesetzt.
+
+6. KANDIDAT 4 (ChainArea): Kettenbereich des Fahrrads - KEINE funktionale Äquivalenz. Struktureller Bereich, völlig andere Komponente als Beleuchtung.
+
+FAZIT: Alle Kandidaten sind physische Komponenten oder abstrakte Klassen. KEINER repräsentiert:
+- Beleuchtungssysteme (Lights)
+- Test-Prozeduren
+- Wartungs-/Prüfaktivitäten
+
+Die Ziel-Ontologie scheint keine Test- oder Beleuchtungskonzepte zu enthalten."
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-413,Lights - Observed fault,http://purl.org/ontology/bikeo#Problem,Problem,0.75,llm_reranking,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Lights - Observed fault' ist ein Fehler/Problem im Beleuchtungssystem, dokumentiert in S1000D technischer Dokumentation.
+
+2. KANDIDATEN-ANALYSE:
+
+KANDIDAT 0 (Frame): Physische Komponente (Rahmen) - KEINE funktionale Äquivalenz zu einem Fehler/Problem. Falsche Kategorie.
+
+KANDIDAT 1 (Bike): Gesamtfahrzeug - KEINE Äquivalenz zu einem spezifischen Fehler. Zu allgemein und falsche Kategorie.
+
+KANDIDAT 2 (CommonPart): Allgemeine Klasse für Fahrradteile - KEINE Äquivalenz zu einem Fehler/Problem. Beschreibt physische Komponenten, nicht Probleme.
+
+KANDIDAT 3 (Problem): ✓ Allgemeine Klasse für Probleme/Fehler am Fahrrad - FUNKTIONALE ÄQUIVALENZ gegeben. 'Observed fault' ist semantisch ein Problem. Die Hierarchie passt: Problem-Klasse kann Beleuchtungsfehler umfassen.
+
+KANDIDAT 4 (ChainArea): Physische Komponente (Kettenbereich) - KEINE Äquivalenz zu einem Beleuchtungsfehler. Falsche Domäne und Kategorie.
+
+3. VERGLEICH: Kandidat 3 ist der einzige, der die richtige semantische Kategorie (Problem/Fehler) repräsentiert. Alle anderen sind physische Komponenten oder zu allgemein.
+
+4. EINSCHRÄNKUNG: Kandidat 3 ist generisch ('Problem'), während die Quelle spezifisch ist ('Lights - Observed fault'). Dies ist jedoch die beste verfügbare Zuordnung in der Ziel-Ontologie."
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-700,"Lighting - Assemble, install and connect procedures",,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Lighting - Assemble, install and connect procedures' ist eine PROZEDUR/ANLEITUNG für die Montage, Installation und Verbindung von Beleuchtungssystemen. Es beschreibt AKTIVITÄTEN (Remove, Install, Attach, Apply).
+
+2. KANDIDAT 0 (ChainArea): Strukturelles BAUTEIL des Fahrrads mit Kette und Umwerfer. KEINE funktionale Äquivalenz - ist ein physisches Teil, keine Prozedur.
+
+3. KANDIDAT 1 (Frame): Hauptkomponente des Fahrrads. KEINE funktionale Äquivalenz - ist ein physisches Bauteil, keine Montageanleitung.
+
+4. KANDIDAT 2 (Bike): Das komplette Fahrrad als Ganzes. KEINE funktionale Äquivalenz - ist das Endprodukt, nicht die Montageprozedur.
+
+5. KANDIDAT 3 (CommonPart): Allgemeine Klasse für Hauptteile eines Fahrrads. KEINE funktionale Äquivalenz - beschreibt physische Komponenten, nicht Prozeduren.
+
+6. KANDIDAT 4 (Problem): Klasse für mögliche Probleme am Fahrrad. KEINE funktionale Äquivalenz - beschreibt Fehler/Probleme, nicht Montageanweisungen.
+
+KERNPROBLEM: Das Quell-Konzept ist eine PROZEDUR/METHODE (How-to), während ALLE Kandidaten PHYSISCHE ENTITÄTEN oder ZUSTÄNDE beschreiben. Es gibt keine semantische Übereinstimmung auf funktionaler Ebene. Die Ziel-Ontologie scheint keine Prozedur- oder Anleitungsklassen zu enthalten."
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-921,Lighting - Remove and install a new item,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Lighting - Remove and install a new item' ist eine PROZEDUR/WARTUNGSANWEISUNG für Beleuchtungskomponenten (Glühbirne/Lampe). Der Kontext beschreibt einen Austauschvorgang: Lampe abkühlen lassen, Glas entfernen, alte Lampe entsorgen, neue installieren.
+
+2. KANDIDATEN-ANALYSE:
+
+KANDIDAT 0 (ChainArea): Struktureller Bereich mit Kette und Umwerfer - KEINE funktionale Äquivalenz. Kein Bezug zu Beleuchtung oder Wartungsprozeduren.
+
+KANDIDAT 1 (RearDerailleur): Schaltwerk für Kettenführung - KEINE funktionale Äquivalenz. Mechanische Komponente, kein Bezug zu Beleuchtung.
+
+KANDIDAT 2 (Frame): Hauptrahmen des Fahrrads - KEINE funktionale Äquivalenz. Strukturelle Komponente, kein Bezug zu Beleuchtung oder Wartung.
+
+KANDIDAT 3 (Bike): Gesamtes Fahrrad - KEINE funktionale Äquivalenz. Zu allgemein, keine Beleuchtungskomponente oder Prozedur.
+
+KANDIDAT 4 (CommonPart): Allgemeine Klasse für Fahrradteile - KEINE funktionale Äquivalenz. Abstrakte Oberklasse ohne spezifischen Bezug zu Beleuchtung.
+
+3. PROBLEM: Die Ziel-Ontologie enthält KEINE Beleuchtungskomponenten (Lamp, Light, Bulb) oder Wartungsprozeduren. Alle Kandidaten sind mechanische Fahrradteile ohne Bezug zu elektrischen/optischen Komponenten.
+
+4. ENTSCHEIDUNG: NULL - Keiner der Kandidaten repräsentiert eine Beleuchtungskomponente oder einen Wartungsprozess. Die Ontologien decken unterschiedliche Domänen ab (S1000D: Wartungsprozeduren vs. Bike-Ontologie: mechanische Komponenten)."
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-941,Light system - Illustrated Parts Data - IPD,,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Light system - Illustrated Parts Data - IPD' ist ein Beleuchtungssystem für Fahrräder (S1000DLIGHTING Hierarchie). Es handelt sich um eine spezifische technische Komponente zur Beleuchtung.
+
+2. KANDIDAT 0 (Frame): Struktureller Hauptrahmen des Fahrrads. KEINE funktionale Äquivalenz - Frame ist Struktur, Light system ist elektrische/optische Komponente. Unterschiedliche Funktionsbereiche.
+
+3. KANDIDAT 1 (Bike): Gesamtes Fahrrad als Fahrzeug. KEINE Äquivalenz - Light system ist TEIL eines Bikes, nicht das Bike selbst. Falsche hierarchische Ebene (Teil vs. Ganzes).
+
+4. KANDIDAT 2 (CommonPart): Abstrakte Oberklasse für Fahrradteile. KEINE Äquivalenz - zu generisch, keine spezifische Beleuchtungsfunktion. Light system ist eine konkrete Komponente, nicht eine abstrakte Kategorie.
+
+5. KANDIDAT 3 (Problem): Klasse für Fahrradprobleme. KEINE Äquivalenz - Light system ist eine physische Komponente, kein Problem. Völlig unterschiedliche semantische Kategorien.
+
+6. KANDIDAT 4 (ChainArea): Strukturbereich mit Kette und Schaltwerk. KEINE Äquivalenz - mechanisches Antriebssystem vs. elektrisches Beleuchtungssystem. Unterschiedliche funktionale Domänen.
+
+FAZIT: Keiner der Kandidaten repräsentiert ein Beleuchtungssystem. Die Ziel-Ontologie scheint keine spezifische Klasse für Beleuchtungskomponenten zu enthalten. Alle Kandidaten sind entweder zu generisch (CommonPart, Bike), strukturell (Frame, ChainArea) oder semantisch inkompatibel (Problem)."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-131,Bicycle - Normal operation procedures (crew),,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Bicycle - Normal operation procedures (crew)' ist ein PROZEDURALES Konzept - es beschreibt Wartungs- und Inspektionsverfahren (Pads, Levers, Cables, Tires, Wheels, Spokes prüfen). Dies ist eine ANLEITUNG/PROZEDUR, keine physische Komponente.
+
+2. KANDIDAT 0 (Frame): Physische Komponente - Hauptrahmen des Fahrrads. KEINE funktionale Äquivalenz zu Betriebsverfahren.
+
+3. KANDIDAT 1 (Bike): Repräsentiert das gesamte Fahrrad als Objekt/Maschine. KEINE Prozedur, sondern das physische Produkt selbst.
+
+4. KANDIDAT 2 (CommonPart): Allgemeine Klasse für Fahrradteile. KEINE Prozedur, sondern Komponenten-Kategorie.
+
+5. KANDIDAT 3 (Problem): Beschreibt mögliche Probleme am Fahrrad. Zwar verwandt mit Wartung, aber NICHT die Betriebsverfahren selbst. Problem ≠ Procedure.
+
+6. KANDIDAT 4 (ChainArea): Spezifische physische Komponente (Kette, Umwerfer). KEINE Prozedur.
+
+KERNPROBLEM: Das Quell-Konzept ist ein PROZEDURALES/OPERATIONALES Konzept (Checkliste für normale Betriebsabläufe), während ALLE Kandidaten entweder physische Komponenten (0,2,4), das Produkt selbst (1) oder Problemkategorien (3) sind. Es fehlt eine Ziel-Klasse für 'Procedures', 'Operations' oder 'Maintenance Tasks'. Keine funktionale Äquivalenz vorhanden."
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-131,Bicycle - Normal operation procedures (crew),,,0.95,llm_rejected,"Schritt-für-Schritt Analyse:
+
+1. QUELL-KONZEPT: 'Bicycle - Normal operation procedures (crew)' ist ein PROZEDURALES Konzept - es beschreibt Wartungs- und Inspektionsverfahren (Pads, Levers, Cables, Tires, Wheels, Spokes prüfen). Dies ist eine ANLEITUNG/PROZEDUR, keine physische Komponente.
+
+2. KANDIDAT 0 (Frame): Physische Komponente - Hauptrahmen des Fahrrads. KEINE funktionale Äquivalenz zu Betriebsverfahren.
+
+3. KANDIDAT 1 (Bike): Repräsentiert das gesamte Fahrrad als Objekt/Maschine. KEINE Prozedur, sondern das physische Produkt selbst.
+
+4. KANDIDAT 2 (CommonPart): Allgemeine Klasse für Fahrradteile. KEINE Prozedur, sondern Komponenten-Kategorie.
+
+5. KANDIDAT 3 (Problem): Beschreibt mögliche Probleme am Fahrrad. Zwar verwandt mit Wartung, aber NICHT die Betriebsverfahren selbst. Problem ≠ Procedure.
+
+6. KANDIDAT 4 (ChainArea): Spezifische physische Komponente (Kette, Umwerfer). KEINE Prozedur.
+
+KERNPROBLEM: Das Quell-Konzept ist ein PROZEDURALES/OPERATIONALES Konzept (Checkliste für normale Betriebsabläufe), während ALLE Kandidaten entweder physische Komponenten (0,2,4), das Produkt selbst (1) oder Problemkategorien (3) sind. Es fehlt eine Ziel-Klasse für 'Procedures', 'Operations' oder 'Maintenance Tasks'. Keine funktionale Äquivalenz vorhanden."

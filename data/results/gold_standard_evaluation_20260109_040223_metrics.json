@@ -1,0 +1,28 @@
+{
+  "total_samples": 58,
+  "true_positives": 30,
+  "false_positives": 28,
+  "true_negatives": 0,
+  "false_negatives": 0,
+  "precision": 0.5172413793103449,
+  "recall": 1.0,
+  "f1_score": 0.6818181818181818,
+  "accuracy": 0.5172413793103449,
+  "mcc": 0.0,
+  "uri_accuracy": 0.1,
+  "confusion_matrix": [
+    [
+      0,
+      28
+    ],
+    [
+      0,
+      30
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n    No Match       0.00      0.00      0.00        28\n       Match       0.52      1.00      0.68        30\n\n    accuracy                           0.52        58\n   macro avg       0.26      0.50      0.34        58\nweighted avg       0.27      0.52      0.35        58\n",
+  "gold_positives": 30,
+  "gold_negatives": 28,
+  "predicted_positives": 58,
+  "predicted_negatives": 0
+}

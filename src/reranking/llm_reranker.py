@@ -2,7 +2,7 @@
 LLM Listwise Reranker using Claude.
 
 Replaces pairwise verification with listwise ranking:
-- Receives top-5 candidates from aggregation
+- Receives top-K candidates from aggregation (configured in config.py)
 - Performs comparative analysis
 - Selects best match or NULL
 - Returns reasoning for decision
@@ -12,10 +12,15 @@ Based on listwise learning-to-rank principles.
 
 import json
 import os
+import sys
+from pathlib import Path
 from typing import List, Dict, Any, Optional
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
+# Import configuration
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from config import LLM_CONFIG
 
 load_dotenv()
 
@@ -28,12 +33,14 @@ class LLMReranker:
     More effective than pairwise comparison.
     """
 
-    def __init__(self, api_key: str = None):
+    def __init__(self, api_key: str = None, model: str = None, confidence_threshold: float = None):
         """
         Initialize LLM Reranker.
 
         Args:
             api_key: Anthropic API key (default: from .env)
+            model: Model to use (default: from config)
+            confidence_threshold: Confidence threshold for accepting matches (default: from config)
         """
         if api_key is None:
             api_key = os.getenv('ANTHROPIC_API_KEY')
@@ -43,7 +50,14 @@ class LLMReranker:
                 )
 
         self.client = Anthropic(api_key=api_key)
-        self.model = "claude-sonnet-4-5-20250929"
+        self.model = model or LLM_CONFIG['model']
+        self.confidence_threshold = confidence_threshold or LLM_CONFIG['confidence_threshold']
+        self.temperature = LLM_CONFIG['temperature']
+        self.max_tokens = LLM_CONFIG['max_tokens']
+
+        print(f"  LLM Reranker initialized:")
+        print(f"    Model: {self.model}")
+        print(f"    Confidence threshold: {self.confidence_threshold}")
 
     def rerank_candidates(
         self,
@@ -85,7 +99,8 @@ class LLMReranker:
             # Call Claude
             response = self.client.messages.create(
                 model=self.model,
-                max_tokens=1024,
+                max_tokens=self.max_tokens,
+                temperature=self.temperature,
                 system=system_prompt,
                 messages=[{
                     "role": "user",

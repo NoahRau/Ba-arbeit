@@ -147,14 +147,18 @@ class DeepOntoMatcher(BaseMatcher):
     def find_candidates(
         self,
         source_concept: Dict[str, Any],
-        top_k: int = 10
+        top_k: int = 10,
+        use_mmr: bool = True,
+        lambda_param: float = 0.7
     ) -> List[Tuple[str, float]]:
         """
-        Find top-k candidates using semantic similarity + ontology reasoning.
+        Find top-k candidates using semantic similarity + ontology reasoning + MMR diversity.
 
         Args:
             source_concept: Source concept dict with 'uri', 'label', 'context_text'
             top_k: Number of candidates to return
+            use_mmr: Use Maximal Marginal Relevance for diversity (default: True)
+            lambda_param: MMR balance parameter (0=max diversity, 1=max relevance)
 
         Returns:
             List of (target_uri, score) tuples
@@ -166,32 +170,142 @@ class DeepOntoMatcher(BaseMatcher):
         # Compute cosine similarities
         similarities = self._cosine_similarity(source_embedding, self.target_embeddings)
 
-        # Get top candidates (before filtering)
-        top_indices = np.argsort(similarities)[::-1][:top_k * 3]  # Get more, then filter
+        if use_mmr:
+            # Use MMR for diverse candidate selection
+            candidates = self._mmr_candidate_selection(
+                source_concept,
+                source_embedding,
+                similarities,
+                top_k=top_k,
+                lambda_param=lambda_param
+            )
+        else:
+            # Original greedy selection
+            # Get top candidates (before filtering)
+            top_indices = np.argsort(similarities)[::-1][:top_k * 3]  # Get more, then filter
 
-        # Apply ontology reasoning filters
-        candidates = []
-        for idx in top_indices:
+            # Apply ontology reasoning filters
+            candidates = []
+            for idx in top_indices:
+                target_row = self.target_df.iloc[idx]
+                score = float(similarities[idx])
+
+                # Filter 1: Check if subsumption relationship (parent-child)
+                if self._is_subsumption(source_concept, target_row):
+                    score *= 0.5  # Penalize subsumption matches
+
+                # Filter 2: Check if siblings (same parent, different concepts)
+                if self._are_siblings(source_concept, target_row):
+                    score *= 0.6  # Penalize sibling matches
+
+                # Filter 3: Structural compatibility
+                if not self._are_structurally_compatible(source_concept, target_row):
+                    score *= 0.7  # Penalize structurally incompatible
+
+                candidates.append((target_row['uri'], score))
+
+            # Re-sort after filtering and return top_k
+            candidates.sort(key=lambda x: x[1], reverse=True)
+            candidates = candidates[:top_k]
+
+        return candidates
+
+    def _mmr_candidate_selection(
+        self,
+        source_concept: Dict[str, Any],
+        source_embedding: np.ndarray,
+        similarities: np.ndarray,
+        top_k: int = 10,
+        lambda_param: float = 0.7
+    ) -> List[Tuple[str, float]]:
+        """
+        Maximal Marginal Relevance (MMR) for diverse candidate selection.
+
+        MMR = argmax[λ * Sim(Di, Q) - (1-λ) * max(Sim(Di, Dj))]
+        where:
+        - Sim(Di, Q) = Similarity to query (source concept)
+        - Sim(Di, Dj) = Similarity to already selected candidates
+        - λ = Balance between relevance and diversity
+
+        Args:
+            source_concept: Source concept
+            source_embedding: Source embedding
+            similarities: Precomputed similarities to all targets
+            top_k: Number of diverse candidates to select
+            lambda_param: Balance parameter (0=max diversity, 1=max relevance)
+
+        Returns:
+            List of diverse (target_uri, score) tuples
+        """
+        # Start with top candidates pool (top 50 most similar)
+        candidate_pool_size = min(50, len(self.target_df))
+        top_indices = np.argsort(similarities)[::-1][:candidate_pool_size]
+
+        selected_indices = []
+        selected_embeddings = []
+
+        for _ in range(min(top_k, len(top_indices))):
+            mmr_scores = []
+
+            for idx in top_indices:
+                if idx in selected_indices:
+                    continue
+
+                # Relevance to query
+                relevance = similarities[idx]
+
+                # Apply ontology reasoning penalties to relevance
+                target_row = self.target_df.iloc[idx]
+                if self._is_subsumption(source_concept, target_row):
+                    relevance *= 0.5
+                if self._are_siblings(source_concept, target_row):
+                    relevance *= 0.6
+                if not self._are_structurally_compatible(source_concept, target_row):
+                    relevance *= 0.7
+
+                # Diversity: max similarity to already selected
+                if len(selected_embeddings) > 0:
+                    candidate_emb = self.target_embeddings[idx]
+                    # Compute similarity to all selected
+                    diversities = [
+                        np.dot(candidate_emb / np.linalg.norm(candidate_emb),
+                               sel_emb / np.linalg.norm(sel_emb))
+                        for sel_emb in selected_embeddings
+                    ]
+                    max_similarity_to_selected = max(diversities)
+                else:
+                    max_similarity_to_selected = 0.0
+
+                # MMR score
+                mmr_score = lambda_param * relevance - (1 - lambda_param) * max_similarity_to_selected
+
+                mmr_scores.append((idx, mmr_score, relevance))
+
+            if not mmr_scores:
+                break
+
+            # Select best MMR score
+            best_idx, best_mmr, best_relevance = max(mmr_scores, key=lambda x: x[1])
+            selected_indices.append(best_idx)
+            selected_embeddings.append(self.target_embeddings[best_idx])
+
+        # Build results with original relevance scores (not MMR scores)
+        results = []
+        for idx in selected_indices:
             target_row = self.target_df.iloc[idx]
             score = float(similarities[idx])
 
-            # Filter 1: Check if subsumption relationship (parent-child)
+            # Apply ontology reasoning penalties
             if self._is_subsumption(source_concept, target_row):
-                score *= 0.5  # Penalize subsumption matches
-
-            # Filter 2: Check if siblings (same parent, different concepts)
+                score *= 0.5
             if self._are_siblings(source_concept, target_row):
-                score *= 0.6  # Penalize sibling matches
-
-            # Filter 3: Structural compatibility
+                score *= 0.6
             if not self._are_structurally_compatible(source_concept, target_row):
-                score *= 0.7  # Penalize structurally incompatible
+                score *= 0.7
 
-            candidates.append((target_row['uri'], score))
+            results.append((target_row['uri'], score))
 
-        # Re-sort after filtering and return top_k
-        candidates.sort(key=lambda x: x[1], reverse=True)
-        return candidates[:top_k]
+        return results
 
     def batch_match(
         self,

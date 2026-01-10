@@ -1,0 +1,27 @@
+{
+  "total_samples": 56,
+  "true_positives": 43,
+  "false_positives": 13,
+  "true_negatives": 0,
+  "false_negatives": 0,
+  "precision": 0.7678571428571429,
+  "recall": 1.0,
+  "f1_score": 0.8686868686868687,
+  "accuracy": 0.7678571428571429,
+  "mcc": 0.0,
+  "confusion_matrix": [
+    [
+      0,
+      13
+    ],
+    [
+      0,
+      43
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n    No Match       0.00      0.00      0.00        13\n       Match       0.77      1.00      0.87        43\n\n    accuracy                           0.77        56\n   macro avg       0.38      0.50      0.43        56\nweighted avg       0.59      0.77      0.67        56\n",
+  "ground_truth_positives": 43,
+  "ground_truth_negatives": 13,
+  "predicted_positives": 56,
+  "predicted_negatives": 0
+}

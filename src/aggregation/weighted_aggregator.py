@@ -1,17 +1,21 @@
 """
 Weighted Aggregator for Multi-Matcher Fusion.
 
-Combines scores from multiple matchers using weighted voting:
-- KROMA: Weight 0.40 (DMC code reliability)
-- DeepOnto: Weight 0.35 (semantic understanding)
-- StringMatcher: Weight 0.25 (string baseline)
+Combines scores from multiple matchers using weighted voting.
+Weights are configured in config.py.
 
 Implements rank-based fusion and score normalization.
 """
 
+import sys
+from pathlib import Path
 from typing import List, Tuple, Dict, Any
 import numpy as np
 import pandas as pd
+
+# Import configuration
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from config import MATCHER_WEIGHTS, AGGREGATION_CONFIG
 
 
 class WeightedAggregator:
@@ -30,13 +34,10 @@ class WeightedAggregator:
 
         Args:
             weights: Dictionary mapping matcher names to weights
-                Default: {'kroma': 0.40, 'deeponto': 0.35, 'string': 0.25}
+                If None, uses weights from config.py
         """
-        self.weights = weights or {
-            'kroma': 0.40,      # High weight for DMC-based matching
-            'deeponto': 0.35,   # Semantic understanding
-            'string': 0.25      # String baseline
-        }
+        # Use provided weights or load from config
+        self.weights = weights or MATCHER_WEIGHTS.copy()
 
         # Normalize weights to sum to 1.0
         total = sum(self.weights.values())
@@ -47,8 +48,8 @@ class WeightedAggregator:
     def aggregate_candidates(
         self,
         matcher_results: Dict[str, List[Tuple[str, float]]],
-        top_k: int = 5,
-        method: str = 'weighted_sum'
+        top_k: int = None,
+        method: str = None
     ) -> List[Tuple[str, float, Dict]]:
         """
         Aggregate candidates from multiple matchers.
@@ -60,8 +61,8 @@ class WeightedAggregator:
                     'deeponto': [('uri1', 0.9), ('uri3', 0.7), ...],
                     'string': [('uri2', 0.5), ...]
                 }
-            top_k: Number of final candidates to return
-            method: Aggregation method ('weighted_sum' or 'rank_fusion')
+            top_k: Number of final candidates to return (default from config)
+            method: Aggregation method (default from config: 'weighted_sum' or 'rank_fusion')
 
         Returns:
             List of (uri, aggregated_score, details_dict) tuples
@@ -69,6 +70,12 @@ class WeightedAggregator:
             - aggregated_score: Final combined score
             - details_dict: Individual matcher scores and ranks
         """
+        # Use config defaults if not provided
+        if top_k is None:
+            top_k = AGGREGATION_CONFIG['top_k']
+        if method is None:
+            method = AGGREGATION_CONFIG['method']
+
         if method == 'weighted_sum':
             return self._aggregate_weighted_sum(matcher_results, top_k)
         elif method == 'rank_fusion':
@@ -140,9 +147,9 @@ class WeightedAggregator:
 
         More robust to score scale differences.
         RRF formula: score = sum(weight / (k + rank))
-        where k=60 is a constant.
+        where k is configurable (default: 60).
         """
-        k = 60  # RRF constant
+        k = AGGREGATION_CONFIG['rrf_k']  # RRF constant from config
 
         # Collect all URIs
         all_uris = set()

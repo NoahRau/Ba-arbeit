@@ -5,6 +5,7 @@ Manual annotation tool to create benchmark dataset.
 
 import json
 import random
+import sys
 from pathlib import Path
 from typing import List, Dict, Any
 
@@ -12,27 +13,28 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-from data_loader import load_all_concepts
-from build_knowledge_base import ModernBERTEmbedder, cosine_similarity_batch
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.data_loader import load_all_concepts
+from src.matchers.deeponto_matcher import DeepOntoMatcher
 
 
 # Configuration
-GOLD_STANDARD_FILE = Path('gold_standard_metrics.json')
+PROJECT_ROOT = Path(__file__).parent.parent
+GOLD_STANDARD_FILE = PROJECT_ROOT / 'data' / 'results' / 'gold_standard.json'
 SAMPLE_SIZE = 50
-TOP_K = 3
+TOP_K = 5
 
 
 @st.cache_resource
-def load_data_and_embeddings():
+def load_data_and_matcher():
     """
-    Load all data and build embeddings.
+    Load all data and initialize matcher.
     Cached to avoid reloading.
     """
     # Load concepts
-    df = load_all_concepts(
-        s1000d_folder='bike',
-        include_ontologies=True
-    )
+    df = load_all_concepts(include_ontologies=True)
 
     if df.empty:
         st.error("No data loaded!")
@@ -42,87 +44,87 @@ def load_data_and_embeddings():
     s1000d_df = df[df['source'] == 's1000d'].reset_index(drop=True)
     ontology_df = df[df['source'] == 'bike_ontology'].reset_index(drop=True)
 
-    # Initialize embedder
-    embedder = ModernBERTEmbedder()
+    # Initialize DeepOnto matcher (uses cached embeddings)
+    with st.spinner("Loading BERT matcher... This may take a few minutes on first run..."):
+        matcher = DeepOntoMatcher(s1000d_df, ontology_df)
 
-    # Build embeddings
-    with st.spinner("Building embeddings... This may take a few minutes..."):
-        all_texts = []
-        for _, row in df.iterrows():
-            label = row.get('label', '')
-            context = row.get('context', '')
-            if label and context:
-                combined = f"{label}. {context[:500]}"
-            elif label:
-                combined = label
-            else:
-                combined = context[:500] if context else ""
-            all_texts.append(combined)
-
-        embeddings = embedder.embed_batch(all_texts, show_progress=False, batch_size=8)
-
-    # Split embeddings
-    s1000d_indices = df[df['source'] == 's1000d'].index.tolist()
-    ontology_indices = df[df['source'] == 'bike_ontology'].index.tolist()
-
-    s1000d_embeddings = embeddings[s1000d_indices]
-    ontology_embeddings = embeddings[ontology_indices]
-
-    return s1000d_df, ontology_df, s1000d_embeddings, ontology_embeddings
+    return s1000d_df, ontology_df, matcher
 
 
-def load_gold_standard():
+def get_top_candidates(
+    source_concept: Dict[str, Any],
+    matcher: DeepOntoMatcher,
+    ontology_df: pd.DataFrame,
+    top_k: int = 5
+) -> List[Dict[str, Any]]:
     """
-    Load existing gold standard annotations.
+    Get top K candidates for a source concept.
+
+    Args:
+        source_concept: Source concept dictionary
+        matcher: DeepOnto matcher
+        ontology_df: Target ontology DataFrame
+        top_k: Number of candidates to return
+
+    Returns:
+        List of candidate dictionaries with similarity scores
     """
-    if GOLD_STANDARD_FILE.exists():
-        with open(GOLD_STANDARD_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return []
+    # Get candidates from matcher
+    candidates_raw = matcher.find_candidates(source_concept, top_k=top_k)
+
+    # Build candidate list
+    candidates = []
+    for target_uri, score in candidates_raw:
+        target_row = ontology_df[ontology_df['uri'] == target_uri]
+        if not target_row.empty:
+            target_row = target_row.iloc[0]
+            candidates.append({
+                'uri': target_uri,
+                'label': target_row['label'],
+                'context': target_row.get('context_text', ''),
+                'score': float(score)
+            })
+
+    return candidates
 
 
 def save_gold_standard(annotations: List[Dict[str, Any]]):
     """
     Save gold standard annotations to JSON.
+
+    Args:
+        annotations: List of annotation dictionaries
     """
+    GOLD_STANDARD_FILE.parent.mkdir(parents=True, exist_ok=True)
+
     with open(GOLD_STANDARD_FILE, 'w', encoding='utf-8') as f:
-        json.dump(annotations, f, indent=2, ensure_ascii=False)
+        json.dump({
+            'annotations': annotations,
+            'total': len(annotations),
+            'sample_size': SAMPLE_SIZE,
+            'top_k': TOP_K
+        }, f, indent=2, ensure_ascii=False)
+
+    st.success(f"✅ Saved {len(annotations)} annotations to {GOLD_STANDARD_FILE}")
 
 
-def get_top_candidates(
-    s1000d_concept: pd.Series,
-    s1000d_embedding: np.ndarray,
-    ontology_df: pd.DataFrame,
-    ontology_embeddings: np.ndarray,
-    top_k: int = 3
-) -> List[Dict[str, Any]]:
+def load_gold_standard() -> List[Dict[str, Any]]:
     """
-    Get top K candidates from ontology for a given S1000D concept.
+    Load existing gold standard annotations.
+
+    Returns:
+        List of annotation dictionaries
     """
-    # Calculate similarities
-    similarities = cosine_similarity_batch(s1000d_embedding, ontology_embeddings)
-
-    # Get top indices
-    top_indices = np.argsort(similarities)[::-1][:top_k]
-
-    candidates = []
-    for idx in top_indices:
-        ontology_concept = ontology_df.iloc[idx]
-        score = float(similarities[idx])
-
-        candidates.append({
-            'uri': ontology_concept['uri'],
-            'label': ontology_concept['label'],
-            'context': ontology_concept['context'],
-            'similarity_score': score
-        })
-
-    return candidates
+    if GOLD_STANDARD_FILE.exists():
+        with open(GOLD_STANDARD_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data.get('annotations', [])
+    return []
 
 
 def main():
     """
-    Main Streamlit application.
+    Main Streamlit application for gold standard creation.
     """
     st.set_page_config(
         page_title="Gold Standard Creator",
@@ -131,222 +133,148 @@ def main():
     )
 
     st.title("⭐ Gold Standard Creator")
-    st.markdown("**Manual Annotation Tool for Ontology Matching Evaluation**")
+    st.markdown("Manual annotation tool for ontology matching evaluation")
+
+    # Load data and matcher
+    s1000d_df, ontology_df, matcher = load_data_and_matcher()
+
+    # Display stats
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric("S1000D Concepts", len(s1000d_df))
+    with col2:
+        st.metric("Ontology Concepts", len(ontology_df))
+    with col3:
+        existing_annotations = load_gold_standard()
+        st.metric("Annotations", len(existing_annotations))
 
     st.divider()
 
-    # Load data
-    s1000d_df, ontology_df, s1000d_embeddings, ontology_embeddings = load_data_and_embeddings()
+    # Sample selection
+    st.subheader("1. Sample Selection")
 
-    # Initialize session state
+    if st.button("🎲 Generate Random Sample"):
+        sample_indices = random.sample(range(len(s1000d_df)), min(SAMPLE_SIZE, len(s1000d_df)))
+        st.session_state['sample_indices'] = sample_indices
+        st.session_state['current_idx'] = 0
+        st.session_state['annotations'] = []
+        st.rerun()
+
     if 'sample_indices' not in st.session_state:
-        # Randomly sample S1000D concepts
-        random.seed(42)  # Reproducible sampling
-        all_indices = list(range(len(s1000d_df)))
-        sample_size = min(SAMPLE_SIZE, len(s1000d_df))
-        st.session_state.sample_indices = random.sample(all_indices, sample_size)
-        st.session_state.current_idx = 0
-
-    if 'annotations' not in st.session_state:
-        st.session_state.annotations = load_gold_standard()
-
-    # Sidebar: Progress and stats
-    with st.sidebar:
-        st.header("📊 Progress")
-
-        current = st.session_state.current_idx + 1
-        total = len(st.session_state.sample_indices)
-
-        st.metric("Current Item", f"{current} / {total}")
-
-        progress = current / total
-        st.progress(progress)
-
-        # Count annotations
-        annotated_count = len(set(
-            a['s1000d_uri']
-            for a in st.session_state.annotations
-        ))
-        st.metric("Items Annotated", annotated_count)
-
-        positive_count = sum(1 for a in st.session_state.annotations if a['is_match_manual'])
-        st.metric("Positive Matches", positive_count)
-
-        st.divider()
-
-        st.header("ℹ️ Instructions")
-        st.markdown("""
-        1. Read the S1000D concept carefully
-        2. For each BikeOntology candidate, decide:
-           - ✅ Check if it's a **correct match**
-           - ⬜ Leave unchecked if it's **not a match**
-        3. Click **Save & Next** to continue
-        4. Use **Previous** to review earlier items
-        """)
-
-        st.divider()
-
-        if st.button("💾 Save All & Download"):
-            save_gold_standard(st.session_state.annotations)
-            st.success(f"Saved to {GOLD_STANDARD_FILE}")
-
-            # Offer download
-            json_str = json.dumps(st.session_state.annotations, indent=2, ensure_ascii=False)
-            st.download_button(
-                label="⬇️ Download JSON",
-                data=json_str,
-                file_name="gold_standard_metrics.json",
-                mime="application/json"
-            )
-
-    # Check if we're done
-    if st.session_state.current_idx >= len(st.session_state.sample_indices):
-        st.success("🎉 All items annotated!")
-        st.balloons()
-
-        save_gold_standard(st.session_state.annotations)
-
-        st.info(f"Gold standard saved to: {GOLD_STANDARD_FILE}")
-
-        # Show statistics
-        st.header("📈 Annotation Statistics")
-        df_stats = pd.DataFrame(st.session_state.annotations)
-
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            st.metric("Total Annotations", len(df_stats))
-        with col2:
-            st.metric("Positive Matches", df_stats['is_match_manual'].sum())
-        with col3:
-            st.metric("Negative Matches", (~df_stats['is_match_manual']).sum())
-
-        # Reset button
-        if st.button("🔄 Start Over"):
-            st.session_state.sample_indices = None
-            st.session_state.current_idx = 0
-            st.session_state.annotations = []
-            st.rerun()
-
+        st.info("Click 'Generate Random Sample' to start annotation")
         return
 
-    # Get current S1000D concept
-    current_sample_idx = st.session_state.sample_indices[st.session_state.current_idx]
-    s1000d_concept = s1000d_df.iloc[current_sample_idx]
-    s1000d_embedding = s1000d_embeddings[current_sample_idx]
+    # Get current sample
+    sample_indices = st.session_state['sample_indices']
+    current_idx = st.session_state.get('current_idx', 0)
 
-    # Get top candidates
-    candidates = get_top_candidates(
-        s1000d_concept,
-        s1000d_embedding,
-        ontology_df,
-        ontology_embeddings,
-        top_k=TOP_K
-    )
+    if current_idx >= len(sample_indices):
+        st.success("🎉 All samples annotated!")
+        if st.button("💾 Save Gold Standard"):
+            save_gold_standard(st.session_state.get('annotations', []))
+        return
 
-    # Display S1000D concept
-    st.header(f"📄 S1000D Concept #{st.session_state.current_idx + 1}")
+    # Current concept
+    concept_idx = sample_indices[current_idx]
+    source_concept = s1000d_df.iloc[concept_idx].to_dict()
 
-    with st.container(border=True):
-        st.subheader(s1000d_concept['label'])
-        st.code(s1000d_concept['uri'], language=None)
-
-        if s1000d_concept['context']:
-            with st.expander("📖 Full Context", expanded=True):
-                st.markdown(s1000d_concept['context'][:1000])
-                if len(s1000d_concept['context']) > 1000:
-                    st.caption(f"... ({len(s1000d_concept['context'])} chars total)")
+    # Progress
+    st.progress((current_idx + 1) / len(sample_indices))
+    st.markdown(f"**Sample {current_idx + 1} / {len(sample_indices)}**")
 
     st.divider()
 
-    # Display candidates for annotation
-    st.header("🎯 Top 3 BikeOntology Candidates")
-    st.markdown("**Select all candidates that are correct matches:**")
+    # Display source concept
+    st.subheader("2. Source Concept (S1000D)")
 
-    # Store decisions
-    decisions = {}
-
-    for i, candidate in enumerate(candidates):
-        with st.container(border=True):
-            col1, col2 = st.columns([1, 5])
-
-            with col1:
-                # Checkbox for annotation
-                key = f"match_{st.session_state.current_idx}_{i}"
-
-                # Check if already annotated
-                existing = next(
-                    (a for a in st.session_state.annotations
-                     if a['s1000d_uri'] == s1000d_concept['uri']
-                     and a['bike_uri'] == candidate['uri']),
-                    None
-                )
-
-                default_value = existing['is_match_manual'] if existing else False
-
-                is_match = st.checkbox(
-                    f"**Match #{i+1}**",
-                    value=default_value,
-                    key=key
-                )
-
-                decisions[candidate['uri']] = is_match
-
-                # Show similarity score
-                st.metric("Score", f"{candidate['similarity_score']:.3f}")
-
-            with col2:
-                st.markdown(f"### {candidate['label']}")
-                st.code(candidate['uri'], language=None)
-
-                if candidate['context']:
-                    context_preview = candidate['context'][:300]
-                    if len(candidate['context']) > 300:
-                        context_preview += "..."
-                    st.markdown(f"**Context:** {context_preview}")
+    col1, col2 = st.columns([1, 2])
+    with col1:
+        st.markdown(f"**Label:** {source_concept['label']}")
+        st.markdown(f"**URI:** `{source_concept['uri']}`")
+    with col2:
+        st.markdown(f"**Context:**")
+        st.text_area("", source_concept.get('context_text', 'N/A'), height=100, disabled=True, key="src_context")
 
     st.divider()
+
+    # Get candidates
+    st.subheader("3. Top Candidates")
+
+    with st.spinner("Finding top candidates..."):
+        candidates = get_top_candidates(source_concept, matcher, ontology_df, TOP_K)
+
+    # Display candidates
+    for i, cand in enumerate(candidates):
+        with st.expander(f"**Candidate {i+1}** - {cand['label']} (Score: {cand['score']:.3f})"):
+            st.markdown(f"**URI:** `{cand['uri']}`")
+            st.markdown(f"**Context:** {cand['context'][:300]}...")
+
+    st.divider()
+
+    # Annotation
+    st.subheader("4. Annotation")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        match_exists = st.radio(
+            "Does a correct match exist in the candidates?",
+            ["Yes", "No (NULL)"],
+            key=f"match_exists_{current_idx}"
+        )
+
+    with col2:
+        if match_exists == "Yes":
+            candidate_labels = [f"{i+1}. {c['label']} ({c['score']:.3f})" for i, c in enumerate(candidates)]
+            selected = st.selectbox(
+                "Select the correct match:",
+                candidate_labels,
+                key=f"selected_{current_idx}"
+            )
+            selected_idx = int(selected.split('.')[0]) - 1
+            correct_uri = candidates[selected_idx]['uri']
+        else:
+            correct_uri = None
+
+    # Notes
+    notes = st.text_area("Notes (optional):", key=f"notes_{current_idx}")
 
     # Navigation buttons
     col1, col2, col3 = st.columns([1, 1, 1])
 
     with col1:
-        if st.session_state.current_idx > 0:
-            if st.button("⬅️ Previous", use_container_width=True):
-                st.session_state.current_idx -= 1
-                st.rerun()
+        if current_idx > 0 and st.button("⬅️ Previous"):
+            st.session_state['current_idx'] -= 1
+            st.rerun()
 
     with col2:
-        if st.button("⏭️ Skip", use_container_width=True):
-            st.session_state.current_idx += 1
+        if st.button("💾 Save & Next ➡️", type="primary"):
+            # Save annotation
+            annotation = {
+                'source_uri': source_concept['uri'],
+                'source_label': source_concept['label'],
+                'correct_match_uri': correct_uri,
+                'is_match': correct_uri is not None,
+                'candidates': [{'uri': c['uri'], 'label': c['label'], 'score': c['score']} for c in candidates],
+                'notes': notes
+            }
+
+            if 'annotations' not in st.session_state:
+                st.session_state['annotations'] = []
+
+            # Update or append
+            if current_idx < len(st.session_state['annotations']):
+                st.session_state['annotations'][current_idx] = annotation
+            else:
+                st.session_state['annotations'].append(annotation)
+
+            # Move to next
+            st.session_state['current_idx'] += 1
             st.rerun()
 
     with col3:
-        if st.button("💾 Save & Next ➡️", type="primary", use_container_width=True):
-            # Save annotations for current item
-            for candidate in candidates:
-                # Remove existing annotation if any
-                st.session_state.annotations = [
-                    a for a in st.session_state.annotations
-                    if not (a['s1000d_uri'] == s1000d_concept['uri']
-                           and a['bike_uri'] == candidate['uri'])
-                ]
-
-                # Add new annotation
-                annotation = {
-                    's1000d_uri': s1000d_concept['uri'],
-                    's1000d_label': s1000d_concept['label'],
-                    'bike_uri': candidate['uri'],
-                    'bike_label': candidate['label'],
-                    'similarity_score': candidate['similarity_score'],
-                    'is_match_manual': decisions[candidate['uri']]
-                }
-                st.session_state.annotations.append(annotation)
-
-            # Save to file
-            save_gold_standard(st.session_state.annotations)
-
-            # Move to next
-            st.session_state.current_idx += 1
+        if st.button("⏭️ Skip"):
+            st.session_state['current_idx'] += 1
             st.rerun()
 
 

@@ -1,0 +1,1707 @@
+{
+  "annotations": [
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-921",
+      "source_label": "Inner tube - Remove and install a new item",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Wheel",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6538160324096679
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#WornBrakes",
+          "label": "WornBrakes",
+          "score": 0.6532731711864471
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6528987050056457
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-dura-ace-r9100-11-30-11s-cogset",
+          "label": "Shimano Dura-Ace R9100 11-30 11s",
+          "score": 0.6523177504539489
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6515347719192505
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-720",
+      "source_label": "Stem - Install procedures",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6616482377052306
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainRivet",
+          "label": "ChainRivet",
+          "score": 0.6602409124374389
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainStay",
+          "label": "ChainStay",
+          "score": 0.6602110385894775
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6590584754943847
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+          "label": "RearDerailleur",
+          "score": 0.6589295506477355
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-330",
+      "source_label": "Bicycle - Place on test stand",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-fc-em600-crankarm-shimano-sm-cre80-r-crank",
+          "label": "Shimano FC-EM600 crankarm Shimano SM-CRE80-R",
+          "score": 0.6514953017234801
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-fc-em600-crankarmshimano-sm-cre80-r-crank",
+          "label": "Shimano FC-EM600 crankarmShimano SM-CRE80-R",
+          "score": 0.6501089215278625
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-dura-ace-r9100-11-30-11s-cogset",
+          "label": "Shimano Dura-Ace R9100 11-30 11s",
+          "score": 0.6490577042102813
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#bontrager-aeolus-rsl-37v-wheel",
+          "label": "Bontrager Aeolus RSL 37V",
+          "score": 0.6481278181076049
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6481069982051849
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-042",
+      "source_label": "Bicycle - Description of function",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Bike",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Bike",
+          "label": "Bike",
+          "score": 0.65369833111763
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6531306862831116
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6528794705867766
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6512772977352141
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6502222001552581
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-131",
+      "source_label": "Bicycle - Normal operation procedures (crew)",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#maxxis-re-fuse-700x32c-folding-carbon-bead-maxxshield-tubeless-ready-tire",
+          "label": "Maxxis Re-Fuse 700x32c Folding Carbon Bead MaxxShield Tubeless Ready",
+          "score": 0.6354463279247283
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#hb-cayn-hb0064-01-ergo-al-31.8-420-bk-gy-handlebargrip",
+          "label": "HB CAYN HB0064-01 Ergo AL 31.8 420 bk/gy",
+          "score": 0.634558916091919
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#bontrager-aeolus-rsl-37v-wheel",
+          "label": "Bontrager Aeolus RSL 37V",
+          "score": 0.6325701355934142
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-dura-ace-r9100-11-30-11s-cogset",
+          "label": "Shimano Dura-Ace R9100 11-30 11s",
+          "score": 0.6325529038906097
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-deore-xt-m8000-11-42-11s-cogset",
+          "label": "Shimano Deore XT M8000 11-42 11s",
+          "score": 0.632552695274353
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-251",
+      "source_label": "Chain - Clean with chain cleaning fluid",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+          "label": "RearDerailleur",
+          "score": 0.6584886193275451
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6584675908088684
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6526967644691467
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6522610485553741
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainStay",
+          "label": "ChainStay",
+          "score": 0.6516068696975708
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-0-0-041",
+      "source_label": "Brake system - Description of how it is made",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Tighten",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tighten",
+          "label": "Tighten",
+          "score": 0.6682134747505187
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Motor",
+          "label": "Motor",
+          "score": 0.6681246876716613
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.667368620634079
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6666583657264709
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Saddle",
+          "label": "Saddle",
+          "score": 0.665776377916336
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-0-0-041",
+      "source_label": "Gears - Description of how it is made",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#ChainArea",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6514342606067657
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6510011732578277
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6509008288383483
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6488700330257415
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+          "label": "RearDerailleur",
+          "score": 0.6488081574440002
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-400",
+      "source_label": "Front wheel - Fault reports and isolation procedures",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.663559079170227
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-sp0043-vcls-cf-seatpost",
+          "label": "Canyon SP0043 VCLS CF",
+          "score": 0.6620124399662017
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-xplr-xg-1251-cogset",
+          "label": "SRAM Rival XPLR XG-1251",
+          "score": 0.6617167055606842
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#dt-swiss-erc-1400-spline-db-sh11-wheel",
+          "label": "DT Swiss ERC 1400 Spline db SH11",
+          "score": 0.6613670229911803
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#cube-csl-evo-aero-c-62-technology-fork",
+          "label": "CUBE CSL Evo Aero C:62 Technology",
+          "score": 0.6611746370792388
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-663",
+      "source_label": "Bicycle - Standard repair procedures",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6613061070442199
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6611904919147491
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainRivet",
+          "label": "ChainRivet",
+          "score": 0.6599430501461029
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6598524689674377
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Saddle",
+          "label": "Saddle",
+          "score": 0.6585630536079407
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-241",
+      "source_label": "Chain - Oil",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Saddle",
+          "label": "Saddle",
+          "score": 0.6430541455745696
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6401129484176635
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tighten",
+          "label": "Tighten",
+          "score": 0.6399814367294311
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.6388148546218871
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.637838613986969
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-029",
+      "source_label": "Wiring data - Field description",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-chain",
+          "label": "SRAM RED D1",
+          "score": 0.6529890775680541
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#pathfinder-pro-2br-tire",
+          "label": "PATHFINDER PRO 2BR",
+          "score": 0.6515522956848144
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-dub-crank",
+          "label": "SRAM RED D1 DUB",
+          "score": 0.6513124704360962
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.6505864024162292
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#wtb-st-i23-tcs-2.0-wheel",
+          "label": "WTB ST i23 TCS 2.0",
+          "score": 0.6504166305065154
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-215",
+      "source_label": "Tire - Fill with air",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Puncture",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.64861581325531
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Puncture",
+          "label": "Puncture",
+          "score": 0.648562490940094
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#SeatPost",
+          "label": "SeatPost",
+          "score": 0.6476603925228118
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6474473536014557
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6468150377273559
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-151",
+      "source_label": "Bicycle - Post-operation procedures (crew)",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+          "label": "RearDerailleur",
+          "score": 0.6587622821331024
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6562482476234436
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6475963890552521
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6470978379249572
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainStay",
+          "label": "ChainStay",
+          "score": 0.6469614446163177
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-058",
+      "source_label": "Wiring - Loom list",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-dub-crank",
+          "label": "SRAM RED D1 DUB",
+          "score": 0.6522529959678649
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.650974678993225
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-sp0043-vcls-cf-seatpost",
+          "label": "Canyon SP0043 VCLS CF",
+          "score": 0.6500996589660644
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-1-axs-crank",
+          "label": "SRAM Red 1 AXS",
+          "score": 0.6494595408439636
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-dub-wide-crank",
+          "label": "SRAM Rival DUB Wide",
+          "score": 0.64937584400177
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-3-0-041",
+      "source_label": "Shifters - Description of how it is made",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6655071794986724
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.6653886020183563
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Motor",
+          "label": "Motor",
+          "score": 0.6621269702911377
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6614027380943298
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Saddle",
+          "label": "Saddle",
+          "score": 0.6606317341327667
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-043",
+      "source_label": "Bicycle - Description attributed to crew",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Motor",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.661791431903839
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Motor",
+          "label": "Motor",
+          "score": 0.661738109588623
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6614033222198485
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6612113952636718
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Saddle",
+          "label": "Saddle",
+          "score": 0.6610837638378143
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-041",
+      "source_label": "Bicycle - Description of how it is made",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Frame",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6642185151576996
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6634425044059753
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.662644338607788
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+          "label": "RearDerailleur",
+          "score": 0.6617144107818603
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.661519855260849
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-700",
+      "source_label": "Lighting - Assemble, install and connect procedures",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#HandlebarGrip",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6463024258613586
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Saddle",
+          "label": "Saddle",
+          "score": 0.6445221364498138
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#SeatPost",
+          "label": "SeatPost",
+          "score": 0.644297707080841
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6428073942661285
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#HandlebarGrip",
+          "label": "HandlebarGrip",
+          "score": 0.6409079849720001
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-520",
+      "source_label": "Stem - Remove procedures",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#SeatPost",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+          "label": "RearDerailleur",
+          "score": 0.6473092913627624
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6443184018135071
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Saddle",
+          "label": "Saddle",
+          "score": 0.6439979672431946
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6437768340110779
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#SeatPost",
+          "label": "SeatPost",
+          "score": 0.6436923027038574
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-413",
+      "source_label": "Lights - Observed fault",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.6615513563156128
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-sp0043-vcls-cf-seatpost",
+          "label": "Canyon SP0043 VCLS CF",
+          "score": 0.6597848773002624
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-xplr-xg-1251-cogset",
+          "label": "SRAM Rival XPLR XG-1251",
+          "score": 0.6591335356235504
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-sp0042-vcls-cf-seatpost",
+          "label": "Canyon SP0042 VCLS CF",
+          "score": 0.6589889645576477
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-xg-1271-xplr-cogset",
+          "label": "SRAM XG-1271 XPLR",
+          "score": 0.6577321350574493
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-921",
+      "source_label": "Lighting - Remove and install a new item",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Frame",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6465046167373657
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.646207296848297
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6461452960968017
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainRivet",
+          "label": "ChainRivet",
+          "score": 0.6449858486652373
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6444050610065459
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-0-0-341",
+      "source_label": "Brake system - Manual test",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#WornBrakes",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.6613337695598602
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6600714325904846
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#WornBrakes",
+          "label": "WornBrakes",
+          "score": 0.6597731947898864
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Brakes",
+          "label": "Brakes",
+          "score": 0.6591657876968383
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6587434649467467
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-520",
+      "source_label": "Handlebar - Remove procedures",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#HandlebarGrip",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainRivet",
+          "label": "ChainRivet",
+          "score": 0.6678778529167175
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6672361493110657
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainStay",
+          "label": "ChainStay",
+          "score": 0.6671361804008483
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#HandlebarGrip",
+          "label": "HandlebarGrip",
+          "score": 0.6664931416511535
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Saddle",
+          "label": "Saddle",
+          "score": 0.662934398651123
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-131",
+      "source_label": "Bicycle - Normal operation procedures (crew)",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#maxxis-re-fuse-700x32c-folding-carbon-bead-maxxshield-tubeless-ready-tire",
+          "label": "Maxxis Re-Fuse 700x32c Folding Carbon Bead MaxxShield Tubeless Ready",
+          "score": 0.6354463279247283
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#hb-cayn-hb0064-01-ergo-al-31.8-420-bk-gy-handlebargrip",
+          "label": "HB CAYN HB0064-01 Ergo AL 31.8 420 bk/gy",
+          "score": 0.634558916091919
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#bontrager-aeolus-rsl-37v-wheel",
+          "label": "Bontrager Aeolus RSL 37V",
+          "score": 0.6325701355934142
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-dura-ace-r9100-11-30-11s-cogset",
+          "label": "Shimano Dura-Ace R9100 11-30 11s",
+          "score": 0.6325529038906097
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-deore-xt-m8000-11-42-11s-cogset",
+          "label": "Shimano Deore XT M8000 11-42 11s",
+          "score": 0.632552695274353
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-520",
+      "source_label": "Headset - Remove procedures",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#shimano-fc-em600-crankarm-shimano-sm-cre80-r-crank",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+          "label": "RearDerailleur",
+          "score": 0.6530491173267364
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6434078335762023
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-fc-em600-crankarm-shimano-sm-cre80-r-crank",
+          "label": "Shimano FC-EM600 crankarm Shimano SM-CRE80-R",
+          "score": 0.6406729996204376
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-fc-em600-crankarmshimano-sm-cre80-r-crank",
+          "label": "Shimano FC-EM600 crankarmShimano SM-CRE80-R",
+          "score": 0.6402778387069702
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainStay",
+          "label": "ChainStay",
+          "score": 0.6385763645172119
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-1-0-041",
+      "source_label": "Mechs - Description of how it is made",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6653425812721252
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6645913958549499
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+          "label": "RearDerailleur",
+          "score": 0.6634622812271118
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6628078520298004
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.6616860806941985
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-941",
+      "source_label": "Light system - Illustrated Parts Data - IPD",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-xplr-xg-1251-cogset",
+          "label": "SRAM Rival XPLR XG-1251",
+          "score": 0.6579128384590148
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-xg-1271-xplr-cogset",
+          "label": "SRAM XG-1271 XPLR",
+          "score": 0.6574686527252197
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#wtb-st-i23-tcs-2.0-wheel",
+          "label": "WTB ST i23 TCS 2.0",
+          "score": 0.6559081196784973
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.6558795809745788
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-sp0042-vcls-cf-seatpost",
+          "label": "Canyon SP0042 VCLS CF",
+          "score": 0.6552564859390259
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D05-4-0-000",
+      "source_label": "Bicycle - Scheduled maintenance checks",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.659034901857376
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#wtb-st-i23-tcs-2.0-wheel",
+          "label": "WTB ST i23 TCS 2.0",
+          "score": 0.6574232161045074
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-xplr-xg-1251-cogset",
+          "label": "SRAM Rival XPLR XG-1251",
+          "score": 0.65659801363945
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-xg-1271-xplr-cogset",
+          "label": "SRAM XG-1271 XPLR",
+          "score": 0.656214702129364
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-fc-em600-crankarm-shimano-sm-cre80-r-crank",
+          "label": "Shimano FC-EM600 crankarm Shimano SM-CRE80-R",
+          "score": 0.6561163187026977
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-2-0-520",
+      "source_label": "Rear wheel - Remove procedures",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Wheel",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6659681379795074
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6637515902519225
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6637240946292877
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#SeatPost",
+          "label": "SeatPost",
+          "score": 0.6629404485225677
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6622108340263366
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-0-0-041",
+      "source_label": "Steering - Description of how it is made",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Frame",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6678993821144104
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6666820228099822
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Motor",
+          "label": "Motor",
+          "score": 0.6646457612514496
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6641281843185425
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainStay",
+          "label": "ChainStay",
+          "score": 0.6637389481067657
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D05-1-0-000",
+      "source_label": "Bicycle - Time limits",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-xplr-xg-1251-cogset",
+          "label": "SRAM Rival XPLR XG-1251",
+          "score": 0.6571105003356933
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-xg-1271-xplr-cogset",
+          "label": "SRAM XG-1271 XPLR",
+          "score": 0.6554484546184539
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#wtb-st-i23-tcs-2.0-wheel",
+          "label": "WTB ST i23 TCS 2.0",
+          "score": 0.6552202701568604
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.6541060090065002
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-xg-1250-cogset",
+          "label": "SRAM Rival XG-1250",
+          "score": 0.651702207326889
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-040",
+      "source_label": "Electrical system - Description of how it is made and its function",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Frame",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6566354811191558
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6563203454017639
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainRivet",
+          "label": "ChainRivet",
+          "score": 0.6540541887283324
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#SnappedChain",
+          "label": "SnappedChain",
+          "score": 0.6538330972194671
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.653708678483963
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-056",
+      "source_label": "Wiring - Equipment lists",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-dub-crank",
+          "label": "SRAM RED D1 DUB",
+          "score": 0.6553887903690337
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-chain",
+          "label": "SRAM RED D1",
+          "score": 0.6551450431346892
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#pathfinder-pro-2br-tire",
+          "label": "PATHFINDER PRO 2BR",
+          "score": 0.6520343661308288
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-12s-chain",
+          "label": "SRAM RED D1 12s",
+          "score": 0.6515698194503784
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-d1-12s-chain",
+          "label": "SRAM RIVAL D1 12s",
+          "score": 0.6512329459190368
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-921",
+      "source_label": "Horn - Remove and install a new item",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6509307444095611
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6498788595199585
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+          "label": "RearDerailleur",
+          "score": 0.649395078420639
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#WornBrakes",
+          "label": "WornBrakes",
+          "score": 0.6488883912563324
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6486223638057709
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-921",
+      "source_label": "Tire - Remove and install a new item",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Wheel",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6530775725841522
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#RearDerailleur",
+          "label": "RearDerailleur",
+          "score": 0.6515499174594879
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6513260722160339
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6506432712078094
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6502833247184753
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-411",
+      "source_label": "Horn - Isolated fault",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.6605938911437987
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-xplr-xg-1251-cogset",
+          "label": "SRAM Rival XPLR XG-1251",
+          "score": 0.6578660666942596
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-xg-1271-xplr-cogset",
+          "label": "SRAM XG-1271 XPLR",
+          "score": 0.6575122117996215
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-deore-xt-m8000-11-42-11s-cogset",
+          "label": "Shimano Deore XT M8000 11-42 11s",
+          "score": 0.6574579715728759
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-sp0043-vcls-cf-seatpost",
+          "label": "Canyon SP0043 VCLS CF",
+          "score": 0.65715793967247
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-941",
+      "source_label": "Bicycle - Illustrated Parts Data - IPD",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-xplr-xg-1251-cogset",
+          "label": "SRAM Rival XPLR XG-1251",
+          "score": 0.6543857216835022
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-xg-1271-xplr-cogset",
+          "label": "SRAM XG-1271 XPLR",
+          "score": 0.6538663506507874
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#wtb-st-i23-tcs-2.0-wheel",
+          "label": "WTB ST i23 TCS 2.0",
+          "score": 0.6533211529254913
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.6512491345405578
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-rival-xg-1250-cogset",
+          "label": "SRAM Rival XG-1250",
+          "score": 0.6495509982109069
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-258",
+      "source_label": "Bicycle - Other procedures to clean",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Frame",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.6560594081878661
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6548544824123382
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6544961214065551
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.652826315164566
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Motor",
+          "label": "Motor",
+          "score": 0.6524452149868011
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-720",
+      "source_label": "Handlebar - Install procedures",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Frame",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Saddle",
+          "label": "Saddle",
+          "score": 0.6679228723049163
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainRivet",
+          "label": "ChainRivet",
+          "score": 0.6650676250457763
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.6644887566566466
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6643885791301727
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6643215715885162
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-0-0-041",
+      "source_label": "Wheel - Description of how it is made",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Wheel",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.667041802406311
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.666491138935089
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.6632547080516815
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6630039513111115
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Motor",
+          "label": "Motor",
+          "score": 0.6617995262145996
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-2-0-412",
+      "source_label": "Rear wheel - Detected fault",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.6626473426818847
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-x01-eagle-etap-axs-rearderailleur",
+          "label": "SRAM X01 Eagle eTap AXS",
+          "score": 0.6614412903785705
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-etap-axs-max-36t-rearderailleur",
+          "label": "SRAM RED eTap AXS max 36T",
+          "score": 0.6612926304340362
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-fc-em600-crankarm-shimano-sm-cre80-r-crank",
+          "label": "Shimano FC-EM600 crankarm Shimano SM-CRE80-R",
+          "score": 0.6611121356487274
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#dt-swiss-erc-1400-spline-db-sh11-wheel",
+          "label": "DT Swiss ERC 1400 Spline db SH11",
+          "score": 0.6609517931938171
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-0-0-041",
+      "source_label": "Drivetrain - Description of how it is made",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#ChainArea",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6693358302116393
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.6677289426326751
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6667469024658202
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6664978981018066
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6653932332992554
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-720",
+      "source_label": "Headset - Install procedures",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-fc-em600-crankarm-shimano-sm-cre80-r-crank",
+          "label": "Shimano FC-EM600 crankarm Shimano SM-CRE80-R",
+          "score": 0.6449977815151214
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-fc-em600-crankarmshimano-sm-cre80-r-crank",
+          "label": "Shimano FC-EM600 crankarmShimano SM-CRE80-R",
+          "score": 0.643563836812973
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-s15-vcls-2.0-cf-seatpost",
+          "label": "Canyon S15 VCLS 2.0 CF",
+          "score": 0.6421691954135894
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#aluxx-slr-grade-aluminum-frame",
+          "label": "ALUXX SLR-Grade Aluminum",
+          "score": 0.6421512961387634
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#wtb-st-i23-tcs-2.0-wheel",
+          "label": "WTB ST i23 TCS 2.0",
+          "score": 0.6412917137145996
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-041",
+      "source_label": "Headset - Description of how it is made",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#HeadTube",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainStay",
+          "label": "ChainStay",
+          "score": 0.6701888620853423
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6683939695358276
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6661081194877624
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#ChainArea",
+          "label": "ChainArea",
+          "score": 0.6651615440845489
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#HeadTube",
+          "label": "HeadTube",
+          "score": 0.6651136040687561
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-057",
+      "source_label": "Wiring - Wire list",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-dub-crank",
+          "label": "SRAM RED D1 DUB",
+          "score": 0.6542149066925048
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-chain",
+          "label": "SRAM RED D1",
+          "score": 0.6531421184539794
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#pathfinder-pro-2br-tire",
+          "label": "PATHFINDER PRO 2BR",
+          "score": 0.6508863091468811
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-1-axs-crank",
+          "label": "SRAM Red 1 AXS",
+          "score": 0.6506850779056549
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-12s-chain",
+          "label": "SRAM RED D1 12s",
+          "score": 0.6500808417797088
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-341",
+      "source_label": "Lights - Manual test",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-deore-xt-m8000-11-42-11s-cogset",
+          "label": "Shimano Deore XT M8000 11-42 11s",
+          "score": 0.6531605184078216
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-slx-cs-m7000-cogset",
+          "label": "Shimano SLX CS-M7000",
+          "score": 0.6501415491104126
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-etap-axs-hydraulic-brakes",
+          "label": "SRAM RED eTap AXS hydraulic",
+          "score": 0.6498750209808349
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-etap-axs-brakes",
+          "label": "SRAM Red eTAP AXS",
+          "score": 0.6497735500335693
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-dura-ace-r9100-11-30-11s-cogset",
+          "label": "Shimano Dura-Ace R9100 11-30 11s",
+          "score": 0.6495998978614806
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-022",
+      "source_label": "Mountain bicycle - Business rules",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#wtb-st-i23-tcs-2.0-wheel",
+          "label": "WTB ST i23 TCS 2.0",
+          "score": 0.6517671704292297
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-dub-crank",
+          "label": "SRAM RED D1 DUB",
+          "score": 0.651472270488739
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#canyon-fk0074-cf-disc-fork",
+          "label": "CANYON FK0074 CF DISC",
+          "score": 0.6511192083358764
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#sram-red-d1-chain",
+          "label": "SRAM RED D1",
+          "score": 0.6503906369209289
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#dt-swiss-grc1400-spline-db-wheel",
+          "label": "DT Swiss GRC1400 Spline db",
+          "score": 0.6499358534812927
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-131",
+      "source_label": "Bicycle - Normal operation procedures (crew)",
+      "correct_match_uri": null,
+      "is_match": false,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#maxxis-re-fuse-700x32c-folding-carbon-bead-maxxshield-tubeless-ready-tire",
+          "label": "Maxxis Re-Fuse 700x32c Folding Carbon Bead MaxxShield Tubeless Ready",
+          "score": 0.6354463279247283
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#hb-cayn-hb0064-01-ergo-al-31.8-420-bk-gy-handlebargrip",
+          "label": "HB CAYN HB0064-01 Ergo AL 31.8 420 bk/gy",
+          "score": 0.634558916091919
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#bontrager-aeolus-rsl-37v-wheel",
+          "label": "Bontrager Aeolus RSL 37V",
+          "score": 0.6325701355934142
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-dura-ace-r9100-11-30-11s-cogset",
+          "label": "Shimano Dura-Ace R9100 11-30 11s",
+          "score": 0.6325529038906097
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#shimano-deore-xt-m8000-11-42-11s-cogset",
+          "label": "Shimano Deore XT M8000 11-42 11s",
+          "score": 0.632552695274353
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "source_uri": "http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-0-0-041",
+      "source_label": "Frame - Description of how it is made",
+      "correct_match_uri": "http://purl.org/ontology/bikeo#Frame",
+      "is_match": true,
+      "candidates": [
+        {
+          "uri": "http://purl.org/ontology/bikeo#Frame",
+          "label": "Frame",
+          "score": 0.6674578249454498
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Tire",
+          "label": "Tire",
+          "score": 0.6639832794666289
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#FrontDerailleur",
+          "label": "FrontDerailleur",
+          "score": 0.6629679024219512
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Motor",
+          "label": "Motor",
+          "score": 0.6629555940628051
+        },
+        {
+          "uri": "http://purl.org/ontology/bikeo#Wheel",
+          "label": "Wheel",
+          "score": 0.6622843921184539
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "total": 50,
+  "sample_size": 50,
+  "top_k": 5
+}
