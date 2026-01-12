@@ -12,8 +12,13 @@ Model: BAAI/bge-reranker-v2-m3
 
 import torch
 import numpy as np
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Union
 from sentence_transformers import CrossEncoder
+
+try:
+    from ..enrichment.rich_document import RichDocument
+except ImportError:
+    RichDocument = None  # Fallback if enrichment module not available
 
 
 class NeuralReranker:
@@ -28,7 +33,8 @@ class NeuralReranker:
     def __init__(
         self,
         model_name: str = 'BAAI/bge-reranker-v2-m3',
-        device: str = None
+        device: str = None,
+        use_contextual_mode: bool = False
     ):
         """
         Initialize neural reranker.
@@ -36,8 +42,10 @@ class NeuralReranker:
         Args:
             model_name: HuggingFace model name
             device: Device to run on ('cuda', 'cpu', or None for auto)
+            use_contextual_mode: If True, use [Context A + Text A] <SEP> [Context B + Text B] format
         """
         self.model_name = model_name
+        self.use_contextual_mode = use_contextual_mode
 
         # Auto-detect device if not specified
         if device is None:
@@ -47,6 +55,7 @@ class NeuralReranker:
 
         print(f"  Loading {model_name}...")
         print(f"  Device: {self.device}")
+        print(f"  Contextual mode: {use_contextual_mode}")
 
         # Load cross-encoder model
         self.model = CrossEncoder(
@@ -109,6 +118,118 @@ class NeuralReranker:
 
         # Return top-k
         return reranked_candidates[:top_k]
+
+    def rerank_contextual(
+        self,
+        source_doc: Union['RichDocument', Dict[str, Any]],
+        candidate_docs: List[Union['RichDocument', Dict[str, Any]]],
+        top_k: int = 7
+    ) -> List[Union['RichDocument', Dict[str, Any]]]:
+        """
+        Rerank candidates using CONTEXTUAL cross-encoder scoring.
+
+        Uses format: [Context A + Candidate A] <SEP> [Context B + Candidate B]
+
+        Args:
+            source_doc: Source RichDocument or dict
+            candidate_docs: List of candidate RichDocuments or dicts
+            top_k: Number of top candidates to return
+
+        Returns:
+            Top-k candidates with updated scores
+        """
+        if not candidate_docs:
+            return []
+
+        # Check if source is RichDocument by checking for attributes
+        source_is_rich = hasattr(source_doc, 'hierarchy_path') and hasattr(source_doc, 'raw_content')
+
+        # Create contextual query-document pairs
+        pairs = []
+        for candidate in candidate_docs:
+            # Check if candidate is RichDocument
+            candidate_is_rich = hasattr(candidate, 'hierarchy_path') and hasattr(candidate, 'raw_content')
+
+            if source_is_rich and candidate_is_rich:
+                # Use full context from RichDocument
+                query_text = self._create_contextual_text(source_doc)
+                doc_text = self._create_contextual_text(candidate)
+            else:
+                # Fallback to dict-based
+                query_text = self._create_query_text(source_doc)
+                doc_text = self._create_document_text(candidate)
+
+            pairs.append((query_text, doc_text))
+
+        # Get reranker scores
+        scores = self.model.predict(pairs, batch_size=32, show_progress_bar=False)
+
+        # Normalize scores
+        scores = self._normalize_scores(scores)
+
+        # Add scores to candidates
+        reranked = []
+        for i, candidate in enumerate(candidate_docs):
+            # Check if it's a dict or RichDocument
+            if hasattr(candidate, 'to_dict'):
+                # RichDocument - convert to dict
+                candidate_copy = candidate.to_dict()
+            elif isinstance(candidate, dict):
+                candidate_copy = candidate.copy()
+            else:
+                # Unknown type - create minimal dict
+                candidate_copy = {'uri': str(candidate), 'label': str(candidate)}
+
+            candidate_copy['reranker_score'] = float(scores[i])
+
+            # Combine with existing score
+            existing_score = candidate_copy.get('aggregated_score', 0.0)
+            combined = 0.7 * scores[i] + 0.3 * existing_score
+            candidate_copy['combined_score'] = float(combined)
+
+            reranked.append(candidate_copy)
+
+        # Sort and return top-k
+        reranked.sort(key=lambda x: x['combined_score'], reverse=True)
+
+        return reranked[:top_k]
+
+    def _create_contextual_text(self, doc: 'RichDocument') -> str:
+        """
+        Create contextual text from RichDocument.
+
+        Format: [CONTEXT] hierarchy + parent + ... [TEXT] label + content
+
+        Args:
+            doc: RichDocument
+
+        Returns:
+            Contextual text string
+        """
+        parts = []
+
+        # Add hierarchy context
+        if doc.hierarchy_path:
+            hierarchy = ' > '.join(doc.hierarchy_path)
+            parts.append(f"[HIERARCHY] {hierarchy}")
+
+        # Add parent context
+        if doc.parent_context:
+            parts.append(f"[PARENT] {doc.parent_context}")
+
+        # Add domain
+        if doc.technical_domain:
+            parts.append(f"[DOMAIN] {doc.technical_domain}")
+
+        # Add main content
+        parts.append(f"[CONTENT] {doc.label}: {doc.raw_content[:200]}")
+
+        # Add entities
+        if doc.entities:
+            entities = ', '.join(doc.entities[:5])
+            parts.append(f"[ENTITIES] {entities}")
+
+        return ' | '.join(parts)[:500]  # Limit to 500 chars
 
     def _create_query_text(self, concept: Dict[str, Any]) -> str:
         """
