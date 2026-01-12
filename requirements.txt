@@ -10,6 +10,9 @@ tqdm>=4.65.0
 python-dotenv>=1.0.0
 scikit-learn>=1.3.0
 
+# === Graph Database ===
+neo4j>=5.14.0                    # Neo4j Python Driver for Graph-Based RAG
+
 # === Ontology Processing ===
 rdflib>=7.0.0                    # OWL/RDF Parsing
 owlready2>=0.46                  # Alternative OWL API (for DeepOnto)

@@ -1,0 +1,114 @@
+source_uri,source_label,selected_uri,selected_label,confidence,method,reason
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-022,Mountain bicycle - Business rules,,,0.95,llm_rejected,"Kontextuelle Inkompatibilität auf allen Ebenen. QUELLE: 'Mountain bicycle - Business rules' ist ein DOKUMENTATIONS-KONZEPT im S1000D-Standard (Hierarchiepfad S1000DBIKE > AAA > D00 > 0 > 0 > 022), das"
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-041,Bicycle - Description of how it is made,http://purl.org/ontology/bikeo#Bike,Bike,0.88,context_aware_full,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT:
+- Label: 'Bicycle - Description of how it is made'
+- Hierarchiepfad: S1000DBIKE > AAA > D00 > 0 > 0 > 041
+- Struktureller Scope: Beschreibung/Dokumentation (Descr"
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-042,Bicycle - Description of function,,,0.95,llm_rejected,KONTEXT-INKOMPATIBILITÄT: Das Quell-Konzept 'Bicycle - Description of function' ist ein DOKUMENTATIONS-ABSCHNITT (S1000D Data Module) der die funktionale Beschreibung verschiedener Fahrradkomponenten 
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-043,Bicycle - Description attributed to crew,,,0.0,llm_rejected,Parse error: No JSON found in response
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-121,Bicycle - Pre-operation procedures (crew),,,0.95,llm_rejected,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT:
+- Label: 'Bicycle - Pre-operation procedures (crew)'
+- Hierarchie: S1000DBIKE > AAA > D00 > 0 > 0 > 121
+- Struktureller Scope: PROZEDUR/VERFAHREN (Pre-operation p"
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-131,Bicycle - Normal operation procedures (crew),,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Bicycle - Normal operation procedures (crew)' ist ein PROZEDURALES DOKUMENT (S1000D Data Module) mit Hierarchiepfad S1000DBIKE > AAA > D00 > 0 > 0 > 1
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-151,Bicycle - Post-operation procedures (crew),,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Bicycle - Post-operation procedures (crew)' ist ein PROZESS-Konzept (Wartungsprozedur nach Betrieb) im Kontext S1000D-Dokumentationsstruktur (AAA > D0
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-258,Bicycle - Other procedures to clean,,,0.95,llm_rejected,"Kontextuelle Inkompatibilität auf allen Ebenen. QUELLE: 'Bicycle - Other procedures to clean' ist ein PROZEDURALER Kontext (Reinigungsverfahren) im Hierarchiepfad S1000DBIKE > AAA > D00 > 0 > 0 > 258,"
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-330,Bicycle - Place on test stand,,,0.95,llm_rejected,Kontextuelle Analyse: Das Quell-Konzept 'Bicycle - Place on test stand' (S1000DBIKE > AAA > D00 > 0 > 0 > 330) ist eine PROZEDUR/ANWEISUNG im Kontext eines Wartungs- oder Testdokuments. Der Inhalt bes
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-663,Bicycle - Standard repair procedures,,,0.95,llm_rejected,"KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Bicycle - Standard repair procedures' ist ein PROZESS/VERFAHREN im Kontext einer technischen Dokumentation (S1000D-Standard, Reparaturanleitung für Re"
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-941,Bicycle - Illustrated Parts Data - IPD,,,0.95,llm_rejected,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT: 'Bicycle - Illustrated Parts Data - IPD'
+- Hierarchiepfad: S1000DBIKE > AAA > D00 > 0 > 0 > 941
+- Struktureller Scope: Dokumentations-/Publikationsebene (IPD = Il"
+http://my-company.com/s1000d/S1000DBIKE-AAA-D05-1-0-000,Bicycle - Time limits,,,0.95,llm_rejected,Kontextuelle Inkompatibilität auf allen Ebenen. QUELLE: 'Bicycle - Time limits' ist ein administratives/dokumentarisches Konzept im S1000D-Kontext (Hierarchiepfad AAA > D05 > 1 > 0 > 000 deutet auf Do
+http://my-company.com/s1000d/S1000DBIKE-AAA-D05-2-0-000,Bicycle - Scheduled maintenance lists,,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Bicycle - Scheduled maintenance lists' (S1000DBIKE > AAA > D05 > 2 > 0 > 000) ist ein DOKUMENTATIONS-KONZEPT auf Meta-Ebene - es repräsentiert eine st
+http://my-company.com/s1000d/S1000DBIKE-AAA-D05-4-0-000,Bicycle - Scheduled maintenance checks,,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Bicycle - Scheduled maintenance checks' ist ein PROZESS/VERFAHREN im Kontext von Wartungsanweisungen (S1000D Data Module D05 = Scheduled Maintenance).
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-0-0-041,Wheel - Description of how it is made,,,0.95,llm_rejected,KONTEXT-INKOMPATIBILITÄT: Das Quell-Konzept 'Wheel - Description of how it is made' (S1000DBIKE > AAA > DA0 > 0 > 0 > 041) ist eine BESCHREIBENDE DATENMODUL-EINHEIT über die Herstellung/Konstruktion v
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-921,Inner tube - Remove and install a new item,,,0.95,llm_rejected,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT:
+- Label: 'Inner tube - Remove and install a new item'
+- Kontext: Wartungsprozedur (S1000DBIKE Dokumentationsstruktur)
+- Struktureller Scope: PROCEDURE/TASK (Anlei"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-215,Tire - Fill with air,http://purl.org/ontology/bikeo#FlatTire,FlatTire,0.82,context_aware_full,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT: 'Tire - Fill with air' ist eine WARTUNGSPROZEDUR zum Aufpumpen eines platten Reifens. Kontext: Prozeduraler Scope (S1000D-Struktur), beschreibt Schritte zum Befül"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-362,Tire - Check pressure,,,0.95,llm_rejected,"Kontextuelle Inkompatibilität auf allen Ebenen: Das Quell-Konzept 'Tire - Check pressure' ist eine WARTUNGSPROZEDUR (Maintenance Procedure) im S1000D-Standard, die eine spezifische Handlungsanweisung "
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-400,Front wheel - Fault reports and isolation procedures,,,0.95,llm_rejected,Kontextuelle Inkompatibilität auf mehreren Ebenen: (1) STRUKTURELLER SCOPE-MISMATCH: Quelle ist 'Fault reports and isolation procedures' - ein PROZESS/VERFAHREN zur Fehlerdiagnose und -behebung im War
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-1-0-921,Tire - Remove and install a new item,,,0.95,llm_rejected,"KONTEXT-INKOMPATIBILITÄT: Das Quell-Konzept ist eine PROZEDUR ('Remove and install a new item') im Kontext eines Wartungshandbuchs (S1000DBIKE > AAA > DA0 > 1 > 0 > 921), die beschreibt WIE man einen "
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-2-0-412,Rear wheel - Detected fault,,,0.95,llm_rejected,"Kontextuelle Inkompatibilität auf mehreren Ebenen: (1) STRUKTURELLER SCOPE: Quelle ist ein 'Detected fault' (Fehlerzustand/Diagnose-Konzept) im Kontext S1000DBIKE > AAA > DA0 > 2 > 0 > 412, was auf ei"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA0-2-0-520,Rear wheel - Remove procedures,,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Rear wheel - Remove procedures' ist eine WARTUNGSPROZEDUR (Maintenance Procedure) im Kontext S1000DBIKE > AAA > DA0 > 2 > 0 > 520. Der Inhalt beschrei
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-0-0-041,Brake system - Description of how it is made,http://purl.org/ontology/bikeo#Brakes,Brakes,0.92,context_aware_full,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT:
+- Label: 'Brake system - Description of how it is made'
+- Hierarchiepfad: S1000DBIKE > AAA > DA1 > 0 > 0 > 041
+- Struktureller Scope: Beschreibung/Dokumentation e"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-0-0-341,Brake system - Manual test,http://purl.org/ontology/bikeo#Brakes,Brakes,0.88,context_aware_full,"KONTEXTUELLE ANALYSE:
+
+**QUELL-KONZEPT:**
+- Label: 'Brake system - Manual test'
+- Hierarchie: S1000DBIKE > AAA > DA1 > 0 > 0 > 341
+- Struktureller Scope: Test-Prozedur/Wartungsanweisung
+- Technische D"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA1-1-0-251,Brake pads - Clean with rubbing alcohol,http://purl.org/ontology/bikeo#Brakes,Brakes,0.72,context_aware_full,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT:
+- Label: 'Brake pads - Clean with rubbing alcohol'
+- Hierarchie: S1000DBIKE > AAA > DA1 > 1 > 0 > 251 (technische Dokumentationsstruktur)
+- Struktureller Scope: W"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-0-0-041,Steering - Description of how it is made,,,0.0,llm_rejected,Parse error: No JSON found in response
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-520,Stem - Remove procedures,,,0.95,llm_rejected,"Kontextuelle Analyse: QUELLE ist 'Stem - Remove procedures' im Kontext S1000DBIKE > AAA > DA2 > 1 > 0 > 520, eine PROZEDUR-Beschreibung für das Entfernen des Vorbaus (Stem = Lenkervorbau, der Lenker m"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-1-0-720,Stem - Install procedures,,,0.95,llm_rejected,"Kontextuelle Inkompatibilität auf allen Ebenen: QUELLE ist 'Stem - Install procedures' (Vorbau-Installationsanleitung) im Kontext einer Wartungsprozedur (DA2 > 1 > 0 > 720), während ALLE Kandidaten Wh"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-520,Handlebar - Remove procedures,,,0.95,llm_rejected,Kontextuelle Analyse: Das Quell-Konzept 'Handlebar - Remove procedures' ist eine WARTUNGSPROZEDUR (Removal Procedure) im Kontext S1000DBIKE > AAA > DA2 > 2 > 0 > 520. Der Inhalt beschreibt explizit Sc
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-2-0-720,Handlebar - Install procedures,,,0.95,llm_rejected,Kontextuelle Analyse: QUELLE ist 'Handlebar - Install procedures' im Kontext eines Wartungs-/Installationsdokuments (S1000DBIKE > AAA > DA2 > 2 > 0 > 720). Der Inhalt beschreibt Sicherheitsanweisungen
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-041,Headset - Description of how it is made,,,0.95,llm_rejected,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT:
+- Label: 'Headset - Description of how it is made'
+- Hierarchie: S1000DBIKE > AAA > DA2 > 3 > 0 > 041
+- Struktureller Scope: BESCHREIBUNG eines Herstellungsprozes"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-520,Headset - Remove procedures,,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Headset - Remove procedures' ist eine WARTUNGSPROZEDUR (Removal Procedure) im Kontext S1000DBIKE > AAA > DA2 > 3 > 0 > 520. Es beschreibt den PROZESS 
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA2-3-0-720,Headset - Install procedures,,,0.95,llm_rejected,Kontextuelle Inkompatibilität auf allen Ebenen: QUELLE ist eine INSTALLATIONSPROZEDUR für Headset (Steuersatz) im Kontext 'S1000DBIKE > AAA > DA2 > 3 > 0 > 720' mit strukturellem Scope 'Install proced
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-0-0-041,Frame - Description of how it is made,,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Frame - Description of how it is made' (S1000DBIKE > AAA > DA3 > 0 > 0 > 041) ist eine BESCHREIBUNG/DOKUMENTATION über die Herstellung von Fahrradrahm
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-411,Horn - Isolated fault,,,0.95,llm_rejected,"Kontextuelle Inkompatibilität auf allen Ebenen: Das Quell-Konzept 'Horn - Isolated fault' ist ein FEHLERZUSTAND/DIAGNOSE-KONZEPT im S1000D-Kontext (Wartungsdokumentation, Fehlerdiagnose). Der Hierarch"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA3-1-0-921,Horn - Remove and install a new item,,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Horn - Remove and install a new item' ist eine WARTUNGSPROZEDUR (Maintenance Procedure) im Kontext S1000DBIKE > AAA > DA3 > 1 > 0 > 921. Es beschreibt
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-0-0-041,Drivetrain - Description of how it is made,,,0.85,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Drivetrain - Description of how it is made' ist eine BESCHREIBUNG/DOKUMENTATION über die Herstellung des Antriebssystems (struktureller Scope: Dokumen
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-241,Chain - Oil,,,0.95,llm_rejected,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT 'Chain - Oil':
+- Hierarchiepfad: S1000DBIKE > AAA > DA4 > 1 > 0 > 241
+- Struktureller Scope: Wartungs-/Sicherheitsinformation über Schmierstoffe
+- Semantische Roll"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-251,Chain - Clean with chain cleaning fluid,,,0.95,llm_rejected,KONTEXTUELLE ANALYSE: Das Quell-Konzept 'Chain - Clean with chain cleaning fluid' ist eine WARTUNGSPROZEDUR (Maintenance Procedure) im Kontext S1000DBIKE > AAA > DA4 > 1 > 0 > 251. Der Inhalt zeigt kl
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA4-1-0-414,Drive train - Correlated fault,,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Drive train - Correlated fault' ist ein FEHLER-/DIAGNOSE-Konzept im Kontext eines Wartungs-/Diagnosesystems (S1000DBIKE > AAA > DA4 = Fault Isolation/
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-0-0-041,Gears - Description of how it is made,,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Gears - Description of how it is made' ist ein BESCHREIBENDER DOKUMENTATIONSABSCHNITT (S1000D-Struktur) über die HERSTELLUNG von Gangschaltungen. Es i
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-1-0-041,Mechs - Description of how it is made,,,0.0,llm_rejected,Parse error: No JSON found in response
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-2-0-251,Hubs - Clean with degreasing agent,,,0.95,llm_rejected,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT: 'Hubs - Clean with degreasing agent'
+- Hierarchie: S1000DBIKE > AAA > DA5 > 2 > 0 > 251
+- Struktureller Scope: WARTUNGSPROZEDUR (Reinigungsanweisung)
+- Technische"
+http://my-company.com/s1000d/S1000DBIKE-AAA-DA5-3-0-041,Shifters - Description of how it is made,,,0.95,llm_rejected,"KONTEXTUELLE ANALYSE:
+
+QUELL-KONZEPT:
+- Label: 'Shifters - Description of how it is made'
+- Hierarchie: S1000DBIKE > AAA > DA5 > 3 > 0 > 041
+- Struktureller Scope: BESCHREIBUNG der HERSTELLUNG/KONSTRU"
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-029,Wiring data - Field description,,,0.95,llm_rejected,Kontextuelle Inkompatibilität auf allen Ebenen: Das Quell-Konzept 'Wiring data - Field description' ist eine DOKUMENTATIONS-/DATENSTRUKTUR-Entität im Kontext eines Beleuchtungssystems (S1000DLIGHTING 
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-040,Electrical system - Description of how it is made and its function,,,0.95,llm_rejected,Kontextuelle Inkompatibilität auf allen Ebenen. QUELLE: 'Electrical system - Description' ist ein DOKUMENTATIONS-ABSCHNITT (S1000D-Struktur: AAA > D00 > 0 > 0 > 040) der die FUNKTION und KONSTRUKTION 
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-056,Wiring - Equipment lists,,,0.95,llm_rejected,"Kontextuelle Inkompatibilität auf allen Ebenen: Das Quell-Konzept 'Wiring - Equipment lists' ist ein DOKUMENTATIONS-ELEMENT im S1000D-Standard (Beleuchtungssystem, Verkabelungslisten). Hierarchiepfad "
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-057,Wiring - Wire list,,,0.95,llm_rejected,"Kontextuelle Inkompatibilität auf allen Ebenen: Das Quell-Konzept 'Wiring - Wire list' ist ein DOKUMENTATIONS-ELEMENT im Kontext eines Beleuchtungssystems (S1000DLIGHTING), das eine Liste von Verkabel"
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-058,Wiring - Loom list,,,0.95,llm_rejected,"Kontextuelle Inkompatibilität auf allen Ebenen. QUELLE: 'Wiring - Loom list' im Kontext S1000D-LIGHTING (Beleuchtungssystem, elektrische Verkabelung, Kabelbaumliste) - technische Domäne: Elektrik/Verk"
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-341,Lights - Manual test,,,0.95,llm_rejected,Kontextuelle Inkompatibilität auf allen Ebenen: Das Quell-Konzept 'Lights - Manual test' ist ein TESTVERFAHREN im Kontext eines Beleuchtungssystems (S1000DLIGHTING > AAA > D00 > 0 > 0 > 341). Der stru
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-413,Lights - Observed fault,,,0.95,llm_rejected,"Kontextuelle Inkompatibilität auf allen Ebenen. QUELLE: 'Lights - Observed fault' ist ein spezifischer Fehlertyp im Kontext eines Beleuchtungssystems (S1000DLIGHTING > AAA > D00 > 0 > 0 > 413), repräs"
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-700,"Lighting - Assemble, install and connect procedures",,,0.95,llm_rejected,"KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Lighting - Assemble, install and connect procedures' ist eine PROZEDUR/ANLEITUNG im Kontext eines Beleuchtungssystems (S1000D-Standard, technische Dok"
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-921,Lighting - Remove and install a new item,,,0.95,llm_rejected,"KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept ist eine WARTUNGSPROZEDUR ('Remove and install a new item') im Kontext von Beleuchtungssystemen (S1000D-Dokumentation, Prozedur-Code 921). Es beschreib"
+http://my-company.com/s1000d/S1000DLIGHTING-AAA-D00-0-0-941,Light system - Illustrated Parts Data - IPD,,,0.95,llm_rejected,Kontextuelle Inkompatibilität auf allen Ebenen: Das Quell-Konzept 'Light system - Illustrated Parts Data - IPD' ist ein DOKUMENTATIONS-CONTAINER im S1000D-Standard (technische Publikation für Beleucht
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-131,Bicycle - Normal operation procedures (crew),,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Bicycle - Normal operation procedures (crew)' ist ein PROZEDURALES DOKUMENT (S1000D Data Module) mit Hierarchiepfad S1000DBIKE > AAA > D00 > 0 > 0 > 1
+http://my-company.com/s1000d/S1000DBIKE-AAA-D00-0-0-131,Bicycle - Normal operation procedures (crew),,,0.95,llm_rejected,KONTEXTUELLE INKOMPATIBILITÄT: Das Quell-Konzept 'Bicycle - Normal operation procedures (crew)' ist ein PROZEDURALES DOKUMENT (S1000D Data Module) mit Hierarchiepfad S1000DBIKE > AAA > D00 > 0 > 0 > 1
